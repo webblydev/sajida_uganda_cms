@@ -1,0 +1,74 @@
+.ic-btn {
+    height: 50px;
+    @include bd-radius(5px);
+    background-color: $black2;
+    color: $white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0 20px;
+    transition: ease-in-out .3s;
+    @media #{$max1399} {
+        font-size: 16px;
+        height: 40px;
+    }
+    @media #{$max767} {
+        font-size: 14px;
+    }
+    &:hover {
+        background-color: $primary;
+    }
+}
+
+.ic-btn-yellow {
+    @extend .ic-btn;
+    background-color: $secondary;
+    font-size: 16px;
+    font-weight: 400;
+    color: $black;
+    &:hover {
+        color: $white;
+    }
+}
+
+.ic-btn-blue {
+    @extend .ic-btn;
+    background-color: $primary;
+    font-size: 16px;
+    font-weight: 400;
+    color: $white;
+    &:hover {
+        color: $white;
+    }
+}
+
+.ic-more-btn{
+    text-align: center;
+}
+
+.ic-about-btn {
+    height: 50px;
+    @include bd-radius(5px);
+    background-color: $black3;
+    color: $white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0 30px;
+    transition: ease-in-out .3s;
+    @media #{$max1399} {
+        font-size: 16px;
+        height: 40px;
+    }
+    @media #{$max767} {
+        font-size: 14px;
+    }
+    &:hover {
+        background-color: $primary;
+    }
+}
