@@ -1,115 +1,58 @@
-<a href="#" class="ic-scroll-top"><i class="ri-arrow-up-s-line"></i></a>
 
-<footer class="ic-footer">
-    <div class="ic-footer-content">
-        <div class="ic-footer-top ic-section-space">
+    <section class="wrapper-7">
+        <div class="section-padding">
             <div class="container">
-                <div class="ic-row">
-                    <div class="ic-col-4">
-                        <div class="ic-footer-content-align">
-                            <div class="ic-footer-content-wrapper">
-                                <div class="mb-30">
-                                    <a href="index.php">
-                                        <img src="{{ asset('assets/images/logos-headers.png')}}" class="img-fluid" alt="logo">
-                                    </a>
-                                </div>
-                                <div class="ic-news-letter">
-                                    <h4 class="ic-title">Stay Updated</h4>
+               <div class="footer">
+                    <div class="company-details">
+                      <div class="logo">
+                        <a href="http://127.0.0.1:5500/index.html"> <img src="{{ asset('assets/img/logo2.png') }}" alt=""></a>
 
 
-                                    <form action="{{ route('news-letter.store') }}" method="POST" enctype="multipart/form-data">
-                                        @csrf
-                                            <div class="ic-input-field-wrapper">
-                                                <input name="email" type="email" placeholder="Email Address">
-                                                <button type="submit">
-                                                    Subscribe
-                                                </button>
-                                            </div>
-                                        </form>
-                                </div>
+                      </div>
+                       <h2>Newsletter</h2>
+                         <form action="">
+                         <input type="email" placeholder="Email Address" required>
+                         <input type="submit" value="Submit">
+                         </form>
+ 
+                    </div>
+                    <div class="quick-link">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li><a href="#">SAJIDA at a Glance</a></li>
+                            <li><a href="#">Annual & Audit Reports</a></li>
+                            <li><a href="#">Research & Learning</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact">
+                        <h2>Connect With Us</h2>
+                        <div class="social-icon">
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""> <i class="fa-brands fa-youtube"></i></a>
+                            <a href=""><i class="fa-solid fa-envelope"></i></a>
 
-
-                            </div>
                         </div>
                     </div>
-                    <div class="ic-col-3">
-                        <div class="ic-footer-content-align">
-                            <div class="ic-footer-content-wrapper">
-                                <h4 class="ic-title ">Quick Links</h4>
-                                <ul>
-                                    <li><a href="https://www.sajida.org/we-are-sajida/sajida-at-a-glance/">SAJIDA at a Glance</a></li>
-                                    <li><a href="https://www.sajida.org/we-are-sajida/annual-and-audit-reports/">Annual & Audit Reports</a></li>
-                                    <li><a href="https://www.sajida.org/knowledge-hub/research-and-learning/">Research & Learning</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="ic-col-5">
-                        <div class="ic-footer-content-wrapper">
-                            <h4 class="ic-title ">Connect With Us</h4>
-                            <div class="ic-social">
-                                <a href="https://www.facebook.com/NGOSAJIDA" target="blank">
-                                    <i class="ri-facebook-fill icon"></i>
-                                </a>
-                                <a href="https://www.youtube.com/@sajidafoundation1993" target="blank">
-                                    <i class="ri-youtube-fill icon"></i>
-                                </a>
-                                <a href="https://www.linkedin.com/company/sajida-foundation/" target="blank">
-                                    <i class="ri-linkedin-fill icon"></i>
-                                </a>
-                                <a href="mailto:get-involved@sajida.org" target="blank">
-                                    <i class="ri-mail-line icon"></i>
-                                </a>
-                            </div>
-                            <h4 class="ic-title mt-4">Accreditation</h4>
-                            <ul class="footer-logos">
-                                <li>
-                                    <a href="https://www.sajida.org/we-are-sajida/sajida-at-a-glance/" target="_blank"
-                                        aria-label="Read more about SAJIDA Foundation"><img
-                                            src="https://cms.sajida.org/images/lwBiZsKBkOo9qrwu16GFHXFJFsw=/906/width-202%7Cformat-webp/Footer_logo_1_rvHn5wa.png"
-                                            alt="Sajida Foundation"></a>
-                                        </li> 
-                                        <li><a target="_blank"
-                                    href="/we-are-sajida/sajida-at-a-glance/"
-                                    aria-label="Read more about SAJIDA Foundation"><img
-                                        src="https://cms.sajida.org/images/Edg3fyCn9j7FE-9TMtbvKWC4J5M=/907/width-202%7Cformat-webp/Footer_logo_2_UZMTcLv.png"
-                                        alt="Sajida Foundation"></a></li>
-                                <li><a target="_blank" href="/we-are-sajida/sajida-at-a-glance/"
-                                        aria-label="Read more about SAJIDA Foundation"><img
-                                            src="https://cms.sajida.org/images/pkW5cEDQy5qI3PVht0-oKyx4aQ8=/908/width-202%7Cformat-webp/Footer_logo_3_gNil7SB.png"
-                                            alt="Sajida Foundation"></a></li>
-                                <li><a target="_blank" href="/we-are-sajida/sajida-at-a-glance/"
-                                        aria-label="Read more about SAJIDA Foundation"><img
-                                            src="https://cms.sajida.org/images/hv1WldiQrCslR4TpfsbNuy9QXaE=/909/width-202%7Cformat-webp/Footer_logo_4_yj0YFlX.png"
-                                            alt="Sajida Foundation"></a></li>
-                                <li><a target="_blank" href="/we-are-sajida/sajida-at-a-glance/"
-                                        aria-label="Read more about SAJIDA Foundation"><img
-                                            src="https://cms.sajida.org/images/5vGrUwzZeUQT6ZZLclQFUL5OCC4=/910/width-202%7Cformat-webp/Footer_logo_5_Kz46L9R.png"
-                                            alt="Sajida Foundation"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+               </div>
             </div>
-        </div>
-
-        <!-- ic-footer-copyright -->
-        <div class="ic-footer-copyright">
-            <div class="container">
-                <!-- ic-copyright-content  -->
-                <div class="ic-copyright-content text-center">
-                    <p class="copyright">
-                        © <span id="currentYear"></span> All Rights Reserved
-                        <a href="https://www.sajida.org/" target="_blank">
-                            SAJIDA Foundation.
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
+           
+        </div> 
+    </section>
+    
+    <div class="copyright-area">
+        <h4>© 2023 All Rights Reserved <a href="">SajidaFoundation.</a></h4>
     </div>
-</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/fontawesome.min.js" integrity="sha512-j12pXc2gXZL/JZw5Mhi6LC7lkiXL0e2h+9ZWpqhniz0DkDrO01VNlBrG3LkPBn6DgG2b8CDjzJT+lxfocsS1Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 @section('customscript2')
 @include('frontend.include.toaster')
 @endsection
