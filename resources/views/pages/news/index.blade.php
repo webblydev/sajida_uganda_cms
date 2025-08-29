@@ -20,7 +20,7 @@
                                     <!-- Image container, adjust the path accordingly -->
                         <div class="image-container mt-2">
                             <a href="{{ route('news-page.news-banner.create') }}">
-                            <img src="{{ asset('sections/news/news-s1.png') }}" height="210px" width="1359" alt="Image Alt Text" class="img-fluid" />
+                            <img src="{{ asset('sections/news/news-s1.jpg') }}" height="210px" width="1359" alt="Image Alt Text" class="img-fluid" />
                             </a>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
                                     <!-- Image container, adjust the path accordingly -->
                         <div class="image-container mt-2">
                             <a href="{{ route('news-page.news.index') }}">
-                                <img src="{{ asset('sections/news/news-s2.png') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
+                                <img src="{{ asset('sections/news/news-s2.jpg') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
                             </a>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                                     <!-- Image container, adjust the path accordingly -->
                         <div class="image-container mt-2">
                             <a href="{{ route('news-page.news.index') }}">
-                            <img src="{{ asset('sections/news/news-s3.png') }}" style="height:210px"  width="1359" alt="Image Alt Text" class="img-fluid" />
+                            <img src="{{ asset('sections/news/news-s3.jpg') }}" style="height:210px"  width="1359" alt="Image Alt Text" class="img-fluid" />
                             </a>
                         </div>
                     </div>

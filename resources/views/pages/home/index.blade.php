@@ -20,7 +20,7 @@
                                     <!-- Image container, adjust the path accordingly -->
                         <div class="image-container mt-2">
                             <a href="{{ route('home-page.top-banner.create') }}">
-                            <img src="{{ asset('sections/home/home-s1.png') }}" height="210px" width="1359" alt="Image Alt Text" class="img-fluid" />
+                            <img src="{{ asset('sections/home/home-s1.jpg') }}" height="210px" width="1359" alt="Section 1" class="img-fluid" />
                             </a>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
                                     <!-- Image container, adjust the path accordingly -->
                         <div class="image-container mt-2">
                             <a href="{{ route('home-page.top-slider.index') }}">
-                                <img src="{{ asset('sections/home/Home-S2.png') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
+                                <img src="{{ asset('sections/home/home-s2.jpg') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
                             </a>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                                     <!-- Image container, adjust the path accordingly -->
                         <div class="image-container mt-2">
                             <a href="{{ route('home-page.approach.index') }}">
-                            <img src="{{ asset('sections/home/home-s3.png') }}" style="height:210px"  width="1359" alt="Image Alt Text" class="img-fluid" />
+                            <img src="{{ asset('sections/home/home-s3.jpg') }}" style="height:210px"  width="1359" alt="Image Alt Text" class="img-fluid" />
                             </a>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
                                     <!-- Image container, adjust the path accordingly -->
                         <div class="image-container mt-2">
                             <a href="{{ route('home-page.middle-banner-content.index') }}">
-                                <img src="{{ asset('sections/home/home-s4.png') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
+                                <img src="{{ asset('sections/home/home-s4.jpg') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
                             </a>
                         </div>
                     </div>
@@ -118,7 +118,7 @@
                                     <!-- Image container, adjust the path accordingly -->
                         <div class="image-container mt-2">
                             <a href="{{ route('home-page.members.index') }}">
-                                <img src="{{ asset('sections/home/home-s5.png') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
+                                <img src="{{ asset('sections/home/home-s5.jpg') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
                             </a>
                         </div>
                     </div>
@@ -142,7 +142,7 @@
                                     <!-- Image container, adjust the path accordingly -->
                         <div class="image-container mt-2">
                             <a href="{{ route('home-page.bottom-banner.create') }}">
-                                <img src="{{ asset('sections/home/home-s6.png') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
+                                <img src="{{ asset('sections/home/home-s6.jpg') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
                             </a>
                         </div>
                     </div>
@@ -166,7 +166,7 @@
                                     <!-- Image container, adjust the path accordingly -->
                         <div class="image-container mt-2">
                             <a href="{{ route('news-category.index') }}">
-                                <img src="{{ asset('sections/home/home-s7.png') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
+                                <img src="{{ asset('sections/home/home-s7.jpg') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
                             </a>
                         </div>
                     </div>

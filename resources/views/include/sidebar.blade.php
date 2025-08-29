@@ -2,8 +2,8 @@
     <div class="sidebar-header">
         <a class="header-brand" href="{{ route('dashboard') }}">
             <div class="logo-img">
-                <img height="40" width="130px" src="{{ asset('assets/images/logos-headers.png') }}"
-                    class="header-brand-img" title="SAJIDA FOUNDATION">
+                <img height="40" width="130px" src="{{ asset('assets/img/blue-logo.png') }}" class="header-brand-img"
+                    title="SAJIDA FOUNDATION">
             </div>
         </a>
         <div class="sidebar-action"><i class="ik ik-arrow-left-circle"></i></div>
@@ -43,7 +43,7 @@
                 </div>
 
                 <div
-                    class="nav-item {{ (\Request::is('home-page') || \Request::is('home-page/*') || \Request::is('about-us-page') || \Request::is('about-us-page/*') || \Request::is('news-page') || \Request::is('news-page/*')) && !( \Request::is('home-page/approach-item') || \Request::is('home-page/approach-item/*') || \Request::is('home-page/members') || \Request::is('home-page/members/*')) ? 'active open' : '' }} has-sub">
+                    class="nav-item {{ (\Request::is('home-page') || \Request::is('home-page/*') || \Request::is('about-us-page') || \Request::is('about-us-page/*') || \Request::is('news-page') || \Request::is('news-page/*')) && !(\Request::is('home-page/approach-item') || \Request::is('home-page/approach-item/*') || \Request::is('home-page/members') || \Request::is('home-page/members/*')) ? 'active open' : '' }} has-sub">
                     <a href="#"><i class="fa fa-image"></i><span>{{ __('Pages') }}</span></a>
                     <div class="submenu-content">
                         <!-- only those have manage_user permission will get access -->
@@ -109,7 +109,7 @@
                     </div>
                 </div>
                 <div
-                    class="nav-item {{ \Request::is('job/banner/*') || \Request::is('job/profession') || \Request::is('job/profession/*') || \Request::is('job/team') || \Request::is('job/team/*') || \Request::is('job/location') || \Request::is('job/location/*') || \Request::is('job/circular') || \Request::is('job/circular/*') || \Request::is('job/job-applications') || \Request::is('job/job-applications/*')? 'active open' : '' }} has-sub">
+                    class="nav-item {{ \Request::is('job/banner/*') || \Request::is('job/profession') || \Request::is('job/profession/*') || \Request::is('job/team') || \Request::is('job/team/*') || \Request::is('job/location') || \Request::is('job/location/*') || \Request::is('job/circular') || \Request::is('job/circular/*') || \Request::is('job/job-applications') || \Request::is('job/job-applications/*') ? 'active open' : '' }} has-sub">
                     <a href="#"><i class="fa fa-info-circle"></i><span>{{ __('Job / Career') }}</span></a>
                     <div class="submenu-content">
                         <!-- only those have manage_user permission will get access -->
@@ -145,11 +145,11 @@
                     <a href="#"><i class="fas fa-hand-holding-heart"></i><span>{{ __(' Donation') }}</span></a>
                     <div class="submenu-content">
                         @canany(['access_to_users'])
-                        <a href="{{ url('donation-banner/create') }}"
-                            class="menu-item {{ \Request::is('donation-banner') || \Request::is('donation-banner/*') ? 'active' : '' }}">{{ __('Donation Page Banner') }}</a>
-                        <a href="{{ url('donation-info') }}"
-                            class="menu-item {{ \Request::is('donation-info') || \Request::is('donation-info/*') ? 'active' : '' }}">{{ __('Donation List') }}</a>
-                    @endcan
+                            <a href="{{ url('donation-banner/create') }}"
+                                class="menu-item {{ \Request::is('donation-banner') || \Request::is('donation-banner/*') ? 'active' : '' }}">{{ __('Donation Page Banner') }}</a>
+                            <a href="{{ url('donation-info') }}"
+                                class="menu-item {{ \Request::is('donation-info') || \Request::is('donation-info/*') ? 'active' : '' }}">{{ __('Donation List') }}</a>
+                        @endcan
                     </div>
                 </div>
             </nav>
