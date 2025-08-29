@@ -3,9 +3,9 @@
 @section('content')
     <section class="hero-section home-hero">
         <div class="bg">
-             <img src="{{ asset('assets/img/hero-img.jpg') }}" alt="">
+            <img src="{{ asset('assets/img/hero-img.jpg') }}" alt="">
         </div>
-        <div class="section-padding">  
+        <div class="section-padding">
             <div class="container">
                 <div class="hero-content">
                     <img src="{{ asset('assets/img/Rectangle 21.png') }}" alt="">
@@ -14,7 +14,8 @@
                         <img src="{{ asset('assets/img/Yellow Lines.png') }}" alt="">
                     </div>
                     <h3>By Taking Practical Initiatives</h3>
-                    <p>SAJIDA Foundation is a value-driven, non-government organisation. The organisation has come a long way since its humble beginnings in 1993.</p>
+                    <p>SAJIDA Foundation is a value-driven, non-government organisation. The organisation has come a long
+                        way since its humble beginnings in 1993.</p>
                 </div>
                 <div class="image">
                     <img src="{{ asset('assets/img/Vector.png') }}" alt="">
@@ -30,8 +31,16 @@
                     <div class="content">
                         <h1>Helping People In Need</h1>
                         <p>
-                            <span>We drive large-scale transformation by empowering women and their families to overcome poverty, build resilience, and foster resourcefulness. </span>
-                            SAJIDA Foundation expanded to Uganda in 2023, introducing its proven community-based development model to address critical local needs. Since then, our work has focused on improving access to primary healthcare, promoting maternal and child health, building epidemic preparedness, and tackling financial barriers that keep vulnerable families from seeking medical care. Through household outreach, static clinics, telemedicine support, and health financing schemes, we have already reached hundreds of households across underserved communities. Uganda is now home to our largest operation outside Bangladesh, reflecting our long-term commitment to creating sustainable, inclusive change.
+                            <span>We drive large-scale transformation by empowering women and their families to overcome
+                                poverty, build resilience, and foster resourcefulness. </span>
+                            SAJIDA Foundation expanded to Uganda in 2023, introducing its proven community-based development
+                            model to address critical local needs. Since then, our work has focused on improving access to
+                            primary healthcare, promoting maternal and child health, building epidemic preparedness, and
+                            tackling financial barriers that keep vulnerable families from seeking medical care. Through
+                            household outreach, static clinics, telemedicine support, and health financing schemes, we have
+                            already reached hundreds of households across underserved communities. Uganda is now home to our
+                            largest operation outside Bangladesh, reflecting our long-term commitment to creating
+                            sustainable, inclusive change.
                         </p>
                         <a href="http://127.0.0.1:5500/about-us.html?#" class="btn"><span>about</span> sajida ></a>
                     </div>
@@ -52,13 +61,15 @@
                 <div class="tab-container">
                     <div class="tab-btn">
                         <div class="nav flex-column" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                            <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"  href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
-                            <a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"  href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-                
-                             selected="false">Profile</a>
+                            <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home"
+                                role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+                            <a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" href="#v-pills-profile"
+                                role="tab" aria-controls="v-pills-profile" aria- selected="false">Profile</a>
                         </div>
                     </div>
                     <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                            aria-labelledby="v-pills-home-tab">
                             <div class="slider owl-carousel">
                                 <div class="slider-item">
                                     <div class="content">
@@ -73,7 +84,8 @@
                                 <div class="slider-item">
                                     <div class="content">
                                         <h1>Free Healthcare Initiative</h1>
-                                        <p>As well as improving other economic opportunities for our targeted beneficiaries by expanding access to finance for micro, small and medium enterprises.</p>
+                                        <p>As well as improving other economic opportunities for our targeted beneficiaries
+                                            by expanding access to finance for micro, small and medium enterprises.</p>
 
                                         <a href="#" class="btn"><span>learn</span> More ></a>
                                     </div>
@@ -84,7 +96,8 @@
                                 <div class="slider-item">
                                     <div class="content">
                                         <h1>Free Healthcare Initiative</h1>
-                                        <p>As well as improving other economic opportunities for our targeted beneficiaries by expanding access to finance for micro, small and medium enterprises.</p>
+                                        <p>As well as improving other economic opportunities for our targeted beneficiaries
+                                            by expanding access to finance for micro, small and medium enterprises.</p>
                                         <a href="#" class="btn"><span>learn</span> More ></a>
                                     </div>
                                     <div class="image">
@@ -94,22 +107,25 @@
                                 <div class="slider-item">
                                     <div class="content">
                                         <h1>Free Healthcare Initiative</h1>
-                                        <p>As well as improving other economic opportunities for our targeted beneficiaries by expanding access to finance for micro, small and medium enterprises.</p>
-                                        <a href="#" class="btn"><span>learn</span> More ></a>     
+                                        <p>As well as improving other economic opportunities for our targeted beneficiaries
+                                            by expanding access to finance for micro, small and medium enterprises.</p>
+                                        <a href="#" class="btn"><span>learn</span> More ></a>
                                     </div>
                                     <div class="image">
                                         <img src="{{ asset('assets/img/image3.jpg') }}" alt="">
                                     </div>
-                                </div> 
+                                </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab">
                             <div class="slider owl-carousel">
                                 <div class="slider-item">
                                     <div class="content">
                                         <h1>Free Healthcare Initiative</h1>
-                                        <p>As well as improving other economic opportunities for our targeted beneficiaries by expanding access to finance for micro, small and medium 
-                                             enterprises.</p>
+                                        <p>As well as improving other economic opportunities for our targeted beneficiaries
+                                            by expanding access to finance for micro, small and medium
+                                            enterprises.</p>
                                         <a href="#" class="btn"><span>learn</span> More ></a>
                                     </div>
                                     <div class="image">
@@ -119,8 +135,9 @@
                                 <div class="slider-item">
                                     <div class="content">
                                         <h1>Free Healthcare Initiative</h1>
-                                        <p>As well as improving other economic opportunities for our targeted beneficiaries by expanding access to finance for micro, small and medium 
-                                             enterprises.</p>
+                                        <p>As well as improving other economic opportunities for our targeted beneficiaries
+                                            by expanding access to finance for micro, small and medium
+                                            enterprises.</p>
                                         <a href="#" class="btn"><span>learn</span> More ></a>
                                     </div>
                                     <div class="image">
@@ -130,8 +147,9 @@
                                 <div class="slider-item">
                                     <div class="content">
                                         <h1>Free Healthcare Initiative</h1>
-                                        <p>As well as improving other economic opportunities for our targeted beneficiaries by expanding access to finance for micro, small and medium 
-                                             enterprises.</p>
+                                        <p>As well as improving other economic opportunities for our targeted beneficiaries
+                                            by expanding access to finance for micro, small and medium
+                                            enterprises.</p>
                                         <a href="#" class="btn"><span>learn</span> More ></a>
                                     </div>
                                     <div class="image">
@@ -141,18 +159,19 @@
                                 <div class="slider-item">
                                     <div class="content">
                                         <h1>Free Healthcare Initiative</h1>
-                                        <p>As well as improving other economic opportunities for our targeted beneficiaries by expanding access to finance for micro, small and      
-                                             medium enterprises.</p>
+                                        <p>As well as improving other economic opportunities for our targeted beneficiaries
+                                            by expanding access to finance for micro, small and
+                                            medium enterprises.</p>
                                         <a href="#" class="btn"><span>learn</span> More ></a>
                                     </div>
                                     <div class="image">
                                         <img src="{{ asset('assets/img/image3.jpg') }}" alt="">
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
-                       
+
                     </div>
                 </div>
             </div>
@@ -170,14 +189,15 @@
                     </div>
                     <div class="col-md-6">
                         <div class="content">
-                            <p>We drive large-scale transformation by empowering women and their families to overcome poverty, build resilience, and foster resourcefulness. </p>
+                            <p>We drive large-scale transformation by empowering women and their families to overcome
+                                poverty, build resilience, and foster resourcefulness. </p>
                             <a href="" class="btn">See reports > </a>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="counters d-flex justify-content-between">
-                     <!-- Set your targets with data-count -->
+                    <!-- Set your targets with data-count -->
                     <div class="stat" data-count="900" data-step="20" data-plus="true">
                         <div class="number">0</div>
                         <div class="label">Individuals</div>
@@ -213,9 +233,10 @@
                 <h1>Our Global Presence</h1>
                 <div class="slider owl-carousel">
                     <div class="slider-item d-flex justify-content-between ">
-                        <div class="content">                    
+                        <div class="content">
                             <h2>SAJIDA Bangladesh</h2>
-                            <p>A value-driven organization transforming lives through health, education, livelihoods, and social innovation since 1993.</p>
+                            <p>A value-driven organization transforming lives through health, education, livelihoods, and
+                                social innovation since 1993.</p>
                             <a href="" class="btn"><span>learn</span> more > </a>
                         </div>
                         <div class="image">
@@ -223,9 +244,10 @@
                         </div>
                     </div>
                     <div class="slider-item d-flex justify-content-between">
-                        <div class="content">                    
+                        <div class="content">
                             <h2>SAJIDA Uganda</h2>
-                            <p>A value-driven organization transforming lives through health, education, livelihoods, and social innovation since 1993.</p>
+                            <p>A value-driven organization transforming lives through health, education, livelihoods, and
+                                social innovation since 1993.</p>
                             <a href="" class="btn"><span>learn</span> more > </a>
                         </div>
                         <div class="image">
@@ -233,9 +255,10 @@
                         </div>
                     </div>
                     <div class="slider-item d-flex justify-content-between ">
-                        <div class="content">                    
+                        <div class="content">
                             <h2>SAJIDA USA</h2>
-                            <p>A value-driven organization transforming lives through health, education, livelihoods, and social innovation since 1993.</p>
+                            <p>A value-driven organization transforming lives through health, education, livelihoods, and
+                                social innovation since 1993.</p>
                             <a href="" class="btn"><span>learn</span> more > </a>
                         </div>
                         <div class="image">
@@ -260,7 +283,11 @@
                     <div class="single-slider-item">
                         <div class="content">
                             <img src="{{ asset('assets/img/right-icon.png') }}" alt="">
-                            <p>Before SAJIDA, I struggled to secure financing for my small retail shop. Banks required collateral I didn’t have, and local lenders charged high interest rates. SAJIDA’s microloan gave me the capital I needed to expand my inventory. Within months, my sales increased, and I was able to hire an extra employee. Now, I have a stable income and a growing business!"</p>
+                            <p>Before SAJIDA, I struggled to secure financing for my small retail shop. Banks required
+                                collateral I didn’t have, and local lenders charged high interest rates. SAJIDA’s microloan
+                                gave me the capital I needed to expand my inventory. Within months, my sales increased, and
+                                I was able to hire an extra employee. Now, I have a stable income and a growing business!"
+                            </p>
                         </div>
                         <div class="image">
                             <img src="{{ asset('assets/img/image10.jpg') }}" alt="">
@@ -269,7 +296,11 @@
                     <div class="single-slider-item">
                         <div class="content">
                             <img src="{{ asset('assets/img/right-icon.png') }}" alt="">
-                            <p>Before SAJIDA, I struggled to secure financing for my small retail shop. Banks required collateral I didn’t have, and local lenders charged high interest rates. SAJIDA’s microloan gave me the capital I needed to expand my inventory. Within months, my sales increased, and I was able to hire an extra employee. Now, I have a stable income and a growing business!"</p>
+                            <p>Before SAJIDA, I struggled to secure financing for my small retail shop. Banks required
+                                collateral I didn’t have, and local lenders charged high interest rates. SAJIDA’s microloan
+                                gave me the capital I needed to expand my inventory. Within months, my sales increased, and
+                                I was able to hire an extra employee. Now, I have a stable income and a growing business!"
+                            </p>
                         </div>
                         <div class="image">
                             <img src="{{ asset('assets/img/image10.jpg') }}" alt="">
@@ -278,7 +309,11 @@
                     <div class="single-slider-item">
                         <div class="content">
                             <img src="{{ asset('assets/img/right-icon.png') }}" alt="">
-                            <p>Before SAJIDA, I struggled to secure financing for my small retail shop. Banks required collateral I didn’t have, and local lenders charged high interest rates. SAJIDA’s microloan gave me the capital I needed to expand my inventory. Within months, my sales increased, and I was able to hire an extra employee. Now, I have a stable income and a growing business!"</p>
+                            <p>Before SAJIDA, I struggled to secure financing for my small retail shop. Banks required
+                                collateral I didn’t have, and local lenders charged high interest rates. SAJIDA’s microloan
+                                gave me the capital I needed to expand my inventory. Within months, my sales increased, and
+                                I was able to hire an extra employee. Now, I have a stable income and a growing business!"
+                            </p>
                         </div>
                         <div class="image">
                             <img src="{{ asset('assets/img/image10.jpg') }}" alt="">
@@ -287,7 +322,11 @@
                     <div class="single-slider-item">
                         <div class="content">
                             <img src="{{ asset('assets/img/right-icon.png') }}" alt="">
-                            <p>Before SAJIDA, I struggled to secure financing for my small retail shop. Banks required collateral I didn’t have, and local lenders charged high interest rates. SAJIDA’s microloan gave me the capital I needed to expand my inventory. Within months, my sales increased, and I was able to hire an extra employee. Now, I have a stable income and a growing business!"</p>
+                            <p>Before SAJIDA, I struggled to secure financing for my small retail shop. Banks required
+                                collateral I didn’t have, and local lenders charged high interest rates. SAJIDA’s microloan
+                                gave me the capital I needed to expand my inventory. Within months, my sales increased, and
+                                I was able to hire an extra employee. Now, I have a stable income and a growing business!"
+                            </p>
                         </div>
                         <div class="image">
                             <img src="{{ asset('assets/img/image10.jpg') }}" alt="">
@@ -302,7 +341,7 @@
         <div class="content-container">
             <div class="content">
                 <h1>Make Your Contribution</h1>
-                <p>We drive large-scale transformation by empowering women 
+                <p>We drive large-scale transformation by empowering women
                     and their families to overcome poverty, build resilience,
                     and foster resourcefulness.</p>
                 <a href="" class="btn">learn more > </a>
@@ -322,7 +361,7 @@
                         <div class="space"></div>
                         <div class="content">
                             <h4>Organisational</h4>
-                            <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’ 
+                            <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’
                                 EVENT</h2>
                         </div>
                         <span>Mar 13, 2023</span>
@@ -332,7 +371,7 @@
                         <div class="space"></div>
                         <div class="content">
                             <h4>Organisational</h4>
-                            <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’ 
+                            <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’
                                 EVENT</h2>
                         </div>
                         <span>Mar 13, 2023</span>
@@ -342,7 +381,7 @@
                         <div class="space"></div>
                         <div class="content">
                             <h4>Organisational</h4>
-                            <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’ 
+                            <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’
                                 EVENT</h2>
                         </div>
                         <span>Mar 13, 2023</span>
@@ -352,7 +391,7 @@
                         <div class="space"></div>
                         <div class="content">
                             <h4>Organisational</h4>
-                            <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’ 
+                            <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’
                                 EVENT</h2>
                         </div>
                         <span>Mar 13, 2023</span>
@@ -362,6 +401,6 @@
                     <a href="" class="btn"><span>see</span> all > </a>
                 </div>
             </div>
-        </div> 
+        </div>
     </section>
 @endsection

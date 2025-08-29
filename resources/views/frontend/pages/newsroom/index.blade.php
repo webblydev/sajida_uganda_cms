@@ -177,8 +177,6 @@
         </div>
     </div>
 
-
-
     <section class="wrapper-12 section">
         <div class="section-padding">
             <div class="container">
@@ -189,5 +187,4 @@
             </div>
         </div>
     </section>
-
 @endsection

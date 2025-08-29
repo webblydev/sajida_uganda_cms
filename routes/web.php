@@ -38,12 +38,14 @@ use App\Http\Controllers\PayPalController;
 */ 
 // Route::get('/', function () { return view('home'); });
 
-Route::get('/', 'Frontend\HomeController@index');
-Route::get('/home', 'Frontend\HomeController@index');
-Route::get('/about-us', 'Frontend\AboutUsController@index');
-Route::get('/news-room', 'Frontend\NewsController@index');
+Route::get('/', 'Frontend\LandingPageController@landingPage');
+Route::get('/microfinance', 'Frontend\LandingPageController@microfinancePage')->name('microfinance.index');
+Route::get('/health', 'Frontend\LandingPageController@healthPage')->name('health.index');
+Route::get('/contact-us', 'Frontend\ContactUsPageController@index')->name('contact-us.index');
+Route::get('/about-us', 'Frontend\AboutUsController@index')->name('about-us.index');
+Route::get('/news-room', 'Frontend\NewsController@index')->name('news-room.index');
 Route::get('/news-room/{id}/show', 'Frontend\NewsController@show')->name('news-room.show');
-Route::get('/career','Frontend\CareerController@index');
+Route::get('/career','Frontend\CareerController@index')->name('career.index');
 Route::get('/career/{id}/apply','Frontend\CareerController@apply')->name('career.apply');
 Route::post('/career/apply/store','JobApplicationController@store')->name('career.apply.store');
 Route::get('/donation','Frontend\DonationPageController@index')->name('donation.index');
