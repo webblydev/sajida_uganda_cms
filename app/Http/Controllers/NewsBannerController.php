@@ -53,10 +53,11 @@ class NewsBannerController extends Controller
             'title'=> 'required',
             'description'=> 'required',
             'background_image' => 'required',
-            'thumbnail' => 'required',
+            // 'thumbnail' => 'required',
         ]);
 
         try {
+            $thumbnail = '';
             if ($request->hasfile('background_image')) {
                 $destinationPath = public_path('images/');
                 $background_image = $this->imageUploadService->uploadImages($request->file('background_image'), $destinationPath);

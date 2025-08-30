@@ -4,14 +4,14 @@
 
     <section class="hero-section">
         <div class="bg">
-            <img src="{{ asset('assets/img/hero-img8.jpg') }}" alt="">
+            <img src="{{ asset('images/' . $newsBanner->background_image) }}" alt="">
         </div>
         <div class="section-padding">
             <div class="container">
                 <div class="hero-content">
 
                     <div class="heading">
-                        <h1>Case Stories</h1>
+                        <h1>{{ $newsBanner->title }}</h1>
                     </div>
                 </div>
             </div>
@@ -21,22 +21,25 @@
     <section class="wrapper-21 section">
         <div class="section-padding">
             <div class="container">
-                <div class="featured-story d-xl-flex justify-content-between align-items-center">
-                    <div class="featured-story-left mr-xl-4">
-                        <h1>Featured Story</h1>
-                        <h5>Mar 13, 2023</h5>
-                        <h3>A SUSTAINABLE CARE ECONOMY MEANS FAIR WAGES” – SAJIDA FOUNDATION CEO AT PHILANTHROPY CONCLAVE
-                            2025</h3>
-                        <p>We drive large-scale transformation by empowering women and their families to overcome poverty,
-                            build resilience, and foster resourcefulness. </p>
-                        <a href="#" class="btn">Read More ></a>
-                    </div>
-                    <div class="featured-story-right ml-xl-4">
-                        <div class="image">
-                            <img src="{{ asset('assets/img/featured-story.png') }}" alt="">
+                <h1>Featured Story</h1>
+                @foreach ($featureNewsItems as $featureNews)
+                    <div class="featured-story d-xl-flex justify-content-between align-items-center">
+                        <div class="featured-story-left mr-xl-4">
+                            @php
+                                $shortParagraphTwo = Str::limit(strip_tags($featureNews->paragraph_two), 140)
+                            @endphp
+                            <h5>{{ $featureNews->created_at->format('M d, Y') }}</h5>
+                            <h3>{!! $featureNews->paragraph_one !!}</h3>
+                            <p>{{ $shortParagraphTwo }}</p>
+                            <a href="{{ route('news-room.show', $featureNews->id) }}" class="btn">Read More ></a>
+                        </div>
+                        <div class="featured-story-right ml-xl-4">
+                            <div class="image">
+                                <img src="{{ asset('images/'. $featureNews->thumbnail_image) }}" alt="">
+                            </div>
                         </div>
                     </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </section>

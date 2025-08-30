@@ -1,76 +1,81 @@
 @extends('frontend.layout.main')
 @section('title', 'News-room')
 @section('content')
+    <section class="hero-section individual-hero">
+            <div class="bg">
+                <img src="{{asset('images/'. $news->banner_image)}}" alt="">
+            </div> 
+        <div class="section-padding"> 
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-btns">
+                        <a href="#" class="hero-btn">{{ $news->category->title }}</a>
+                        <a href="#" class="hero-btn">{{ $news->created_at->format('M d, Y') }}</a>
+                    </div>
+                    <div class="heading">
+                        <h1>{{ $news->title }}</h1>                      
+                    </div>
+                </div>       
+            </div>
+        </div>
+    </section>
 
-<!-- banner start -->
-<section class="ic-banner-part ic-newsroom-banner"
-    style="background-image:  linear-gradient(0deg, rgba(30, 30, 30, 0.9), rgba(30, 30, 30, 0.9)), url( {{ asset('images/'. $newsBanner->background_image) }} );">
-    <div class="container">
-        <div class="ic-banner-content text-start">
-            <div class="row g-3" style="align-items: center;">
-                <div class="col-lg-7 order-lg-1 order-2">
-                    <div class="ic-sajida-newsroom-banner">
-                        <h4>{{ $news->title }}</h4>
-                        {{-- <p>{!! $newsBanner->description !!}</p> --}}
-                        {{-- <a href="{{ $newsBanner ? $newsBanner->link : '#'}}" class="ic-btn-yellow">Read More ></a> --}}
+
+    <div class="wrapper-23">
+        <div class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 order-xl-2">
+                        <div class="image">
+                            <img src="{{asset('images/'. $news->article_image)}}" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-5 order-lg-2 order-1">
-                    <div class="ic-sajida-newsroom-img">
-                        <img src="{{asset('images/'.$news->image)}}" class="img-fluid w-100" alt="">
+                    <div class="col-xl-6">
+                        <div class="content">
+                            <img src="{{asset('assets/img/right 1.png')}}" alt="">
+                            <h4>{!! $news->paragraph_one !!}</h4>
+                            <p>{!! $news->paragraph_two !!}</p>
+                        </div>
                     </div>
-                </div>
+                    <div class="col-xl-10 order-xl-3">
+                        <p>{!! $news->paragraph_three !!}</p>
+                    </div>        
+                </div>   
             </div>
         </div>
     </div>
-</section>
-<!-- banner end -->
 
-<div class="ic-section-space">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-12 col-lg-8">
-                <!-- news details -->
-                <section class="ic-news-details">
-                    <div class="ic-news-text">
-                        <p><b>{{$news->created_at->format('m-d-Y H:i:s')}}</b>{!! $news->description !!}</p>
+    <section class="wrapper-6 related-stories">
+        <div class="section-padding">
+            <div class="container">
+                <h1>Latest from SAJIDA</h1>
+                @foreach ($recentNewsItems as $item)
+                    <div class="slider owl-carousel">
+                        <a href="{{ route('news-room.show', $item->id) }}">
+                        <div class="single-slider-item">
+                            <img src="{{asset('assets/img/slider1.png')}}" alt="">
+                            <div class="space"></div>
+                            <div class="content">
+                                <h4>{{ $item->category->title }}</h4>
+                                <h2>{{ $item->title }}</h2>
+                            </div>
+                            <span>{{ $item->created_at->format('M d, Y') }}</span>
+                        </div>
+                        </a>
                     </div>
-                </section>
-                <!-- news details -->
+                @endforeach
             </div>
+        </div> 
+    </section>
 
-            <div class="col-12 col-lg-4">
-                
-                <!-- news list -->
-                <section class="news-list p-4 ps-0 ps-lg-4">
-
-                    <div class="mb-4 d-inline-block text-">
-                        <h4 class="agent-font">More News</h4>
-                        <div class="border-line" style="border-color:#005AAA"></div>
-                    </div>
-                    
-                    <div class="items">
-                        @foreach ($recentNewsItems as $item)
-                            @if ($item->id != $news->id)
-                                <a href="#">
-                                    <div class="item d-flex mb-4">
-                                        <img class="me-3" src="" alt="" srcset="">
-                                        <div class="n-title">
-                                            <p class="title fw-semibold mb-1 font-dark">{{$item->title}}</p>
-                                            <p class="date fs-14 text-muted">{{$item->created_at->format('M d, Y')}}</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            @endif
-                        @endforeach
-                    </div>
-                </section>
-                <!-- news list -->
+    <section class="wrapper-12 section">
+        <div class="section-padding">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <h1>Make Your Contribution</h1>
+                    <a href="#" class="btn">Donate Now</a> 
+                </div>  
             </div>
-
         </div>
-    </div>
-</div>
-<!-- news -->
+    </section>
 @endsection

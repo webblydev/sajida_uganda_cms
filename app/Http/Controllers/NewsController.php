@@ -295,21 +295,21 @@ class NewsController extends Controller
     {
         if ($request->ajax()) {
             try {
+                
                 $news = News::findOrFail($id);
                 
                 // Toggle between types: 0 (recent) -> 1 (featured) -> 2 (special) -> 0
-                $news->type = ($news->type + 1) % 3;
+                if ($news->type == 0) {
+                    $news->type = 1; // Set to featured
+                } elseif ($news->type == 1) {
+                    $news->type = 0; // Set to recent
+                }
                 $news->save();
 
-                $statusMessages = [
-                    0 => 'Status set to Recent',
-                    1 => 'Status set to Featured', 
-                    2 => 'Status set to Special'
-                ];
 
                 return response()->json([
                     'success' => true,
-                    'message' => $statusMessages[$news->type],
+                    'message' => $news->type == 0 ? 'Status set to Recent' : 'Status set to Featured',
                     'type' => $news->type
                 ]);
             } catch (\Exception $e) {

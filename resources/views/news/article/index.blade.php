@@ -220,9 +220,8 @@
             //Status
             $('.card-body').on('click', '.changeStatus', function(e) {
                 e.preventDefault();
-                var id = $(this).attr('getId');
+                var id = $(this).attr('data-id');
                 // var id=JSON.stringify($(this).attr('getId'))
-                // console.log(id);
                 swal({
                     title: `Are you sure?`,
                     text: `Want to change this status?`,
