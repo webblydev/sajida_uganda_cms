@@ -631,6 +631,7 @@ a.btn:hover {
   padding-right: 55px;
   border-right: 1px solid #F7CE19;
   overflow: hidden;
+  margin-top: 30px;
 }
 
 .wrapper-2 .tab-container .tab-btn .nav-link {
@@ -682,13 +683,13 @@ a.btn:hover {
 }
 .wrapper-2 .slider-item .content h1 {
   font-weight: var(--font-weight-700);
-  font-size: var(--font-size-36);
+  font-size: var(--font-size-24);
   margin-bottom: 20px;
 
 }
 .wrapper-2 .slider-item .content p {
   font-weight: var(--font-weight-500);
-  font-size: var(--font-size-20);
+  font-size: var(--font-size-16);
   line-height: var(--line-height);
 }
 .wrapper-2 .slider-item .image {
@@ -2607,6 +2608,9 @@ p#country-name{
     border-radius: 10px;
 }
 
+.featured-story-left.mr-xl-4 {
+    padding-right: 30px;
+}
 
 
 

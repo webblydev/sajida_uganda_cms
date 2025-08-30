@@ -62,9 +62,9 @@
                     <div class="tab-btn">
                         <div class="nav flex-column" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home"
-                                role="tab" aria-controls="v-pills-home" aria-selected="true">Category 1</a>
+                                role="tab" aria-controls="v-pills-home" aria-selected="true">Health</a>
                             <a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" href="#v-pills-profile"
-                                role="tab" aria-controls="v-pills-profile" aria- selected="false">Category 2</a>
+                                role="tab" aria-controls="v-pills-profile" aria- selected="false">Microfinance</a>
                         </div>
                     </div>
                     <div class="tab-content" id="v-pills-tabContent">
@@ -73,7 +73,7 @@
                             <div class="slider owl-carousel">
                                 @foreach ($oneFeatureNewsItems as $item)
                                     @php
-                                        $shortParagraphOne = Str::limit(strip_tags($item->paragraph_one), 140);
+                                        $shortParagraphOne = Str::limit(strip_tags($item->paragraph_one ?? $item->paragraph_two), 140);
                                     @endphp
                                     <div class="slider-item">
                                         <div class="content">
@@ -127,7 +127,7 @@
                             <div class="slider owl-carousel">
                                 @foreach ($twoFeatureNewsItems as $fitem)
                                     @php
-                                        $shortParagraphOne = Str::limit(strip_tags($fitem->paragraph_one), 140);
+                                        $shortParagraphOne = Str::limit(strip_tags($fitem->paragraph_one ?? $fitem->paragraph_two), 140);
                                     @endphp
                                     <div class="slider-item">
                                         <div class="content">

@@ -29,7 +29,7 @@
                                 $shortParagraphTwo = Str::limit(strip_tags($featureNews->paragraph_two), 140)
                             @endphp
                             <h5>{{ $featureNews->created_at->format('M d, Y') }}</h5>
-                            <h3>{{ $featureNews->paragraph_one }}</h3>
+                            <h3>{{ $featureNews->title }}</h3>
                             <p>{{ $shortParagraphTwo }}</p>
                             <a href="{{ route('news-room.show', $featureNews->id) }}" class="btn">Read More ></a>
                         </div>
