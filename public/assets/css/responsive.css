@@ -476,7 +476,7 @@ body {
 .hero-section {
   height: 285px;
   background-position: center;
-  
+
 }
 
 .wrapper-1 {
@@ -544,6 +544,10 @@ a.btn {
   gap: unset;
 }
 
+.hero-section{
+  overflow-x: hidden!important;
+  max-width: 100%;
+}
 
 .wrapper-2 .slider-item .content h1 {
   font-weight: 500;
