@@ -12,7 +12,7 @@
                 <div class="header-rihgt">
                     <div class="menu">
                         <ul>
-                            <li><a href="{{ route('microfinance.index') }}">Home</a></li>
+                            <li><a href="{{ route('foundation.index') }}">Home</a></li>
                             <li><a href="{{ route('about-us.index') }}">About Us</a></li>
                             <li><a href="#">Programmes</a></li>
                             <li><a href="{{ route('contact-us.index') }}">Contact</a></li>
@@ -40,7 +40,7 @@
                     <hr>
                     <div class="menu">
                         <ul>
-                            <li><a href="{{ route('microfinance.index') }}">Home</a></li>
+                            <li><a href="{{ route('foundation.index') }}">Home</a></li>
                             <li><a href="{{ route('about-us.index') }}">About Us</a></li>
                             <li><a href="#">Programmes</a></li>
                             <li><a href="{{ route('contact-us.index') }}">Contact</a></li>

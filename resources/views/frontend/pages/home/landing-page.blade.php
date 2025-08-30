@@ -13,8 +13,8 @@
                 <h2>Impact You Want to Explore</h2>
                 <div class="btns">
 
-                    <a href="{{ route('health.index') }}" class="btn health-btn">Health</a>
-                    <a href="{{ route('microfinance.index') }}" class="btn  microfinance-btn">Microfinance</a>
+                    <a href="{{ route('foundation.index') }}" class="btn health-btn">Health</a>
+                    <a href="#" class="btn  microfinance-btn" disabled>Micor Finance</a>
                 </div>
             </div>
 
