@@ -2252,7 +2252,8 @@ a.hero-btn:hover {
   padding-top: 80px;
 }
 .wrapper-23 .content {
-  margin-top: 80px;
+  margin-top: -20px;
+  padding-right: 50px;
 }
 .wrapper-23 .content img {
   margin-bottom: -30px;

@@ -32,7 +32,7 @@
                     </div>
                     <div class="col-xl-6">
                         <div class="content">
-                            <img src="{{ asset('assets/img/right 1.png') }}" alt="">
+                            {{-- <img src="{{ asset('assets/img/right 1.png') }}" alt=""> --}}
                             <h4>{{ $news->paragraph_one }}</h4>
                             <p>{{ $news->paragraph_two }}</p>
                         </div>
