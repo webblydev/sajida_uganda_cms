@@ -21,9 +21,13 @@ class CreateNewsTable extends Migration
             
             $table->string('title');
 
-            $table->text('description');
-
-            $table->text('image');
+            $table->text('thumbnail_image');
+            $table->text('banner_image');
+            $table->text('article_image');
+            
+            $table->text('paragraph_one');
+            $table->text('paragraph_two');
+            $table->text('paragraph_three');
 
             $table->integer('type')->default(0)->comment('0=recent, 1=featured, 2=special');
 

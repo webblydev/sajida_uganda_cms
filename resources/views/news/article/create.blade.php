@@ -87,25 +87,70 @@
                                 </div>
                             </div>
                             <div class="form-row">
-                                <div class="form-group col-md-12">
-                                    <label for="image">
-                                        {{ __('Image (359*255)') }}
+                                <div class="form-group col-md-4">
+                                    <label for="banner_image">
+                                        {{ __('Banner Image (359*255)') }}
                                         <span class="text-red">*</span>
                                     </label>
-                                    <input type="file" class="form-control dropify" id="image" name="image" value="{{ old('image') }}" required>
-                                    @error('code')
+                                    <input type="file" class="form-control dropify" id="banner_image" name="banner_image" value="{{ old('image') }}" required>
+                                    @error('banner_image')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="thumbnail_image">
+                                        {{ __('Thumbnail Image (359*255)') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <input type="file" class="form-control dropify" id="thumbnail_image" name="thumbnail_image" value="{{ old('image') }}" required>
+                                    @error('thumbnail_image')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                {{-- article image --}}
+                                <div class="form-group col-md-4">
+                                    <label for="article_image">
+                                        {{ __('Article Image (359*255)') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <input type="file" class="form-control dropify" id="article_image" name="article_image" value="{{ old('image') }}" required>
+                                    @error('article_image')
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-12">
-                                    <label for="description">
-                                        {{ __('Description') }}
+                                    <label for="paragraph_one">
+                                        {{ __('Paragraph One') }}
                                         <span class="text-red">*</span>
                                     </label>
-                                    <textarea class="form-control" name="description" id="summernote"></textarea>
-                                    @error('code')
+                                    <textarea class="form-control" name="paragraph_one" id="summernote"></textarea>
+                                    @error('paragraph_one')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="paragraph_two">
+                                        {{ __('Paragraph Two') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <textarea class="form-control" name="paragraph_two" id="summernote"></textarea>
+                                    @error('paragraph_two')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="paragraph_three">
+                                        {{ __('Paragraph Three') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <textarea class="form-control" name="paragraph_three" id="summernote"></textarea>
+                                    @error('paragraph_three')
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>

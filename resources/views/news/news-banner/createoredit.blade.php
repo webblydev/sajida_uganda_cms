@@ -106,7 +106,7 @@
                                     </div>
                                 @endif
                             </div>
-                            <div class="row">
+                            {{-- <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="thumbnail">
                                         {{ __('Thumbnail Image (456*292)') }}
@@ -129,7 +129,7 @@
                                 @endif
 
 
-                            </div>
+                            </div> --}}
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="description">

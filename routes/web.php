@@ -41,6 +41,7 @@ use App\Http\Controllers\PayPalController;
 Route::get('/', 'Frontend\LandingPageController@landingPage');
 // Route::get('/microfinance', 'Frontend\LandingPageController@microfinancePage')->name('microfinance.index');
 Route::get('/foundation', 'Frontend\LandingPageController@foundationPage')->name('foundation.index');
+Route::get('/health', 'Frontend\LandingPageController@healthPage')->name('health.index');
 Route::get('/contact-us', 'Frontend\ContactUsPageController@index')->name('contact-us.index');
 Route::get('/about-us', 'Frontend\AboutUsController@index')->name('about-us.index');
 Route::get('/news-room', 'Frontend\NewsController@index')->name('news-room.index');
@@ -155,6 +156,12 @@ Route::group(['middleware' => 'auth'], function(){
 		Route::get('/', 'Admin\HomeController@news');
 		route::resource('news-banner','NewsBannerController');
 		route::resource('news','NewsController');
+		
+		// Additional news routes
+		Route::post('news/{id}/status','NewsController@updateStatus')->name('news.status');
+		Route::get('news-by-category/{categoryId}','NewsController@getNewsByCategory')->name('news.by-category');
+		Route::get('featured-news','NewsController@getFeaturedNews')->name('news.featured');
+		Route::get('search-news','NewsController@searchNews')->name('news.search');
 
 		Route::get('news-page-show-hide/{id}/status','Admin\HomeController@newsPageshowHide')->name('news-page-show-hide.status');
 	});

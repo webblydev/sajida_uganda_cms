@@ -14,7 +14,7 @@
                         <ul>
                             <li><a href="{{ route('foundation.index') }}">Home</a></li>
                             <li><a href="{{ route('about-us.index') }}">About Us</a></li>
-                            <li><a href="#">Programmes</a></li>
+                            <li><a href="{{ route('health.index') }}">Health</a></li>
                             <li><a href="{{ route('contact-us.index') }}">Contact</a></li>
                             <li>
                                 <a href="{{ route('donation.index') }}" class="menu-btn">Donate</a>
@@ -42,7 +42,7 @@
                         <ul>
                             <li><a href="{{ route('foundation.index') }}">Home</a></li>
                             <li><a href="{{ route('about-us.index') }}">About Us</a></li>
-                            <li><a href="#">Programmes</a></li>
+                            <li><a href="{{ route('health.index') }}">Health</a></li>
                             <li><a href="{{ route('contact-us.index') }}">Contact</a></li>
                             <li>
                                 <a href="{{ route('donation.index') }}" class="menu-btn">Donate</a>

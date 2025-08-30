@@ -15,13 +15,20 @@ class LandingPageController extends Controller
     //foundationPage
     public function foundationPage()
     {
-        return view('frontend.pages.home.foundation-index');
+        return view('frontend.pages.home.index');
+        // return view('frontend.pages.home.foundation-index');
     }
 
     //microfinancePage
     public function microfinancePage()
     {
         return view('frontend.pages.home.index');
+    }
+
+    //healthPage
+    public function healthPage()
+    {
+        return view('frontend.pages.home.health-index');
     }
 
 }

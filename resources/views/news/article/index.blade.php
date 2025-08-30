@@ -65,7 +65,7 @@
                                     <th>{{ __('Title') }}</th>
                                     <th>{{ __('Category') }}</th>
                                     <th>{{ __('Description') }}</th>
-                                    <th>{{ __('Feature News') }}</th>
+                                    <th>{{ __('Thumbnail News') }}</th>
                                     <th>{{ __('Image') }}</th>
                                     <th>{{ __('Action') }}</th>
                                 </tr>
@@ -136,8 +136,8 @@
                             searchable: true
                         },
                         {
-                            data: 'description',
-                            name: 'description',
+                            data: 'paragraph_one',
+                            name: 'paragraph_one',
                             orderable: true,
                             searchable: true
                         },
@@ -148,8 +148,8 @@
                             searchable: true
                         },
                         {
-                            data: 'image',
-                            name: 'image',
+                            data: 'thumbnail',
+                            name: 'thumbnail',
                             orderable: true,
                             searchable: true
                         },
