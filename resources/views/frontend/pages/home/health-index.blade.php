@@ -49,13 +49,14 @@
                                     facilities, and the financial burden of treatment.</p>
                                 <h3>Facts</h3>
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-12">
                                         <p>Non-communicable Diseases (NCDs): 36% of all deaths (2019)</p>
                                         <p>Pneumonia: 4th leading cause of death</p>
-                                    </div>
-                                    <div class="col-md-6">
                                         <p>Malaria: 29.1% of all outpatient visits</p>
                                     </div>
+                                    <!-- <div class="col-md-6">
+                                        <p>Malaria: 29.1% of all outpatient visits</p>
+                                    </div> -->
                                 </div>
                             </div>
 

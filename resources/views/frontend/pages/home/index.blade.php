@@ -8,7 +8,7 @@
         <div class="section-padding">
             <div class="container">
                 <div class="hero-content">
-                    <img src="{{ asset('assets/img/Rectangle 21.png') }}" alt="">
+                    <p id="country-name">UGANDA</p>
                     <div class="heading">
                         <h1><span>Fighting</span> Poverty.</h1>
                         <img src="{{ asset('assets/img/Yellow Lines.png') }}" alt="">

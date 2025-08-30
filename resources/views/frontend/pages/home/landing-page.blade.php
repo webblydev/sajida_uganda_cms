@@ -4,12 +4,13 @@
     <div class="main-website-page">
         <div class="container ">
             <div class="item d-flex justify-content-center align-items-center">
+                <img src="assets/img/Rectangle 21.png" alt="">
                 <div class="logo">
                     <a href="">
                         <img src="assets/img/Logo.png" alt="Logo">
                     </a>
                 </div>
-                <img src="assets/img/Rectangle 21.png" alt="">
+                
                 <h2>Impact You Want to Explore</h2>
                 <div class="btns">
 

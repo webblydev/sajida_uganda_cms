@@ -5,7 +5,7 @@
             <div class="header-section-pc d-none d-xl-flex">
                 <div class="left-header">
                     <div class="logo">
-                        <a href="{{ route('foundation.index') }}"><img src="{{ asset('assets/img/logo.png') }}"
+                        <a href="{{ route('foundation.index') }}"><img src="{{ asset('assets/img/logo.svg') }}"
                                 alt=""></a>
                     </div>
                 </div>
@@ -15,7 +15,7 @@
                             <li><a href="{{ route('foundation.index') }}">Home</a></li>
                             <li><a href="{{ route('about-us.index') }}">About Us</a></li>
                             <li><a href="{{ route('health.index') }}">Health</a></li>
-                            <li><a href="{{ route('news-room.index') }}">News Room</a></li>
+                            <li><a href="{{ route('news-room.index') }}">News</a></li>
                             <li><a href="{{ route('contact-us.index') }}">Contact</a></li>
                             <li>
                                 <a href="{{ route('donation.index') }}" class="menu-btn">Donate</a>
@@ -44,7 +44,7 @@
                             <li><a href="{{ route('foundation.index') }}">Home</a></li>
                             <li><a href="{{ route('about-us.index') }}">About Us</a></li>
                             <li><a href="{{ route('health.index') }}">Health</a></li>
-                            <li><a href="{{ route('news-room.index') }}">News Room</a></li>
+                            <li><a href="{{ route('news-room.index') }}">News</a></li>
                             <li><a href="{{ route('contact-us.index') }}">Contact</a></li>
                             <li>
                                 <a href="{{ route('donation.index') }}" class="menu-btn">Donate</a>

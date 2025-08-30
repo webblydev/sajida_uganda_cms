@@ -105,8 +105,8 @@ $(document).ready(function(){
       
     });
 
-    $(".header-section-mobile .mobile-header .header-right .bars").click(function(){
-        $(".header-section-mobile .mobile-header .header-right .bars").toggleClass("active");
+    $(".header-section-mobile .mobile-header .header-rihgt .bars").click(function(){
+        $(".header-section-mobile .mobile-header .header-rihgt .bars").toggleClass("active");
         $(".header-section-mobile").toggleClass("active");
         $(".overlay").toggleClass("active");
 
@@ -114,7 +114,7 @@ $(document).ready(function(){
 
       
     $(".overlay").click(function(){
-        $(".header-section-mobile .mobile-header .header-right .bars").toggleClass("active");
+        $(".header-section-mobile .mobile-header .header-rihgt .bars").toggleClass("active");
         $(".header-section-mobile").toggleClass("active");
         $(".overlay").toggleClass("active");
 

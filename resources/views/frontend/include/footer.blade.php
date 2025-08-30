@@ -4,7 +4,7 @@
             <div class="footer">
                 <div class="company-details">
                     <div class="logo">
-                        <a href="{{ route('foundation.index') }}"> <img src="{{ asset('assets/img/logo.png') }}"
+                        <a href="{{ route('foundation.index') }}"> <img src="{{ asset('assets/img/logo.svg') }}"
                                 alt=""></a>
                     </div>
                     <h2>Newsletter</h2>
