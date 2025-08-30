@@ -435,8 +435,9 @@ border: none;
 }
 
 
-
-
+body {
+  overflow-x: hidden !important;
+}
 .header-section-mobile .header .header-right .bars {
   margin-right: 15px;
   display: flex;

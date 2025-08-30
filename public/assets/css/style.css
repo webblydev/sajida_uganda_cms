@@ -45,7 +45,7 @@ html,body {
   
 }
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 h1,h2,h3,h4,h5,h6,p,ul,li,a,div,span{
   margin: 0;
