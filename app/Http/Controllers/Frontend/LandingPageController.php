@@ -16,8 +16,10 @@ class LandingPageController extends Controller
     //foundationPage
     public function foundationPage()
     {
+        $oneFeatureNewsItems = News::where('type', 0)->where('news_category_id', 1)->with('category')->latest()->get();
+        $twoFeatureNewsItems = News::where('type', 0)->where('news_category_id', 2)->with('category')->latest()->get();
         $featureNewsItems = News::where('type', 0)->with('category')->latest()->get();
-        return view('frontend.pages.home.index', compact('featureNewsItems'));
+        return view('frontend.pages.home.index', compact('oneFeatureNewsItems', 'twoFeatureNewsItems', 'featureNewsItems'));
         // return view('frontend.pages.home.foundation-index');
     }
 

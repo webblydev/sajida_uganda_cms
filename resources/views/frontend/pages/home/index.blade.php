@@ -62,26 +62,31 @@
                     <div class="tab-btn">
                         <div class="nav flex-column" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home"
-                                role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+                                role="tab" aria-controls="v-pills-home" aria-selected="true">Category 1</a>
                             <a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" href="#v-pills-profile"
-                                role="tab" aria-controls="v-pills-profile" aria- selected="false">Profile</a>
+                                role="tab" aria-controls="v-pills-profile" aria- selected="false">Category 2</a>
                         </div>
                     </div>
                     <div class="tab-content" id="v-pills-tabContent">
                         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                             aria-labelledby="v-pills-home-tab">
                             <div class="slider owl-carousel">
-                                <div class="slider-item">
-                                    <div class="content">
-                                        <h1>Free Healthcare Initiative</h1>
-                                        <p>Bringing quality healthcare closer to underserved communities.</p>
-                                        <a href="#" class="btn"><span>learn</span> More ></a>
+                                @foreach ($oneFeatureNewsItems as $item)
+                                    @php
+                                        $shortParagraphOne = Str::limit(strip_tags($item->paragraph_one), 140);
+                                    @endphp
+                                    <div class="slider-item">
+                                        <div class="content">
+                                            <h1>{{ $item->title }}</h1>
+                                            <p>{{ $shortParagraphOne }}</p>
+                                            <a href="{{ route('news-room.show', $item->id) }}" class="btn"><span>learn</span> More ></a>
+                                        </div>
+                                        <div class="image">
+                                            <img src="{{ asset('images/' . $item->thumbnail_image) }}" alt="">
+                                        </div>
                                     </div>
-                                    <div class="image">
-                                        <img src="{{ asset('assets/img/image3.jpg') }}" alt="">
-                                    </div>
-                                </div>
-                                <div class="slider-item">
+                                @endforeach
+                                {{-- <div class="slider-item">
                                     <div class="content">
                                         <h1>Free Healthcare Initiative</h1>
                                         <p>As well as improving other economic opportunities for our targeted beneficiaries
@@ -114,25 +119,28 @@
                                     <div class="image">
                                         <img src="{{ asset('assets/img/image3.jpg') }}" alt="">
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
                             aria-labelledby="v-pills-profile-tab">
                             <div class="slider owl-carousel">
-                                <div class="slider-item">
-                                    <div class="content">
-                                        <h1>Free Healthcare Initiative</h1>
-                                        <p>As well as improving other economic opportunities for our targeted beneficiaries
-                                            by expanding access to finance for micro, small and medium
-                                            enterprises.</p>
-                                        <a href="#" class="btn"><span>learn</span> More ></a>
+                                @foreach ($twoFeatureNewsItems as $fitem)
+                                    @php
+                                        $shortParagraphOne = Str::limit(strip_tags($fitem->paragraph_one), 140);
+                                    @endphp
+                                    <div class="slider-item">
+                                        <div class="content">
+                                            <h1>{{ $fitem->title }}</h1>
+                                            <p>{{ $shortParagraphOne }}</p>
+                                            <a href="{{ route('news-room.show', $fitem->id) }}" class="btn"><span>learn</span> More ></a>
+                                        </div>
+                                        <div class="image">
+                                            <img src="{{ asset('images/' . $fitem->thumbnail_image) }}" alt="">
+                                        </div>
                                     </div>
-                                    <div class="image">
-                                        <img src="{{ asset('assets/img/image3.jpg') }}" alt="">
-                                    </div>
-                                </div>
-                                <div class="slider-item">
+                                @endforeach
+                                {{-- <div class="slider-item">
                                     <div class="content">
                                         <h1>Free Healthcare Initiative</h1>
                                         <p>As well as improving other economic opportunities for our targeted beneficiaries
@@ -167,7 +175,7 @@
                                     <div class="image">
                                         <img src="{{ asset('assets/img/image3.jpg') }}" alt="">
                                     </div>
-                                </div>
+                                </div> --}}
 
                             </div>
                         </div>
