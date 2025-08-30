@@ -26,9 +26,9 @@ class NewsRequest extends FormRequest
         $rules = [
             'title' => 'required|string|max:255',
             'news_category_id' => 'required|exists:news_categories,id',
-            'paragraph_one' => 'required|string',
-            'paragraph_two' => 'required|string',
-            'paragraph_three' => 'required|string',
+            'paragraph_one' => 'nullable|string',
+            'paragraph_two' => 'nullable|string',
+            'paragraph_three' => 'nullable|string',
         ];
 
         // For create request, all images are required
@@ -68,9 +68,9 @@ class NewsRequest extends FormRequest
             'article_image.required' => 'Article image is required.',
             'article_image.image' => 'Article image must be an image file.',
             'article_image.max' => 'Article image size cannot exceed 2MB.',
-            'paragraph_one.required' => 'Paragraph one is required.',
-            'paragraph_two.required' => 'Paragraph two is required.',
-            'paragraph_three.required' => 'Paragraph three is required.',
+            // 'paragraph_one.required' => 'Paragraph one is required.',
+            // 'paragraph_two.required' => 'Paragraph two is required.',
+            // 'paragraph_three.required' => 'Paragraph three is required.',
         ];
     }
 }

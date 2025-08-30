@@ -29,7 +29,7 @@
                                 $shortParagraphTwo = Str::limit(strip_tags($featureNews->paragraph_two), 140)
                             @endphp
                             <h5>{{ $featureNews->created_at->format('M d, Y') }}</h5>
-                            <h3>{!! $featureNews->paragraph_one !!}</h3>
+                            <h3>{{ $featureNews->paragraph_one }}</h3>
                             <p>{{ $shortParagraphTwo }}</p>
                             <a href="{{ route('news-room.show', $featureNews->id) }}" class="btn">Read More ></a>
                         </div>
@@ -49,97 +49,44 @@
             <div class="container">
                 <div class="case-stories">
                     <div class="project-title d-flex justify-content-between align-items-center">
-                        <h1>Case Stories</h1>
+                        <h1>News</h1>
                         <div class="project-item">
                             <ul>
                                 <li data-filter="*">All</li>
-                                <li data-filter=".health">HEALTH</li>
-                                <li data-filter=".microfinance">MICROFINANCE</li>
-                                <li>
+                                <li data-filter=".health">Category 1</li>
+                                <li data-filter=".microfinance">Category 2</li>
+                                {{-- <li>
                                     <select name="" id="">
                                         <option value="">SORT BY</option>
                                         <option value="">Select</option>
                                         <option value="">Select</option>
                                     </select>
-                                </li>
+                                </li> --}}
                             </ul>
                         </div>
                     </div>
 
                     <div class="project-list">
-                        <div class="m-2 health">
-                            <div class="single-item">
-                                <img src="{{ asset('assets/img/slider1.png') }}" alt="">
-                                <div class="space"></div>
-                                <div class="content">
-                                    <h4>Organisational</h4>
-                                    <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’ EVENT</h2>
+                        @foreach ($recentNewsItems as $recentNews)
+                        @php
+                            $className = $recentNews->category->title == 'Category 1' ? 'health' : ($recentNews->category->title == 'Category 2' ? 'microfinance' : 'other');
+                        @endphp
+                            <div class="m-2 {{ $className }}">
+                                <a href="{{ route('news-room.show', $recentNews->id) }}">
+                                <div class="single-item">
+                                    <img src="{{ asset('images/' . $recentNews->thumbnail_image) }}" alt="">
+                                    <div class="space"></div>
+                                    <div class="content">
+                                        <h4>{{ $recentNews->category->title }}</h4>
+                                        <h2>{{ $recentNews->title }}</h2>
+                                    </div>
+                                    <span>{{ $recentNews->created_at->format('M d, Y') }}</span>
                                 </div>
-                                <span>Mar 13, 2023</span>
+                                </a>
                             </div>
-                        </div>
+                        @endforeach
 
-                        <div class="m-2 health">
-                            <div class="single-item">
-                                <img src="{{ asset('assets/img/slider1.png') }}" alt="">
-                                <div class="space"></div>
-                                <div class="content">
-                                    <h4>Organisational</h4>
-                                    <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’ EVENT</h2>
-                                </div>
-                                <span>Mar 13, 2023</span>
-                            </div>
-                        </div>
-
-                        <div class="m-2 health">
-                            <div class="single-item">
-                                <img src="{{ asset('assets/img/slider1.png') }}" alt="">
-                                <div class="space"></div>
-                                <div class="content">
-                                    <h4>Organisational</h4>
-                                    <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’ EVENT</h2>
-                                </div>
-                                <span>Mar 13, 2023</span>
-                            </div>
-                        </div>
-
-                        <div class="m-2 microfinance">
-                            <div class="single-item">
-                                <img src="{{ asset('assets/img/slider1.png') }}" alt="">
-                                <div class="space"></div>
-                                <div class="content">
-                                    <h4>Organisational</h4>
-                                    <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’ EVENT</h2>
-                                </div>
-                                <span>Mar 13, 2023</span>
-                            </div>
-                        </div>
-
-                        <div class="m-2 microfinance">
-                            <div class="single-item">
-                                <img src="{{ asset('assets/img/slider1.png') }}" alt="">
-                                <div class="space"></div>
-                                <div class="content">
-                                    <h4>Organisational</h4>
-                                    <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’ EVENT</h2>
-                                </div>
-                                <span>Mar 13, 2023</span>
-                            </div>
-                        </div>
-
-                        <div class="m-2 microfinance">
-                            <div class="single-item">
-                                <img src="{{ asset('assets/img/slider1.png') }}" alt="">
-                                <div class="space"></div>
-                                <div class="content">
-                                    <h4>Organisational</h4>
-                                    <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’ EVENT</h2>
-                                </div>
-                                <span>Mar 13, 2023</span>
-                            </div>
-                        </div>
-
-                        <div class="m-2 microfinance">
+                        {{-- <div class="m-2 health">
                             <div class="single-item">
                                 <img src="{{ asset('assets/img/slider1.png') }}" alt="">
                                 <div class="space"></div>
@@ -174,6 +121,66 @@
                                 <span>Mar 13, 2023</span>
                             </div>
                         </div>
+
+                        <div class="m-2 microfinance">
+                            <div class="single-item">
+                                <img src="{{ asset('assets/img/slider1.png') }}" alt="">
+                                <div class="space"></div>
+                                <div class="content">
+                                    <h4>Organisational</h4>
+                                    <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’ EVENT</h2>
+                                </div>
+                                <span>Mar 13, 2023</span>
+                            </div>
+                        </div>
+
+                        <div class="m-2 microfinance">
+                            <div class="single-item">
+                                <img src="{{ asset('assets/img/slider1.png') }}" alt="">
+                                <div class="space"></div>
+                                <div class="content">
+                                    <h4>Organisational</h4>
+                                    <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’ EVENT</h2>
+                                </div>
+                                <span>Mar 13, 2023</span>
+                            </div>
+                        </div>
+
+                        <div class="m-2 microfinance">
+                            <div class="single-item">
+                                <img src="{{ asset('assets/img/slider1.png') }}" alt="">
+                                <div class="space"></div>
+                                <div class="content">
+                                    <h4>Organisational</h4>
+                                    <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’ EVENT</h2>
+                                </div>
+                                <span>Mar 13, 2023</span>
+                            </div>
+                        </div>
+
+                        <div class="m-2 health">
+                            <div class="single-item">
+                                <img src="{{ asset('assets/img/slider1.png') }}" alt="">
+                                <div class="space"></div>
+                                <div class="content">
+                                    <h4>Organisational</h4>
+                                    <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’ EVENT</h2>
+                                </div>
+                                <span>Mar 13, 2023</span>
+                            </div>
+                        </div>
+
+                        <div class="m-2 microfinance">
+                            <div class="single-item">
+                                <img src="{{ asset('assets/img/slider1.png') }}" alt="">
+                                <div class="space"></div>
+                                <div class="content">
+                                    <h4>Organisational</h4>
+                                    <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’ EVENT</h2>
+                                </div>
+                                <span>Mar 13, 2023</span>
+                            </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -185,7 +192,7 @@
             <div class="container">
                 <div class="d-flex align-items-center justify-content-between">
                     <h1>Make Your Contribution</h1>
-                    <a href="#" class="btn">Donate Now</a>
+                    <a href="{{ route('donation.index') }}" class="btn">Donate Now</a>
                 </div>
             </div>
         </div>

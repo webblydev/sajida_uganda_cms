@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\News;
 
 class LandingPageController extends Controller
 {
@@ -15,7 +16,8 @@ class LandingPageController extends Controller
     //foundationPage
     public function foundationPage()
     {
-        return view('frontend.pages.home.index');
+        $featureNewsItems = News::where('type', 0)->with('category')->latest()->get();
+        return view('frontend.pages.home.index', compact('featureNewsItems'));
         // return view('frontend.pages.home.foundation-index');
     }
 

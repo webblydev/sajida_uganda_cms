@@ -47,7 +47,13 @@ class NewsController extends Controller
                     })
                     ->addColumn('thumbnail', function ($news) {
                         return '<div class="table-actions text-center">
-                        <img src="' . asset('images/' . $news->thumbnail_image) . '" alt="Thumbnail image" height="90px" width="150px" />
+                        <img src="' . asset('images/' . $news->/* The above code is a comment in PHP.
+                        It is not performing any specific
+                        action in the code, but it is used to
+                        provide information or explanations
+                        about the code for developers who may
+                        be reading it. */
+                        thumbnail_image) . '" alt="Thumbnail image" height="90px" width="150px" />
                         </div>';
                     })
                     ->addColumn('status', function ($news) {

@@ -25,7 +25,7 @@ class NewsController extends Controller
     {
         $newsBanner=NewsBanner::latest()->first();
         $news=News::findOrFail($id);
-        $recentNewsItems = News::where('type', 1)->with('category')->latest()->get();
+        $recentNewsItems = News::where('type', 0)->with('category')->latest()->get();
         return view('frontend.pages.newsroom.show', compact('newsBanner','news','recentNewsItems'));
     }
     public function categoryNews($id)

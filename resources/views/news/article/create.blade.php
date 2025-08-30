@@ -123,9 +123,8 @@
                                 <div class="form-group col-md-12">
                                     <label for="paragraph_one">
                                         {{ __('Paragraph One') }}
-                                        <span class="text-red">*</span>
                                     </label>
-                                    <textarea class="form-control" name="paragraph_one" id="summernote"></textarea>
+                                    <textarea class="form-control" name="paragraph_one" id=""></textarea>
                                     @error('paragraph_one')
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
@@ -135,9 +134,8 @@
                                 <div class="form-group col-md-12">
                                     <label for="paragraph_two">
                                         {{ __('Paragraph Two') }}
-                                        <span class="text-red">*</span>
                                     </label>
-                                    <textarea class="form-control" name="paragraph_two" id="summernote"></textarea>
+                                    <textarea class="form-control" name="paragraph_two" id=""></textarea>
                                     @error('paragraph_two')
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
@@ -147,9 +145,8 @@
                                 <div class="form-group col-md-12">
                                     <label for="paragraph_three">
                                         {{ __('Paragraph Three') }}
-                                        <span class="text-red">*</span>
                                     </label>
-                                    <textarea class="form-control" name="paragraph_three" id="summernote"></textarea>
+                                    <textarea class="form-control" name="paragraph_three" id=""></textarea>
                                     @error('paragraph_three')
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror

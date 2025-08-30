@@ -5,7 +5,7 @@
             <div class="header-section-pc d-none d-xl-flex">
                 <div class="left-header">
                     <div class="logo">
-                        <a href="http://127.0.0.1:5500/index.html"><img src="{{ asset('assets/img/logo.png') }}"
+                        <a href="{{ route('foundation.index') }}"><img src="{{ asset('assets/img/logo.png') }}"
                                 alt=""></a>
                     </div>
                 </div>

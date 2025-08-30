@@ -34,8 +34,9 @@
                         aims to empower communities, catalyse entrepreneurship, build equity and establish enterprises for
                         good with an overarching vision of ensuring health, happiness, and dignity for all.</p>
                     <div class="btns">
-                        <a href="" class="btn">learn More</a>
-                        <a href="" class="btn">our history</a>
+                        {{-- got to governing body section --}}
+                        <a href="#wrapper-9" class="btn">Governing Body</a>
+                        <a href="https://www.sajida.org/we-are-sajida/sajida-story/" class="btn">our history</a>
                     </div>
                 </div>
                 <div class="gallery">
@@ -56,7 +57,7 @@
         </div>
     </section>
 
-    <section class="wrapper-9 section">
+    <section class="wrapper-9 section" id="wrapper-9">
         <div class="section-padding">
             <div class="container">
                 <div class="headline">
@@ -209,7 +210,7 @@
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
                     <h1>Make Your Contribution</h1>
-                    <a href="#" class="btn">Donate Now</a>
+                    <a href="{{ route('donation.index') }}" class="btn">Donate Now</a>
                 </div>
             </div>
         </div>

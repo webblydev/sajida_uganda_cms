@@ -42,7 +42,7 @@
                             largest operation outside Bangladesh, reflecting our long-term commitment to creating
                             sustainable, inclusive change.
                         </p>
-                        <a href="http://127.0.0.1:5500/about-us.html?#" class="btn"><span>about</span> sajida ></a>
+                        <a href="{{ route('about-us.index') }}" class="btn"><span>about</span> sajida ></a>
                     </div>
                     <div class="image ">
                         <img src="{{ asset('assets/img/image2.jpg') }}" alt="">
@@ -191,7 +191,7 @@
                         <div class="content">
                             <p>We drive large-scale transformation by empowering women and their families to overcome
                                 poverty, build resilience, and foster resourcefulness. </p>
-                            <a href="" class="btn">See reports > </a>
+                            <a href="https://www.sajida.org/annual-reports/" class="btn">See reports > </a>
                         </div>
                     </div>
                 </div>
@@ -237,7 +237,7 @@
                             <h2>SAJIDA Bangladesh</h2>
                             <p>A value-driven organization transforming lives through health, education, livelihoods, and
                                 social innovation since 1993.</p>
-                            <a href="" class="btn"><span>learn</span> more > </a>
+                            <a href="https://www.sajida.org/" class="btn"><span>learn</span> more > </a>
                         </div>
                         <div class="image">
                             <img src="{{ asset('assets/img/dm.png') }}" alt="">
@@ -248,7 +248,7 @@
                             <h2>SAJIDA Uganda</h2>
                             <p>A value-driven organization transforming lives through health, education, livelihoods, and
                                 social innovation since 1993.</p>
-                            <a href="" class="btn"><span>learn</span> more > </a>
+                            <a href="{{ route('about-us.index') }}" class="btn"><span>learn</span> more > </a>
                         </div>
                         <div class="image">
                             <img src="https://sajidausa.org/images/01-13-2024_21-39-04-us-map.png" alt="">
@@ -259,7 +259,7 @@
                             <h2>SAJIDA USA</h2>
                             <p>A value-driven organization transforming lives through health, education, livelihoods, and
                                 social innovation since 1993.</p>
-                            <a href="" class="btn"><span>learn</span> more > </a>
+                            <a href="https://www.sajidausa.org/" class="btn"><span>learn</span> more > </a>
                         </div>
                         <div class="image">
                             <img src="https://sajidausa.org/images/07-29-2025_14-08-53-Uganda Country.png" alt="">
@@ -272,12 +272,12 @@
         </div>
     </section>
 
-    <section class="storiec-slider">
+    {{-- <section class="storiec-slider">
         <div class="section-padding">
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
                     <h2>Case Stories</h2>
-                    <a href="" class="btn"><span>read</span> more > </a>
+                    <a href="{{ route('news-room.index') }}" class="btn"><span>read</span> more > </a>
                 </div>
                 <div class="slider owl-carousel">
                     <div class="single-slider-item">
@@ -335,7 +335,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <section class="wrapper-5">
         <div class="content-container">
@@ -344,7 +344,7 @@
                 <p>We drive large-scale transformation by empowering women
                     and their families to overcome poverty, build resilience,
                     and foster resourcefulness.</p>
-                <a href="" class="btn">learn more > </a>
+                <a href="{{ route('donation.index') }}" class="btn">learn more > </a>
             </div>
         </div>
         <div class="image">
@@ -356,49 +356,22 @@
             <div class="container">
                 <h1>Latest from SAJIDA</h1>
                 <div class="slider owl-carousel">
-                    <div class="single-slider-item">
-                        <img src="{{ asset('assets/img/slider1.png') }}" alt="">
-                        <div class="space"></div>
-                        <div class="content">
-                            <h4>Organisational</h4>
-                            <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’
-                                EVENT</h2>
-                        </div>
-                        <span>Mar 13, 2023</span>
-                    </div>
-                    <div class="single-slider-item">
-                        <img src="{{ asset('assets/img/slider2.png') }}" alt="">
-                        <div class="space"></div>
-                        <div class="content">
-                            <h4>Organisational</h4>
-                            <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’
-                                EVENT</h2>
-                        </div>
-                        <span>Mar 13, 2023</span>
-                    </div>
-                    <div class="single-slider-item">
-                        <img src="{{ asset('assets/img/slider3.png') }}" alt="">
-                        <div class="space"></div>
-                        <div class="content">
-                            <h4>Organisational</h4>
-                            <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’
-                                EVENT</h2>
-                        </div>
-                        <span>Mar 13, 2023</span>
-                    </div>
-                    <div class="single-slider-item">
-                        <img src="{{ asset('assets/img/slider1.png') }}" alt="">
-                        <div class="space"></div>
-                        <div class="content">
-                            <h4>Organisational</h4>
-                            <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’
-                                EVENT</h2>
-                        </div>
-                        <span>Mar 13, 2023</span>
-                    </div>
+                    @foreach ($featureNewsItems as $item)
+                        <a href="{{ route('news-room.show', $item->id) }}">
+                            <div class="single-slider-item">
+                                <img src="{{ asset( 'images/' . $item->thumbnail_image) }}" alt="">
+                                <div class="space"></div>
+                                <div class="content">
+                                    <h4>{{ $item->category->title }}</h4>
+                                    <h2>{{ $item->title }}</h2>
+                                </div>
+                                <span>{{ $item->created_at->format('M d, Y') }}</span>
+                            </div>
+                        </a>
+                    @endforeach
                 </div>
                 <div class="d-flex justify-content-end">
-                    <a href="" class="btn"><span>see</span> all > </a>
+                    <a href="{{ route('news-room.index') }}" class="btn"><span>see</span> all > </a>
                 </div>
             </div>
         </div>
