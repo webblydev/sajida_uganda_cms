@@ -38,9 +38,9 @@ use App\Http\Controllers\PayPalController;
 */ 
 // Route::get('/', function () { return view('home'); });
 
-Route::get('/', 'Frontend\LandingPageController@landingPage');
+// Route::get('/', 'Frontend\LandingPageController@landingPage');
 // Route::get('/microfinance', 'Frontend\LandingPageController@microfinancePage')->name('microfinance.index');
-Route::get('/foundation', 'Frontend\LandingPageController@foundationPage')->name('foundation.index');
+Route::get('/', 'Frontend\LandingPageController@foundationPage')->name('foundation.index');
 Route::get('/health', 'Frontend\LandingPageController@healthPage')->name('health.index');
 Route::get('/contact-us', 'Frontend\ContactUsPageController@index')->name('contact-us.index');
 Route::get('/about-us', 'Frontend\AboutUsController@index')->name('about-us.index');
