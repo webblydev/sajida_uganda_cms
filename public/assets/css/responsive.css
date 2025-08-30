@@ -1559,11 +1559,22 @@ a.hero-btn {
 }
 
 
+.quick-link {
+    margin-top: 20px;
+}
 
 
+.footer-h2{
+  font-size: 24px!important;
+  margin-bottom: 15px!important;
+}
 
 
-
+.wrapper-7 .footer .contact .social-icon a {
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+} 
   
 }
 

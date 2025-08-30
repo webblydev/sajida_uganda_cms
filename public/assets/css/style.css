@@ -2214,13 +2214,14 @@ padding-top: 50px;
 
 a.hero-btn {
   padding: 13px 30px;
-  font-size: 16px;
-  font-weight: 500;
-  color: #F7CE19;
-  text-decoration: none;
-  border: 1px solid white;
-  border-radius: 5px;
-  margin-right: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    margin-right: 30px;
+    background-color: #F7CE19;
 }
 a.hero-btn:hover {
   background: #F7CE19;

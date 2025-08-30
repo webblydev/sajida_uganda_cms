@@ -46,20 +46,20 @@
                 <div class="d-flex justify-content-between item-container">
                     <div class="content">
                         <h5>INTERNATIONAL</h5>
-                        <p>A/C Name: SAJIDA FOUNDATION USA INC <br>Beneficiary Bank Name: TD Bank <br> A/C NO: 4410385804
-                            <br> SWIFT Code: NRTHUS33XXX <br> Bank Address: 138 Hoyt St #2, Brooklyn, NY 11217, USA <br>
-                            International Routing Code (IRC): 0260-13673
+                        <p><b>A/C Name:</b> SAJIDA FOUNDATION USA INC <br><b>Beneficiary Bank Name:</b> TD Bank <br> <b>A/C NO:</b> 4410385804
+                            <br> <b>SWIFT Code:</b> NRTHUS33XXX <br> <b>Bank Address:</b> 138 Hoyt St #2, Brooklyn, NY 11217, USA <br>
+                            <b>International Routing Code (IRC):</b> 0260-13673
                         </p>
                     </div>
                     <div class="paypal-transfer">
                         <h5>PAYPAL TRANSFER</h5>
                         <img src="{{ asset('assets/img/paypal.jpg') }}" alt="">
-                        <p>Paypal: SAJIDA FOUNDATION uganda</p>
+                        <p><b>Paypal:</b> SAJIDA FOUNDATION uganda</p>
                     </div>
                     <div class="zelle-transfer">
                         <h5>ZELLE TRANSFER</h5>
                         <img src="{{ asset('assets/img/zelle.png') }}" alt="">
-                        <p>Zelle: donate@sajidauganda.org</p>
+                        <p><b>Zelle:</b> donate@sajidauganda.org</p>
                     </div>
                 </div>
             </div>

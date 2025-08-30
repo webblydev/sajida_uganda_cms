@@ -7,7 +7,7 @@
                         <a href="{{ route('foundation.index') }}"> <img src="{{ asset('assets/img/logo.svg') }}"
                                 alt=""></a>
                     </div>
-                    <h2>Newsletter</h2>
+                    <h2 class="footer-h2">Newsletter</h2>
                     <form action="{{ route('news-letter.store') }}" method="POST" enctype="multipart/form-data">
                         @csrf
                         <input type="email" name="email" placeholder="Email Address" required>
@@ -16,7 +16,7 @@
 
                 </div>
                 <div class="quick-link">
-                    <h2>Quick Links</h2>
+                    <h2 class="footer-h2">Quick Links</h2>
                     <ul>
                         <li><a href="https://www.sajida.org/we-are-sajida/sajida-at-a-glance/" target="_blank">SAJIDA at
                                 a Glance</a></li>
@@ -27,7 +27,7 @@
                     </ul>
                 </div>
                 <div class="contact">
-                    <h2>Connect With Us</h2>
+                    <h2 class="footer-h2">Connect With Us</h2>
                     <div class="social-icon">
                         <a href="https://www.facebook.com/NGOSAJIDA" target="_blank"><i
                                 class="fa-brands fa-facebook-f"></i></a>
@@ -45,7 +45,7 @@
 </section>
 
 <div class="copyright-area">
-    <h4>© 2023 All Rights Reserved <a href="https://www.sajida.org/">SajidaFoundation.</a></h4>
+    <h4>© 2025 All Rights Reserved <a href="https://www.sajida.org/">SAJIDA Foundation.</a></h4>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
