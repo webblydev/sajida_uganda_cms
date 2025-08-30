@@ -378,7 +378,8 @@
                         </a>
                     @endforeach
                 </div>
-                <div class="d-flex justify-content-end">
+                <br>
+                <div class="d-flex justify-content-end latest-news-button">
                     <a href="{{ route('news-room.index') }}" class="btn"><span>see</span> all > </a>
                 </div>
             </div>

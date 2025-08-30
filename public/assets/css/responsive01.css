@@ -1579,6 +1579,11 @@ a.hero-btn {
   height: 30px;
   font-size: 13px;
 } 
+
+.latest-news-button{
+  justify-content: center!important;
+  margin-top: 20px!important;
+}
   
 }
 
