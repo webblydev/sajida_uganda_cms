@@ -1379,6 +1379,10 @@ flex-direction: column;
 .individual-hero .hero-content h1 {
   font-size: 28px;
 }
+
+.individual-hero{
+  height: 410px!important;
+}
 a.hero-btn {
   padding: 8px 15px;
   font-size: 12px;
