@@ -416,6 +416,10 @@ border: none;
   
 }
 
+.container {
+  padding: 0 20px;
+}
+
 
 
 
@@ -429,6 +433,9 @@ border: none;
   left: -20px;
   width: 225px;
 
+}
+.header-section-mobile {
+  width: 100vw;
 }
 
 
@@ -452,13 +459,13 @@ border: none;
 }
 
 .hero-section {
-  height: 575px;
+  height: 285px;
   background-position: center;
   
 }
 
 .wrapper-1 {
-  padding: 40px 0;
+  padding: 50px 0;
 }
 .hero-section .image { 
   left: 12%;
@@ -470,6 +477,10 @@ border: none;
 
 .wrapper-1 .image {
   height: 290px;
+  bottom: 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
 }
 .wrapper-1 .item-container {
   gap: unset;
@@ -478,6 +489,7 @@ border: none;
   font-size: 26px;
 }
 
+
 .wrapper-1 .content p {
   
   line-height: 18px;
@@ -485,9 +497,12 @@ border: none;
   margin-top: 25px;
  
 }
+.wrapper-1 .content a.btn {
+  margin-top: 20px;
+}
 a.btn {
   
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 0px;
   font-size: 12px;
 }
@@ -553,8 +568,8 @@ a.btn {
 .wrapper-2 {
   
   height: auto;
-  padding: 25px 0;
-  padding-bottom: 45px;
+  padding: 50px 0;
+  padding-bottom: 85px;
 }
 .wrapper-2::before {
  background: rgba(0, 0, 0, 0.62);
@@ -580,7 +595,7 @@ a.btn {
 }
 
 .wrapper-3 {
-  padding: 30px 0;
+  padding: 50px 0;
 }
 .wrapper-3 .counters {
   gap: 20px;
@@ -698,7 +713,7 @@ a.btn {
 }
 
 .storiec-slider {
-  padding: 37px 0;
+  padding: 50px 0;
 }
 
 .storiec-slider h2 {
@@ -756,8 +771,9 @@ a.btn {
   padding-top: 30px;
 }
 .wrapper-5 a.btn {
-  width: 100%;
+  
   margin-bottom: 20px;
+  margin-top: 25px;
 }
 
 
@@ -774,6 +790,10 @@ a.btn {
 
 .wrapper-5 .content p {
   font-size: 14px;
+}
+
+.wrapper-6 {
+  background-position: center top;
 }
 
 .wrapper-6::before {
@@ -986,7 +1006,7 @@ padding: 50px 0;
   width: 245px;
 }
 .wrapper-11 .items-container .item {
-  width: 170px;
+  max-width: 150px;
   margin-bottom: 25px;
 }
 
@@ -1012,6 +1032,7 @@ padding: 50px 0;
 }
 .wrapper-12 a.btn {
   margin: 0;
+  width: 180px;
 }
 
 .wrapper-14 .our-programmes {
@@ -1042,16 +1063,20 @@ flex-direction: column;
   max-width: 100%;
   
 }
-.hero-section {
+.home-hero {
   height: 100vh;
 } 
 .wrapper-8 .gallery {
   gap: 5px;
 }
-.wrapper-8 .gallery .gallery-item {
-  width: 164px;
-  border-radius: 5px;
+
+
+.wrapper-8 .content-container .btns {
+  display: flex;
+  gap: 15px;
 }
+
+
 
 
 
@@ -1063,6 +1088,9 @@ flex-direction: column;
   padding: 0;
   font-size: 14px;
   text-align: center;
+}
+.wrapper-8 .content-container .btns {
+    gap: 15px;
 }
 
 .wrapper-9 .slider .owl-nav {
@@ -1107,6 +1135,51 @@ flex-direction: column;
     padding-bottom: 25px;
 }
 
+.wrapper-9 .popup-message {
+  flex-direction: column;
+  background: #002F59;
+  border-radius: 0 0 10px 10px;
+}
+.wrapper-9 .popup-message .popup-image {
+  width: 235px;
+  height: 300px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.wrapper-9 .popup-message .popup-content {
+    width: 330px;
+    padding: 30px 15px;
+}
+
+.wrapper-9 .popup-message .popup-content h4 {
+    font-size: 28px;
+}
+.wrapper-9 .popup-message .popup-content h4 span {
+    font-size: 16px;
+}
+.modal {
+  height: 68%;
+}
+
+.wrapper-9 .popup-message .popup-content p {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.modal-header {
+  
+  right: 10px;
+  top: 10px;
+ 
+}
+.wrapper-9 .modal-header .btn-close {
+
+  padding: 10px;
+  font-size: 10px;
+
+}
+
+
 
 .wrapper-7 .footer {
   gap: 10px;
@@ -1114,10 +1187,12 @@ flex-direction: column;
 
 .wrapper-7 .footer .quick-link h2 {
   margin-bottom: 10px;
+  font-size: 28px;
 }
 .wrapper-7 .footer .quick-link li a {
   color: white;
   padding-bottom: 10px;
+  font-size: 14px;
 }
 .wrapper-15 {
   padding: 45px 0;
@@ -1135,6 +1210,7 @@ flex-direction: column;
 }
 .wrapper-16 .content-container .right-side h3 {
   font-size: 28px;
+
 }
 .wrapper-16 .content-container .right-side { 
   margin-top: 30px;

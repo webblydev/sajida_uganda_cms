@@ -42,6 +42,10 @@ html,body {
   font-family: "Poppins", sans-serif;
   font-weight: var(--font-weight-400);
   position: relative;
+  
+}
+body {
+  overflow-x: hidden;
 }
 h1,h2,h3,h4,h5,h6,p,ul,li,a,div,span{
   margin: 0;
@@ -1481,24 +1485,25 @@ color: #000000;
   line-height: 30px;
 
 }
-.wrapper-9 .modal-dialog {
+.modal-dialog {
   max-width: 1200px;
   
 }
-.wrapper-9 .modal-dialog .modal-content {
+.modal-dialog .modal-content {
   padding: 0;
   margin: 0;
 }
-.wrapper-9 .popup-message .popup-content .modal-header {
+.modal-header {
   border-bottom: none;
   position: absolute;
   right: 80px;
   top: 60px;
+  z-index: 99;
 
 
 
 }
-.wrapper-9 .popup-message .popup-content .modal-header .btn-close {
+.wrapper-9 .modal-header .btn-close {
   background-color: #ffffff;
   padding: 15px;
   border-radius: 50%;

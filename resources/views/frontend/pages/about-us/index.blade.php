@@ -103,14 +103,15 @@
                 <div class="modal" id="myModal">
                     <div class="modal-dialog">
                         <div class="modal-content">
+                            <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
                             <div class="popup-message d-flex">
                                 <div class="popup-image">
                                     <img src="{{ asset('assets/img/popup-img.png') }}" alt="">
                                 </div>
                                 <div class="popup-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                                    </div>
+                                    
                                     <h4>Zahida Fizza Kabir <span>Chief Executive Officer</span></h4>
                                     <p>Ms. Zahida Fizza Kabir has 30+ years of leadership in finance, healthcare, and
                                         community development. Since 1993, she has expanded SAJIDA to 400 offices with 6,000
