@@ -169,19 +169,19 @@ $(document).ready(function(){
         }
     })
 
-    gsap.from('.wrapper-1 .image',{
-        x:300,
-        duration:1,
-        opacity:0,
-        scrollTrigger:{
-            trigger:'.wrapper-1 .image',
-            scroller:'body',
-            start:'top 100%',
-            end:'top 90%',  
-            //  markers:true,
-            scrub:2,
-        }
-    })
+    // gsap.from('.wrapper-1 .image',{
+    //     x:300,
+    //     duration:1,
+    //     opacity:0,
+    //     scrollTrigger:{
+    //         trigger:'.wrapper-1 .image',
+    //         scroller:'body',
+    //         start:'top 100%',
+    //         end:'top 90%',  
+    //         //  markers:true,
+    //         scrub:2,
+    //     }
+    // })
     // gsap.from('.wrapper-1 .content',{
     //     y:-300,
     //     duration:1,
@@ -206,12 +206,10 @@ $(document).ready(function(){
     });
 
 
-
+  
 
  
-    $('.project-list').isotope()
-    
-
+    $('.project-list').isotope();
 
 
   });

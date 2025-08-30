@@ -287,13 +287,17 @@ padding: 15px 20px;
 height: 100vh;
 width: 360px;
 padding-left: 80px;
-transition: .5s ease-out ;
+transition: all .5s ease-out ;
+visibility: hidden;
+opacity: 0;
+
 }
 .header-section-mobile.active .off-canves-menu {
 
 left: 0px;
 z-index: 999;
-transition: .5s ease-out ;
+opacity: 1;
+visibility: visible;
 }
 .off-canves-menu .logo img {
 width: 140px;
@@ -394,7 +398,6 @@ align-items: center;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  overflow-x: hidden;
 }
 
 .bg  {
@@ -426,8 +429,8 @@ align-items: center;
   content: '';
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(0deg, #EAC319, #000101B2 70%);
-  opacity: .4;
+  background-image: linear-gradient(0deg, #005AAA, #000101B2 70%);
+  opacity: .7;
   z-index: -1;
 
 }
@@ -583,6 +586,11 @@ a.btn:hover {
   background: #F7CE19;
 }
 
+a.case-btn {
+  margin-left: 36px;
+  font-style: normal;
+  font-family: poppins, sans-serif;
+}
 
 .wrapper-2 {
   background-image: url(../img/bg.jpg);
@@ -844,6 +852,13 @@ z-index: 1;
 .wrapper-4 .image img {
   max-width: 450px;
 }
+.uganda-country-flag {
+  max-width: 550px;
+}
+
+.usa-country-flag {
+  max-width: 550px;
+}
 
 .wrapper-4 .container .vector-img {
   position: absolute;
@@ -959,13 +974,13 @@ z-index: 1;
   justify-content: end;
   height: 100%;
   align-items: center;
-  padding-right: 35px;
+  padding-right: 70px;
 
   
 }
 
   .wrapper-5 .content {
-  max-width: 80%;
+  max-width: 100%;
   }
 
 .wrapper-5 .content h1 {
@@ -1074,6 +1089,7 @@ z-index: 1;
   background: white;
   text-align: center;
   padding: 20px 10px;
+  height: 160px;
 
 }
 
@@ -1460,14 +1476,15 @@ color: #000000;
   object-fit: cover;
 }
 .wrapper-9 .popup-message .popup-content {
-  width: 700px;
-  background: #002F59;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 120px;
-  color: white;
-  position: relative;
+      width: 750px;
+    background: #002F59;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 60px;
+    color: white;
+    position: relative;
+    overflow-y: scroll;
 }
 .wrapper-9 .popup-message .popup-content h4 {
   font-size: 40px;
@@ -2166,10 +2183,9 @@ padding-top: 50px;
 .wrapper-22 .single-item {
   width: 434px;
   border-radius: 5px;
-  overflow: hidden;
   position: relative;
   border: 1px solid #DDDDDD;
-  
+  height: 370px!important;
 }
 
 .wrapper-22 .single-item img {
@@ -2603,10 +2619,11 @@ a.hero-btn:hover {
 
 p#country-name{
     font-family: 'Poppins';
-    font-size: .9rem;
-    background-color: #1f5da8;
-    padding: 5px 21px;
+    font-size: 1.2rem;
+    padding: 5px 5px;
     border-radius: 10px;
+    letter-spacing: .3em;
+    margin-bottom: 15px;
 }
 
 .featured-story-left.mr-xl-4 {
@@ -2614,7 +2631,29 @@ p#country-name{
 }
 
 
+.case-modal .modal-content {
+    padding: 50px;
+    background-color:var(--blue-color);
+    color: #fff;
+    height: auto !important;
+}
 
+.case-modal .modal-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.case-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-family: spring;
+    font-size: 3rem;
+}
+.case-modal .modal-content h3 {
+    margin-bottom: 25px;
+    font-family: spring;
+    font-size: 2rem;
+}
 
 
 

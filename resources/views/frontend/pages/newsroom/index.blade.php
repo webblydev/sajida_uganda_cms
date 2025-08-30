@@ -86,13 +86,15 @@
                             </div>
                         @endforeach
 
-                        {{-- <div class="m-2 health">
+                        <!-- <div class="m-2 health">
                             <div class="single-item">
                                 <img src="{{ asset('assets/img/slider1.png') }}" alt="">
                                 <div class="space"></div>
                                 <div class="content">
                                     <h4>Organisational</h4>
-                                    <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’ EVENT</h2>
+                                    <h2>SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’ EVENT
+                                        SAJIDA FOUNDATION HOSTS ‘BUILDING BRIDGES’ EVENT
+                                    </h2>
                                 </div>
                                 <span>Mar 13, 2023</span>
                             </div>
@@ -180,7 +182,7 @@
                                 </div>
                                 <span>Mar 13, 2023</span>
                             </div>
-                        </div> --}}
+                        </div>  -->
                     </div>
                 </div>
             </div>

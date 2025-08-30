@@ -33,8 +33,7 @@
                                         </div>
                                         <div class="info-content">
                                             <h4>Location</h4>
-                                            <p>OTOBI Center,1st, 4th & 5th floor, Plot 12, Block CWS(C)Gulshan South Avenue,
-                                                Gulshan 1, Dhaka 1212</p>
+                                            <p>Plot 12 Kampala Road <br>Nakasero, Central Division <br>Kampala, Uganda <br> P.O. Box 12345</p>
                                         </div>
 
                                     </div>

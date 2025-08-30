@@ -545,7 +545,6 @@ a.btn {
 }
 
 .hero-section{
-  overflow-x: hidden!important;
   max-width: 100%;
 }
 
@@ -1089,7 +1088,7 @@ flex-direction: column;
   
 }
 .home-hero {
-  height: 100vh;
+  height: 85vh;
 } 
 .wrapper-8 .gallery {
   gap: 5px;
@@ -1166,16 +1165,16 @@ flex-direction: column;
   border-radius: 0 0 10px 10px;
 }
 .wrapper-9 .popup-message .popup-image {
-  width: 235px;
-  height: 300px;
+  width: 75%;
+  height: 400px;
   margin-left: 20px;
   margin-top: 30px;
   border-radius: 20px;
   overflow: hidden;
 }
 .wrapper-9 .popup-message .popup-content {
-    width: 330px;
-    padding: 30px 15px;
+    width: auto;
+    padding: 30px 20px;
 }
 
 .wrapper-9 .popup-message .popup-content h4 {
@@ -1374,6 +1373,7 @@ flex-direction: column;
 }
 .wrapper-22 .single-item {
   width: 100%;
+  height: 340px!important;
 }
 
 .individual-hero .hero-content h1 {

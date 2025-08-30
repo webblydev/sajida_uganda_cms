@@ -180,6 +180,7 @@
                                     away. Now, with community health workers visiting our village and telemedicine services
                                     available, I can get medical advice and treatment without delay. My children are
                                     healthier, and I finally have peace of mind knowing help is always within reach.</p>
+                                    <a href="#" class="btn case-btn" data-bs-toggle="modal" data-bs-target="#myModal-01">Read Full Story</a>
                             </div>
                             <div class="image">
                                 <img src="{{ asset('assets/img/image7.jpg') }}" alt="">
@@ -193,22 +194,116 @@
                                     away. Now, with community health workers visiting our village and telemedicine services
                                     available, I can get medical advice and treatment without delay. My children are
                                     healthier, and I finally have peace of mind knowing help is always within reach.</p>
+                                    <a href="#" class="btn case-btn" data-bs-toggle="modal" data-bs-target="#myModal-02">Read Full Story</a>
                             </div>
                             <div class="image">
                                 <img src="{{ asset('assets/img/image7.jpg') }}" alt="">
                             </div>
                         </div>
-                        <div class="slider-item">
-                            <div class="content">
-                                <img src="{{ asset('assets/img/right 1.png') }}" alt="">
-                                <p>Before SAJIDA Foundation’s health program, I struggled to get medical care for my
-                                    children. My youngest suffered from repeated fevers, and the nearest clinic was miles
-                                    away. Now, with community health workers visiting our village and telemedicine services
-                                    available, I can get medical advice and treatment without delay. My children are
-                                    healthier, and I finally have peace of mind knowing help is always within reach.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="modal case-modal" id="myModal-01">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                            <div class="popup-message d-flex">
+                                <!-- <div class="popup-image">
+                                    <img src="{{ asset('assets/img/governing-body-img1.png') }}" alt="">
+                                </div> -->
+                                <div class="popup-content">
+                                    
+                                    <h4>Madina Nakaja  <span>Location: Wanyama Katamba Cell, Jinja City</span></h4>
+                                    <p>
+                                        Madina Nakaja was preparing a meal when a sharp, excruciating pain struck her eyes, suddenly 
+                                        plunging her into complete darkness. For years, she had experienced worsening vision but 
+                                        dismissed it as a natural part of ageing. With no symptoms to suggest otherwise, and limited 
+                                        means, she continued life unaware that she had been living with untreated hypertension.
+                                        <br> 
+                                        Although she had sought care at a government facility four years earlier, financial hardship and 
+                                        inconsistent access to healthcare had forced her to stop treatment. When she lost her sight that 
+                                        day, fear and confusion consumed her family. Without a clear medical explanation, they believed 
+                                        her sudden blindness was the result of witchcraft. In desperation, they turned to traditional 
+                                        healers, hoping for a miracle. But days turned to months, and Madina remained in darkness.
+                                        <br> 
+                                        Her condition was identified through a household visit by SAJIDA Foundation’s Programme 
+                                        Officer for Health and a Community Health Worker (CHW), as part of the Foundation’s 
+                                        community health programme. During the assessment, the team suspected bilateral cataracts and 
+                                        facilitated her referral to a government health facility, where specialists confirmed mature 
+                                        cataracts in both eyes. However, due to uncontrolled hypertension, immediate surgery was 
+                                        deemed unsafe. 
+                                        <br>
+                                        SAJIDA’s CHW continued regular follow-ups, provided antihypertensive medication, and 
+                                        offered lifestyle counselling to support her stabilisation. After several weeks of consistent care, 
+                                        Madina’s blood pressure improved enough to allow for cataract surgery. She first underwent an 
+                                        operation in one eye, followed by a second procedure two months later—restoring her sight 
+                                        fully. 
+                                        <br>
+                                        Today, Madina can once again see her home, her family, and the community around her. She 
+                                        moves independently and no longer relies on others for basic tasks. Through timely intervention, 
+                                        consistent follow-up, and accessible care, her quality of life has been restored.
+                                    </p>
+                                </div>
                             </div>
-                            <div class="image">
-                                <img src="{{ asset('assets/img/image7.jpg') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="modal case-modal" id="myModal-02">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                            <div class="popup-message d-flex">
+                                <!-- <div class="popup-image">
+                                    <img src="{{ asset('assets/img/governing-body-img1.png') }}" alt="">
+                                </div> -->
+                                <div class="popup-content">
+                                    
+                                    <h2>Namakula Christian</h2>  
+                                    <h3><b>Location:</b> School Cell, Budhumbuli, Bugembe, Jinja</h3>
+                                    <p>
+                                        “I am so grateful for the coming of SAJIDA Foundation. My health is better, and I pray 
+                                        every day for SAJIDA to grow and help thousands and thousands of people like me.” 
+                                    </p>
+                                    
+                                    <p>At 57, Namakula Christian is the sole income earner for her household. Despite living with a 
+                                    physical disability caused by a past accident, she continues to prepare and sell food from her 
+                                    homestead to support her family. Alongside her disability, she manages two chronic conditions, 
+                                    HIV and hypertension, which place significant demands on both her health and her limited 
+                                    income.</p>
+                                     
+                                    <p> While her HIV medication was being delivered by another organisation, she had no support for 
+                                    her hypertensive condition. Her earnings were not sufficient to cover the cost of antihypertensive 
+                                    drugs, and her inability to travel to a health facility left her with no options for consistent 
+                                    treatment. Over time, her blood pressure worsened, and her overall condition deteriorated. </p>
+                                    
+                                    <p> In May 2024, her situation came to the attention of SAJIDA Foundation’s Community Health 
+                                    Worker during enrolment under the community health programme. Given her mobility 
+                                    challenges and absence of family support, the programme prioritised a home-based approach. 
+                                    SAJIDA began providing free antihypertensive medication and conducted regular blood pressure 
+                                    monitoring at her residence. The Community Health Worker and Programme Officer for Health 
+                                    conducted ongoing visits, supported by telemedicine consultations to tailor her treatment plan. </p>
+                                    
+                                    <p>  In addition to clinical care, Namakula received counselling and health education to help manage 
+                                    her condition and restore her confidence. With time, her blood pressure stabilised. Her energy 
+                                    returned. And she was able to resume her small business—regaining both income and 
+                                    independence. </p>
+                                    
+                                   
+
+                                    <p>Her experience underscores the importance of accessible, decentralised health services for 
+                                    individuals with layered health and social vulnerabilities, and the role of community health 
+                                    systems in delivering that care directly to where it’s needed most. </p>
+
+                                </div>
                             </div>
                         </div>
                     </div>

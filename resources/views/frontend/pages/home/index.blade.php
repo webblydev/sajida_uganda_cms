@@ -18,7 +18,7 @@
                         way since its humble beginnings in 1993.</p>
                 </div>
                 <div class="image">
-                    <img src="{{ asset('assets/img/Vector.png') }}" alt="">
+                    <img src="{{ asset('assets/img/arrow.svg') }}" alt="">
                 </div>
             </div>
         </div>
@@ -247,7 +247,7 @@
                                 social innovation since 1993.</p>
                             <a href="https://www.sajida.org/" class="btn"><span>learn</span> more > </a>
                         </div>
-                        <div class="image">
+                        <div class="image bangladesh-country-flag">
                             <img src="{{ asset('assets/img/dm.png') }}" alt="">
                         </div>
                     </div>
@@ -258,7 +258,7 @@
                                 social innovation since 1993.</p>
                             <a href="{{ route('about-us.index') }}" class="btn"><span>learn</span> more > </a>
                         </div>
-                        <div class="image">
+                        <div class="image uganda-country-flag">
                             <img src="https://sajidausa.org/images/01-13-2024_21-39-04-us-map.png" alt="">
                         </div>
                     </div>
@@ -269,7 +269,7 @@
                                 social innovation since 1993.</p>
                             <a href="https://www.sajidausa.org/" class="btn"><span>learn</span> more > </a>
                         </div>
-                        <div class="image">
+                        <div class="image usa-country-flag">
                             <img src="https://sajidausa.org/images/07-29-2025_14-08-53-Uganda Country.png" alt="">
                         </div>
                     </div>
