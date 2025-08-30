@@ -15,4 +15,4 @@
 
     <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/responsive01.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
