@@ -35,7 +35,7 @@
             <div class="header-section-mobile d-xl-none">
                 <div class="off-canves-menu">
                     <div class="logo">
-                        <a href="http://127.0.0.1:5500/index.html"><img src="{{ asset('assets/img/blue-logo.png') }}"
+                        <a href="{{ route('foundation.index') }}"><img src="{{ asset('assets/img/blue-logo.png') }}"
                                 alt=""></a>
                     </div>
                     <hr>
@@ -55,7 +55,7 @@
 
                 <div class="mobile-header">
                     <div class="header-left">
-                        <a href=""><img src="{{ asset('assets/img/logo.png') }}" alt=""></a>
+                        <a href="{{ route('foundation.index') }}"><img src="{{ asset('assets/img/logo.svg') }}" alt=""></a>
                     </div>
                     <div class="header-rihgt">
                         <div class="bars">
