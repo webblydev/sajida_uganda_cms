@@ -9,7 +9,7 @@
                                 alt=""></a>
                     </div>
                 </div>
-                <div class="header-right">
+                <div class="header-rihgt">
                     <div class="menu">
                         <ul>
                             <li><a href="{{ route('foundation.index') }}">Home</a></li>
@@ -57,7 +57,7 @@
                     <div class="header-left">
                         <a href=""><img src="{{ asset('assets/img/logo.png') }}" alt=""></a>
                     </div>
-                    <div class="header-right">
+                    <div class="header-rihgt">
                         <div class="bars">
                             <span></span>
                             <span></span>

@@ -128,16 +128,16 @@ padding: 20px 0;
 width: 140px;
 }
 
-.header-section-pc .header-right .menu li {
+.header-section-pc .header-rihgt .menu li {
 display: inline-block;
 padding: 0 25px;
 }
-.header-section-pc .header-right .menu li a:hover {
+.header-section-pc .header-rihgt .menu li a:hover {
 color: #F7CE19;
 }
 
 
-.header-section-pc .header-right .menu li a {
+.header-section-pc .header-rihgt .menu li a {
 display: inline-block;
 color: var(--primary-color);
 font-weight: var(--font-weight-600);
@@ -149,7 +149,7 @@ transition: .3s;
 }
 
 
-.header-section-pc .header-right .menu .menu-btn {
+.header-section-pc .header-rihgt .menu .menu-btn {
   color: rgb(255, 255, 255);
   padding: 6px 20px;
   border-radius: 5px;
@@ -158,30 +158,30 @@ transition: .3s;
   transition: all .3s ease;
 
 }
-.header-section-pc .header-right .menu .menu-btn:first-child:hover {
+.header-section-pc .header-rihgt .menu .menu-btn:first-child:hover {
   background: #F7CE19;
   color: #000000;
   
 }
-.header-section-pc .header-right .menu .menu-btn:last-child {
+.header-section-pc .header-rihgt .menu .menu-btn:last-child {
 background: white;
 margin-left: 15px;
 border-color: white;
 }
-.header-section-pc .header-right .menu .menu-btn:last-child:hover {
+.header-section-pc .header-rihgt .menu .menu-btn:last-child:hover {
 color: black;
 }
 
-.header-section-pc .header-right .menu .menu-btn:last-child img {
+.header-section-pc .header-rihgt .menu .menu-btn:last-child img {
 
 width: 25px;
 
 }
-.header-section-pc .header-right .menu .menu-btn:last-child i {
+.header-section-pc .header-rihgt .menu .menu-btn:last-child i {
 padding-left: 10px;
 }
 
-.header-section-pc .header-right .menu li a.menu-btn span {
+.header-section-pc .header-rihgt .menu li a.menu-btn span {
 position: absolute;
 top: 35px;
 left: 0;
@@ -199,12 +199,12 @@ transition: all .5s ease;
 opacity: 0;
 
 }
-.header-section-pc .header-right .menu li a.menu-btn span img {
+.header-section-pc .header-rihgt .menu li a.menu-btn span img {
 padding-right: 10px;
 width: 40px !important;
 }
 
-.header-section-pc .header-right .menu li a.menu-btn:nth-child(2):hover span {
+.header-section-pc .header-rihgt .menu li a.menu-btn:nth-child(2):hover span {
 visibility: visible;  
 opacity: 1;
 top: 50px;
@@ -365,7 +365,7 @@ opacity: 1;
 top: 40px;
 }
 
-.header-section-pc .header-right .menu .menu-btn:last-child {
+.header-section-pc .header-rihgt .menu .menu-btn:last-child {
   display: none;
 }
 
