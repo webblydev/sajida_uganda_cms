@@ -80,37 +80,82 @@
                 <div class="slider owl-carousel">
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-01">
                         <div class="image">
-                            <img src="{{ asset('assets/img/governing-body-img1.png') }}" alt="">
+                            <img src="{{ asset('assets/img/01. Zahida Fizza Kabir.jpg') }}" alt="">
                         </div>
                         <div class="content">
-                            <h4>Zahida Fizza Kabir<span>Chief Executive Officer</span></h4>
+                            <h4>Zahida Fizza Kabir<span>Director</span></h4>
                         </div>
                     </div>
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-02">
                         <div class="image">
-                            <img src="{{ asset('assets/img/governing-body-img2.png') }}" alt="">
+                            <img src="{{ asset('assets/img/02. Shib Narayan Kairy.jpg') }}" alt="">
                         </div>
                         <div class="content">
-                            <h4>Muhymin Chowdhury <span>Director - Impact Investment and Partnerships</span></h4>
+                            <h4>Shib Narayan Kairy <span>Director</span></h4>
                         </div>
                     </div>
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-03">
                         <div class="image">
-                            <img src="{{ asset('assets/img/governing-body-img3.png') }}" alt="">
-                        </div>
-                        <div class="content">
-                            <h4>Person Name <span>Designation</span></h4>
-                        </div>
-                    </div>
-                    <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-04">
-                        <div class="image">
                             <img src="{{ asset('assets/img/governing-body-img4.png') }}" alt="">
                         </div>
                         <div class="content">
-                            <h4>Ishtiaq Mohiuddin <span>Deputy Chief Executive Officer - Microfinance</span></h4>
+                            <h4>Ishtiaq Mohiuddin <span>Deputy CEO</span></h4>
                         </div>
                     </div>
+                   
+                    <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-04">
+                        <div class="image">
+                            <img src="{{ asset('assets/img/04. Md Sayful Islam.jpg') }}" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Md Sayful Islam <span>Country Representive</span></h4>
+                        </div>
+                    </div>
+
+                    <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-05">
+                        <div class="image">
+                            <img src="{{ asset('assets/img/governing-body-img2.png') }}" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Muhymin Chowdhury <span>Director</span></h4>
+                        </div>
+                    </div>
+                    <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-06">
+                        <div class="image">
+                            <img src="{{ asset('assets/img/06. Hridoy Islam.jpg') }}" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Hridoy Islam<span>Senior Meanager</span></h4>
+                        </div>
+                    </div>
+                    <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-07">
+                        <div class="image">
+                            <img src="{{ asset('assets/img/07. Samanta Sarni Tira.jpg') }}" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Samanta Sarni Tira <span>General Manager</span></h4>
+                        </div>
+                    </div>
+                    <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-08">
+                        <div class="image">
+                            <img src="{{ asset('assets/img/08. Shamira Mostafa.jpg') }}" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Shamira Mostafa<span>Associate Director</span></h4>
+                        </div>
+                    </div>
+                    <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-09">
+                        <div class="image">
+                            <img src="{{ asset('assets/img/09. Showman Roy.jpg') }}" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Showman Roy <span>Associate Director</span></h4>
+                        </div>
+                    </div>
+                     
                 </div>
+
+                
 
                 <!-- The Modal -->
                 <div class="modal" id="myModal-01">
@@ -138,8 +183,34 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="modal" id="myModal-02">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                            <div class="popup-message d-flex">
+                                <div class="popup-image">
+                                    <img src="{{ asset('assets/img/02. Shib Narayan Kairy.jpg') }}" alt="">
+                                </div>
+                                <div class="popup-content">
+                                    
+                                    <h4>Shib Narayan Kairy <span>Director,Sajida Microfinance Limited</span></h4>
+                                    <p>Mr. Shib Narayan Kairy is the Treasurer of BRAC University and formerly served as the Chief Financial Officer of BRAC and BRAC International. With over 34 years of experience in development finance, he has played a critical role in strengthening financial systems in both local and global contexts.
+
+Mr. Kairy has contributed to key governance roles, serving as a Director on the boards of BRAC Bank Limited, bKash Limited, BRAC EPL Investments Limited, BRAC EPL Stock Brokerage Limited, and BRAC Tea Companies. He is also Chairman of Dhaka Handicrafts Limited and serves as a member of the Board of Trustees of RDRS and the Governing Body of the Credit and Development Forum (CDF).
+
+Mr. Kairy holds an M.Com in Accounting from the University of Dhaka. Starting his career with BRAC in 1982, he has been instrumental in promoting inclusive financial services and social entrepreneurship in Bangladesh.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+
+                <div class="modal" id="myModal-05">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -163,7 +234,8 @@
                     </div>
                 </div>
 
-                <div class="modal" id="myModal-03">
+
+                <div class="modal" id="myModal-06">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -171,19 +243,25 @@
                                 </div>
                             <div class="popup-message d-flex">
                                 <div class="popup-image">
-                                    <img src="{{ asset('assets/img/governing-body-img3.png') }}" alt="">
+                                    <img src="{{ asset('assets/img/06. Hridoy Islam.jpg') }}" alt="">
                                 </div>
                                 <div class="popup-content">
                                     
-                                    <h4>Person <span>Designation</span></h4>
-                                    <p>Details</p>
+                                    <h4>Hridoy Islam <span>Senior Manager – Partnership & Fund Raising Unit</span></h4>
+                                    <p>Muhymin Chowdhury currently serves as the Director of Impact Investment & Partnerships at SAJIDA Foundation. In this role, he leads the management of an impact fund aimed at fostering the growth of startups and build strategic partnerships with institutional stakeholders to expand SAJIDA’s development programmes.
+
+                                    Previously, Muhymin held the position of Deputy Challenge Fund Manager at Nathan Associates, where he successfully structured 36 results-based financing agreements worth GBP 27 million with key financial market actors. Earlier at Shorebank International, Muhymin managed a USD 10 million performance-based investment in bKash, a leading mobile money service provider.
+
+                                    Muhymin's professional experience extends across Nepal, Pakistan, and Kenya, where he collaborated with commercial banks, international non-governmental organisations (INGOs), and bilateral donors on financial product development, mobile money agent network expansion, and customer segmentation strategies.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="modal" id="myModal-04">
+               
+
+                <div class="modal" id="myModal-03">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -199,6 +277,75 @@
                                     <p>Mr. Ishtiaq Mohiuddin is the Deputy Chief Executive Officer of Development Programmes and Risk Management Unit of SAJIDA Foundation. He has extensive experience in Bangladesh and abroad with financial institutions and non-government organisations. Before joining SAJIDA, Mr. Mohiuddin worked as the Deputy Managing Director of BRAC Bank. He has also worked as Director, Microfinance Programme of BRAC & BRAC International. His international experience includes working for FINCA, USA as Country Manager in Malawi and Operations Manager in South Africa. He has also managed portfolios in Saint Lucia and Grenada for Caribbean Microfinance Ltd.  
 
                                     Mr. Mohiuddin holds an MBA and a Bachelor's degree in Accounting from Southeastern Louisiana University, Hammond, Louisiana, USA. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="myModal-07">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                            <div class="popup-message d-flex">
+                                <div class="popup-image">
+                                    <img src="{{ asset('assets/img/07. Samanta Sarni Tira.jpg') }}" alt="">
+                                </div>
+                                <div class="popup-content">
+                                    
+                                    <h4>Samanta Sarni Tira <span>General Manager – Partnership & Fund Raising Unit</span></h4>
+                                    <p>Samanta Sarni Tira has over ten years of experience across Bangladesh’s private and development sectors. She currently leads international operations and partnerships at SAJIDA Foundation, where she drives global growth and strategic collaborations. Tira began her career in digital marketing, managing campaigns for leading Bangladeshi brands, before joining Grameenphone to help launch the country’s first telco B-brand. She later moved into UX design and digital product development, eventually taking on a strategic role at ShopUp, where she focused on B2B innovation. Passionate about storytelling and social impact, she bridges business strategy with nonprofit vision to develop scalable, human-centered solutions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="myModal-08">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                            <div class="popup-message d-flex">
+                                <div class="popup-image">
+                                    <img src="{{ asset('assets/img/08. Shamira Mostafa.jpg') }}" alt="">
+                                </div>
+                                <div class="popup-content">
+                                    
+                                    <h4>Shamira Mostafa <span>Associate Director - Risk Management and Research & Evaluation</span></h4>
+                                    <p>Ms Shamira Mostafa is the Head of Business Operations of Research, Monitoring & Evaluation. Ms Mostofa is an accomplished development practitioner with over 13 years of experience in project implementation, strategic communication, and monitoring and evaluation across diverse industries.
+
+                                    Previously, Ms. Mostafa managed USD 13 million worth of portfolio under a financial inclusion project commenced by FCDO.  Prior to that, she managed pro-poor market lead interventions worth $1 million at Katalyst-Swisscontact. Her passion for uplifting underprivileged communities has been evident throughout her career. She actively contributed to the advancement of math and reading skills for young learners in diverse communities of the greater Boston area while collaborating with the Centre for Community-Based Learning during her Master's program. 
+
+                                    Ms. Mostafa, served as a marketing associate in Boston, where she promoted food safety measures for a bio-technology company. Prior to that, she excelled as a corporate trainer for the marketing agency of Verizon Telecommunication, facilitating access to affordable telecommunication and IT facilities for micro and small enterprises. Her academic accomplishments include a Master of Communication degree from Lasell University, Auburndale, Massachusetts, and a Bachelor of Business degree from North South University, Dhaka.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal" id="myModal-09">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                            <div class="popup-message d-flex">
+                                <div class="popup-image">
+                                    <img src="{{ asset('assets/img/09. Showman Roy.jpg') }}" alt="">
+                                </div>
+                                <div class="popup-content">
+                                    
+                                    <h4>Showman Roy <span>Associate Director - MIS & IT</span></h4>
+                                    <p>Mr. Showman Roy currently serves as Associate Director of MIS, IT & IT Infrastructure at SAJIDA Foundation. In his current role, he leads IT policy engagements, stimulates technology adaptation and supports SAJIDA’s expansion. 
+
+Prior to SAJIDA Foundation, Mr. Roy worked for Rahimafrooz Bangladesh as Senior Manager & Solution Architect for its technical solutions. He began his career at Southtech Group in early 2000 and served there for 16 years in different leadership roles, with his last appointment being Senior Vice President for its banking and microfinance solutions. Over the past 20+ years, he has been responsible for ensuring technical solutions to 19 microfinance institutions and banks, serving more than 3,500 branches, including BRAC, SAJIDA Foundation, Rangpur Dinajpur Rural Service, People’s Oriented Program Implementation, Integrated Development Foundation, Partnership for Cleaner Textile, and Bhutan Development Bank. 
+
+Mr. Roy completed his MBA in Accounting & Finance, and Postgraduate Diploma in Computer Science and Information Technology, NCC, UK, under the BRAC Information Technology Institute. He also participated in a Certificate Course on Mastering the Skills of Business Strategy & Structured Innovation, under the Management Development Programme at the Institute of Business Administration (IBA), University of Dhaka. </p>
                                 </div>
                             </div>
                         </div>
