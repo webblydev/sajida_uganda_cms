@@ -6,6 +6,9 @@
     </head>
 
     <body id="app">
+        <div class="loader">
+            <span class="loaderInner"></span>
+        </div>
         @include('frontend.include.header')
 
         <div>

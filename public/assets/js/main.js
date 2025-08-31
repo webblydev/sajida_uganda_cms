@@ -1,4 +1,9 @@
 $(document).ready(function(){
+
+    $(window).on("load", function () {
+      $(".loader").fadeOut("slow");
+    });
+
     $(" .wrapper-2 .slider").owlCarousel({
         items:1,
         loop:true,
@@ -119,6 +124,12 @@ $(document).ready(function(){
         $(".overlay").toggleClass("active");
 
       });
+
+    /*========================================
+        Preloader
+    ========================================*/
+
+      
 
 
     gsap.to('.hero-section .bg img',{
