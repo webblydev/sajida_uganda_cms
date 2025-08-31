@@ -11,7 +11,8 @@
                 <div class="hero-content">
 
                     <div class="heading">
-                        <h1>{{ $newsBanner->title }}</h1>
+                        <!-- <h1>{{ $newsBanner->title }}</h1> -->
+                        <h1>News</h1>
                     </div>
                 </div>
             </div>
@@ -21,7 +22,7 @@
     <section class="wrapper-21 section">
         <div class="section-padding">
             <div class="container">
-                <h1>Featured Story</h1>
+                <h1>Featured News</h1>
                 @foreach ($featureNewsItems as $featureNews)
                     <div class="featured-story d-xl-flex justify-content-between align-items-center">
                         <div class="featured-story-left mr-xl-4">

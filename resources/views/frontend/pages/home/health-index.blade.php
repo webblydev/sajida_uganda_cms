@@ -175,11 +175,10 @@
                         <div class="slider-item">
                             <div class="content">
                                 <img src="{{ asset('assets/img/right 1.png') }}" alt="">
-                                <p>Before SAJIDA Foundation’s health program, I struggled to get medical care for my
-                                    children. My youngest suffered from repeated fevers, and the nearest clinic was miles
-                                    away. Now, with community health workers visiting our village and telemedicine services
-                                    available, I can get medical advice and treatment without delay. My children are
-                                    healthier, and I finally have peace of mind knowing help is always within reach.</p>
+                                <p>Madina Nakaja was preparing a meal when a sharp, excruciating pain struck her eyes, suddenly 
+                                    plunging her into complete darkness. For years, she had experienced worsening vision but 
+                                    dismissed it as a natural part of ageing. With no symptoms to suggest otherwise, and limited 
+                                    means, she continued life unaware that she had been living with untreated hypertension.</p>
                                     <a href="#" class="btn case-btn" data-bs-toggle="modal" data-bs-target="#myModal-01">Read Full Story</a>
                             </div>
                             <div class="image">
@@ -189,15 +188,16 @@
                         <div class="slider-item">
                             <div class="content">
                                 <img src="{{ asset('assets/img/right 1.png') }}" alt="">
-                                <p>Before SAJIDA Foundation’s health program, I struggled to get medical care for my
-                                    children. My youngest suffered from repeated fevers, and the nearest clinic was miles
-                                    away. Now, with community health workers visiting our village and telemedicine services
-                                    available, I can get medical advice and treatment without delay. My children are
-                                    healthier, and I finally have peace of mind knowing help is always within reach.</p>
+                                <p>“I am so grateful for the coming of SAJIDA Foundation. My health is better, and I pray 
+                                        every day for SAJIDA to grow and help thousands and thousands of people like me.” At 57, Namakula Christian is the sole income earner for her household. Despite living with a 
+                                    physical disability caused by a past accident, she continues to prepare and sell food from her 
+                                    homestead to support her family. Alongside her disability, she manages two chronic conditions, 
+                                    HIV and hypertension, which place significant demands on both her health and her limited 
+                                    income.</p>
                                     <a href="#" class="btn case-btn" data-bs-toggle="modal" data-bs-target="#myModal-02">Read Full Story</a>
                             </div>
                             <div class="image">
-                                <img src="{{ asset('assets/img/image7.jpg') }}" alt="">
+                                <img src="{{ asset('assets/img/image11.jpg') }}" alt="">
                             </div>
                         </div>
                     </div>
