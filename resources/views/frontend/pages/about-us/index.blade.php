@@ -39,19 +39,31 @@
                         <a href="https://www.sajida.org/we-are-sajida/sajida-story/" class="btn">our history</a>
                     </div>
                 </div>
-                <div class="gallery">
-                    <div class="gallery-item">
-                        <img src="{{ asset('assets/img/gallery-img1.jpg') }}" alt="">
+                <div class="gallery row">
+                    <div class="col-6">
+                        <div class="gallery-item ">
+                            <img src="{{ asset('assets/img/gallery-img1.jpg') }}" alt="">
+                        </div>
                     </div>
-                    <div class="gallery-item">
-                        <img src="{{ asset('assets/img/gallery-img2.jpeg') }}" alt="">
+                    <div class="col-6">
+                        <div class="gallery-item ">
+                            <img src="{{ asset('assets/img/gallery-img2.jpeg') }}" alt="">
+                        </div>
                     </div>
-                    <div class="gallery-item">
-                        <img src="{{ asset('assets/img/gallery-img3.jpg') }}" alt="">
+                    <div class="col-6">
+                        <div class="gallery-item ">
+                            <img src="{{ asset('assets/img/gallery-img3.jpg') }}" alt="">
+                        </div>
                     </div>
-                    <div class="gallery-item">
-                        <img src="{{ asset('assets/img/gallery-img4.jpg') }}" alt="">
+                    <div class="col-6">
+                        <div class="gallery-item ">
+                            <img src="{{ asset('assets/img/gallery-img4.jpg') }}" alt="">
+                        </div>
                     </div>
+                    
+                    
+                    
+                    
                 </div>
             </div>
         </div>

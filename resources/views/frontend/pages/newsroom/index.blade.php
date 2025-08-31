@@ -53,8 +53,8 @@
                         <div class="project-item">
                             <ul>
                                 <li data-filter="*">All</li>
-                                <li data-filter=".health">Category 1</li>
-                                <li data-filter=".microfinance">Category 2</li>
+                                <li data-filter=".health">Health</li>
+                                <li data-filter=".microfinance">Microfinance</li>
                                 {{-- <li>
                                     <select name="" id="">
                                         <option value="">SORT BY</option>
@@ -69,7 +69,7 @@
                     <div class="project-list">
                         @foreach ($recentNewsItems as $recentNews)
                         @php
-                            $className = $recentNews->category->title == 'Category 1' ? 'health' : ($recentNews->category->title == 'Category 2' ? 'microfinance' : 'other');
+                            $className = $recentNews->category->title == 'Health' ? 'health' : ($recentNews->category->title == 'Microfinance' ? 'microfinance' : 'other');
                         @endphp
                             <div class="m-2 {{ $className }}">
                                 <a href="{{ route('news-room.show', $recentNews->id) }}">

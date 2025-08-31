@@ -217,36 +217,37 @@
                                 </div> -->
                                 <div class="popup-content">
                                     
-                                    <h4>Madina Nakaja  <span>Location: Wanyama Katamba Cell, Jinja City</span></h4>
-                                    <p>
-                                        Madina Nakaja was preparing a meal when a sharp, excruciating pain struck her eyes, suddenly 
-                                        plunging her into complete darkness. For years, she had experienced worsening vision but 
-                                        dismissed it as a natural part of ageing. With no symptoms to suggest otherwise, and limited 
-                                        means, she continued life unaware that she had been living with untreated hypertension.
-                                        <br> 
-                                        Although she had sought care at a government facility four years earlier, financial hardship and 
-                                        inconsistent access to healthcare had forced her to stop treatment. When she lost her sight that 
-                                        day, fear and confusion consumed her family. Without a clear medical explanation, they believed 
-                                        her sudden blindness was the result of witchcraft. In desperation, they turned to traditional 
-                                        healers, hoping for a miracle. But days turned to months, and Madina remained in darkness.
-                                        <br> 
-                                        Her condition was identified through a household visit by SAJIDA Foundation’s Programme 
-                                        Officer for Health and a Community Health Worker (CHW), as part of the Foundation’s 
-                                        community health programme. During the assessment, the team suspected bilateral cataracts and 
-                                        facilitated her referral to a government health facility, where specialists confirmed mature 
-                                        cataracts in both eyes. However, due to uncontrolled hypertension, immediate surgery was 
-                                        deemed unsafe. 
-                                        <br>
-                                        SAJIDA’s CHW continued regular follow-ups, provided antihypertensive medication, and 
-                                        offered lifestyle counselling to support her stabilisation. After several weeks of consistent care, 
-                                        Madina’s blood pressure improved enough to allow for cataract surgery. She first underwent an 
-                                        operation in one eye, followed by a second procedure two months later—restoring her sight 
-                                        fully. 
-                                        <br>
-                                        Today, Madina can once again see her home, her family, and the community around her. She 
-                                        moves independently and no longer relies on others for basic tasks. Through timely intervention, 
-                                        consistent follow-up, and accessible care, her quality of life has been restored.
-                                    </p>
+                                    <h2>Madina Nakaja</h2>  
+                                    <h3><b> Location:</b> Wanyama Katamba Cell, Jinja City</h3>
+                                    
+                                    <p>Madina Nakaja was preparing a meal when a sharp, excruciating pain struck her eyes, suddenly 
+                                    plunging her into complete darkness. For years, she had experienced worsening vision but 
+                                    dismissed it as a natural part of ageing. With no symptoms to suggest otherwise, and limited 
+                                    means, she continued life unaware that she had been living with untreated hypertension.</p>
+                                
+                                    
+                                    <p> Although she had sought care at a government facility four years earlier, financial hardship and 
+                                    inconsistent access to healthcare had forced her to stop treatment. When she lost her sight that 
+                                    day, fear and confusion consumed her family. Without a clear medical explanation, they believed 
+                                    her sudden blindness was the result of witchcraft. In desperation, they turned to traditional 
+                                    healers, hoping for a miracle. But days turned to months, and Madina remained in darkness.</p> 
+                                    Her condition was identified through a household visit by SAJIDA Foundation’s Programme 
+                                    Officer for Health and a Community Health Worker (CHW), as part of the Foundation’s 
+                                    community health programme. During the assessment, the team suspected bilateral cataracts and 
+                                    facilitated her referral to a government health facility, where specialists confirmed mature 
+                                    cataracts in both eyes. However, due to uncontrolled hypertension, immediate surgery was 
+                                    deemed unsafe. </p>
+                                    
+                                    <p>SAJIDA’s CHW continued regular follow-ups, provided antihypertensive medication, and 
+                                    offered lifestyle counselling to support her stabilisation. After several weeks of consistent care, 
+                                    Madina’s blood pressure improved enough to allow for cataract surgery. She first underwent an 
+                                    operation in one eye, followed by a second procedure two months later—restoring her sight 
+                                    fully. </p>
+                            
+                                    <p>Today, Madina can once again see her home, her family, and the community around her. She 
+                                    moves independently and no longer relies on others for basic tasks. Through timely intervention, 
+                                    consistent follow-up, and accessible care, her quality of life has been restored.</p>
+                                
                                 </div>
                             </div>
                         </div>

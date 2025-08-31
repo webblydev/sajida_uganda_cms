@@ -315,6 +315,7 @@ text-decoration: none;
 font-size: var(--font-size-18);
 font-weight: var(--font-weight-400);
 transition: .2s;
+display: block;
 
 }
 .off-canves-menu .menu li a:hover {
@@ -1011,8 +1012,8 @@ z-index: 1;
   height: 100%;
   top: 0;
   left: 0;
-  background-image: linear-gradient(0deg, #f7ce19cd, #00000000 60%);
-
+  background-image: linear-gradient(0deg, #005AAA, #000101B2 70%);
+  opacity: .8;
 }
 
 .wrapper-5 .image img {
@@ -1103,7 +1104,7 @@ z-index: 1;
 .wrapper-6 .single-slider-item .content h2 {
   color: var(--blue-color);
   font-size: var(--font-size-20);
-  font-weight: var(--font-weight-700);
+  font-weight: var(--font-weight-500);
   font-family: spring;
   color: #314454;
   line-height: 26px;
@@ -1282,7 +1283,8 @@ background: #314453;
 
   .wrapper-8 {
     padding: 80px 0;
-    padding-bottom: 0px;
+    padding-bottom: 40px;
+
   }
 
 
@@ -1313,24 +1315,21 @@ background: #314453;
 }
 
 .wrapper-8 .gallery {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 40px 0;
-  gap: 30px;
+  margin-top: 30px;
 
+}
+.wrapper-8 .gallery .col-6 {
+  padding: 1rem;
 }
 
 .wrapper-8 .gallery .gallery-item {
-  width: 660px;
   border-radius: 20px;
   overflow: hidden;
 }
 
 .wrapper-8 .gallery .gallery-item img {
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: .8s ease;
 
 }
