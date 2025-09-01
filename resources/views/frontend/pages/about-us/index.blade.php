@@ -80,7 +80,7 @@
                 <div class="slider owl-carousel">
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-01">
                         <div class="image">
-                            <img src="{{ asset('assets/img/01. Zahida Fizza Kabir.jpg') }}" alt="">
+                            <img src="{{ asset('assets/img/zahida_fizza_kabir.png') }}" alt="">
                         </div>
                         <div class="content">
                             <h4>Zahida Fizza Kabir<span>Director</span></h4>
@@ -88,7 +88,7 @@
                     </div>
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-02">
                         <div class="image">
-                            <img src="{{ asset('assets/img/02. Shib Narayan Kairy.jpg') }}" alt="">
+                            <img src="{{ asset('assets/img/shib_narayan_kairy.png') }}" alt="">
                         </div>
                         <div class="content">
                             <h4>Shib Narayan Kairy <span>Director</span></h4>
@@ -122,7 +122,7 @@
                     </div>
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-06">
                         <div class="image">
-                            <img src="{{ asset('assets/img/06. Hridoy Islam.jpg') }}" alt="">
+                            <img src="{{ asset('assets/img/hridoy_islam.png') }}" alt="">
                         </div>
                         <div class="content">
                             <h4>Hridoy Islam<span>Senior Meanager</span></h4>
@@ -130,7 +130,7 @@
                     </div>
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-07">
                         <div class="image">
-                            <img src="{{ asset('assets/img/07. Samanta Sarni Tira.jpg') }}" alt="">
+                            <img src="{{ asset('assets/img/samanta_sarni_tira.png') }}" alt="">
                         </div>
                         <div class="content">
                             <h4>Samanta Sarni Tira <span>General Manager</span></h4>
@@ -138,7 +138,7 @@
                     </div>
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-08">
                         <div class="image">
-                            <img src="{{ asset('assets/img/08. Shamira Mostafa.jpg') }}" alt="">
+                            <img src="{{ asset('assets/img/shamira_mostafa.png') }}" alt="">
                         </div>
                         <div class="content">
                             <h4>Shamira Mostafa<span>Associate Director</span></h4>
@@ -146,7 +146,7 @@
                     </div>
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-09">
                         <div class="image">
-                            <img src="{{ asset('assets/img/09. Showman Roy.jpg') }}" alt="">
+                            <img src="{{ asset('assets/img/showman_roy.png') }}" alt="">
                         </div>
                         <div class="content">
                             <h4>Showman Roy <span>Associate Director</span></h4>
@@ -198,9 +198,9 @@
                                     <h4>Shib Narayan Kairy <span>Director,Sajida Microfinance Limited</span></h4>
                                     <p>Mr. Shib Narayan Kairy is the Treasurer of BRAC University and formerly served as the Chief Financial Officer of BRAC and BRAC International. With over 34 years of experience in development finance, he has played a critical role in strengthening financial systems in both local and global contexts.
 
-Mr. Kairy has contributed to key governance roles, serving as a Director on the boards of BRAC Bank Limited, bKash Limited, BRAC EPL Investments Limited, BRAC EPL Stock Brokerage Limited, and BRAC Tea Companies. He is also Chairman of Dhaka Handicrafts Limited and serves as a member of the Board of Trustees of RDRS and the Governing Body of the Credit and Development Forum (CDF).
+                                    Mr. Kairy has contributed to key governance roles, serving as a Director on the boards of BRAC Bank Limited, bKash Limited, BRAC EPL Investments Limited, BRAC EPL Stock Brokerage Limited, and BRAC Tea Companies. He is also Chairman of Dhaka Handicrafts Limited and serves as a member of the Board of Trustees of RDRS and the Governing Body of the Credit and Development Forum (CDF).
 
-Mr. Kairy holds an M.Com in Accounting from the University of Dhaka. Starting his career with BRAC in 1982, he has been instrumental in promoting inclusive financial services and social entrepreneurship in Bangladesh.</p>
+                                    Mr. Kairy holds an M.Com in Accounting from the University of Dhaka. Starting his career with BRAC in 1982, he has been instrumental in promoting inclusive financial services and social entrepreneurship in Bangladesh.</p>
                                 </div>
                             </div>
                         </div>
@@ -343,9 +343,9 @@ Mr. Kairy holds an M.Com in Accounting from the University of Dhaka. Starting hi
                                     <h4>Showman Roy <span>Associate Director - MIS & IT</span></h4>
                                     <p>Mr. Showman Roy currently serves as Associate Director of MIS, IT & IT Infrastructure at SAJIDA Foundation. In his current role, he leads IT policy engagements, stimulates technology adaptation and supports SAJIDA’s expansion. 
 
-Prior to SAJIDA Foundation, Mr. Roy worked for Rahimafrooz Bangladesh as Senior Manager & Solution Architect for its technical solutions. He began his career at Southtech Group in early 2000 and served there for 16 years in different leadership roles, with his last appointment being Senior Vice President for its banking and microfinance solutions. Over the past 20+ years, he has been responsible for ensuring technical solutions to 19 microfinance institutions and banks, serving more than 3,500 branches, including BRAC, SAJIDA Foundation, Rangpur Dinajpur Rural Service, People’s Oriented Program Implementation, Integrated Development Foundation, Partnership for Cleaner Textile, and Bhutan Development Bank. 
+                                    Prior to SAJIDA Foundation, Mr. Roy worked for Rahimafrooz Bangladesh as Senior Manager & Solution Architect for its technical solutions. He began his career at Southtech Group in early 2000 and served there for 16 years in different leadership roles, with his last appointment being Senior Vice President for its banking and microfinance solutions. Over the past 20+ years, he has been responsible for ensuring technical solutions to 19 microfinance institutions and banks, serving more than 3,500 branches, including BRAC, SAJIDA Foundation, Rangpur Dinajpur Rural Service, People’s Oriented Program Implementation, Integrated Development Foundation, Partnership for Cleaner Textile, and Bhutan Development Bank. 
 
-Mr. Roy completed his MBA in Accounting & Finance, and Postgraduate Diploma in Computer Science and Information Technology, NCC, UK, under the BRAC Information Technology Institute. He also participated in a Certificate Course on Mastering the Skills of Business Strategy & Structured Innovation, under the Management Development Programme at the Institute of Business Administration (IBA), University of Dhaka. </p>
+                                    Mr. Roy completed his MBA in Accounting & Finance, and Postgraduate Diploma in Computer Science and Information Technology, NCC, UK, under the BRAC Information Technology Institute. He also participated in a Certificate Course on Mastering the Skills of Business Strategy & Structured Innovation, under the Management Development Programme at the Institute of Business Administration (IBA), University of Dhaka. </p>
                                 </div>
                             </div>
                         </div>
