@@ -35,7 +35,7 @@
                         good with an overarching vision of ensuring health, happiness, and dignity for all.</p>
                     <div class="btns">
                         {{-- got to governing body section --}}
-                        <a href="#wrapper-9" class="btn">Governing Body</a>
+                        <a href="#wrapper-9" class="btn">Meet The Team</a>
                         <a href="https://www.sajida.org/we-are-sajida/sajida-story/" class="btn">our history</a>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
         <div class="section-padding">
             <div class="container">
                 <div class="headline">
-                    <h1>Governing Body</h1>
+                    <h1>Meet The Team</h1>
                     <p>We drive large-scale transformation by empowering women and their families to overcome poverty, build
                         resilience, and foster resourcefulness.</p>
                 </div>
