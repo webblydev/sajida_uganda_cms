@@ -73,6 +73,10 @@ $(document).ready(function(){
         margin:25,
         nav:true,
         dots:false,
+        autoplay: true,
+        autoplayTimeout: 4000, // Time between slides (in ms)
+        autoplaySpeed: 4000, // Speed of the slide transition (in ms)
+        slideTransition: 'linear',
         responsive : {
   
             0 : {
