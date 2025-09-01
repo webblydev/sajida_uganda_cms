@@ -125,7 +125,7 @@
                             <img src="{{ asset('assets/img/06. Hridoy Islam.jpg') }}" alt="">
                         </div>
                         <div class="content">
-                            <h4>Hridoy Islam<span>Senior Meanager</span></h4>
+                            <h4>Hridoy Islam<span>Senior Manager</span></h4>
                         </div>
                     </div>
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-07">
