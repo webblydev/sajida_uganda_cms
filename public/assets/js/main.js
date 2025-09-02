@@ -20,7 +20,8 @@ $(document).ready(function(){
         nav:false,
         dots:true,
         autoplay:true,
-        animateOut: 'fadeOut'
+        animateOut: 'fadeOut',
+        autoplayTimeout: 6000,
         
     });
 
@@ -67,42 +68,42 @@ $(document).ready(function(){
         }
     });
 
-        $(" .wrapper-9 .slider").owlCarousel({
-        items:3,
-        loop:true,
-        margin:25,
-        nav:true,
-        dots:false,
-        autoplay: true,
-        autoplayTimeout: 4000, // Time between slides (in ms)
-        autoplaySpeed: 4000, // Speed of the slide transition (in ms)
-        slideTransition: 'linear',
-        responsive : {
+    //     $(" .wrapper-9 .slider").owlCarousel({
+    //     items:3,
+    //     loop:true,
+    //     margin:25,
+    //     nav:false,
+    //     dots:false,
+    //     autoplay: true,
+    //     autoplayTimeout: 4000, // Time between slides (in ms)
+    //     autoplaySpeed: 4000, // Speed of the slide transition (in ms)
+    //     slideTransition: 'linear',
+    //     responsive : {
   
-            0 : {
-                items:1,
-                center: true,
-                dots:true,
-                nav:false,
-            },
-            768 : {
-                items:2,
-                dots:true, 
-            },
+    //         0 : {
+    //             items:1,
+    //             center: true,
+    //             dots:true,
+    //             nav:false,
+    //         },
+    //         768 : {
+    //             items:2,
+    //             dots:true, 
+    //         },
             
-            900 : {
-                items:2,
-            },
+    //         900 : {
+    //             items:2,
+    //         },
            
-            1200 : {
-                items:3,
-                nav:true,
-                dots:false,
+    //         1200 : {
+    //             items:3,
+    //             nav:false,
+    //             dots:false,
                 
-            },
+    //         },
           
-        }
-    });
+    //     }
+    // });
 
 
      $(".storiec-slider .slider").owlCarousel({
@@ -126,6 +127,11 @@ $(document).ready(function(){
         $(".header-section-mobile .mobile-header .header-rihgt .bars").toggleClass("active");
         $(".header-section-mobile").toggleClass("active");
         $(".overlay").toggleClass("active");
+
+      });
+      $(".canves-dropdown-btn").click(function(){
+        $(".canves-dropdowns-menu").toggleClass("active");
+        $(".canves-dropdown-btn").toggleClass("active");
 
       });
 

@@ -8,12 +8,12 @@
         <div class="section-padding">
             <div class="container">
                 <div class="hero-content">
-                    <p id="country-name">UGANDA</p>
+                    <p id="country-name">SAJIDA Uganda</p>
                     <div class="heading">
                         <h1><span>Fighting</span> Poverty.</h1>
                         <img src="{{ asset('assets/img/Yellow Lines.png') }}" alt="">
                     </div>
-                    <h3>By Taking Practical Initiatives</h3>
+                    <h3>By transforming lives through healthcare, financial inclusion, and dignity.</h3>
                     <p>SAJIDA Foundation is a value-driven, non-government organisation. The organisation has come a long
                         way since its humble beginnings in 1993.</p>
                 </div>
@@ -29,10 +29,9 @@
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center item-container">
                     <div class="content">
-                        <h1>Helping People In Need</h1>
+                        <h1>Strengthening Communities</h1>
                         <p>
-                            <span>We drive large-scale transformation by empowering women and their families to overcome
-                                poverty, build resilience, and foster resourcefulness. </span>
+                            <span>SAJIDA Uganda is working with vulnerable communities in the Busoga region to create lasting pathways toward resilience, opportunity, and dignity.</span>
                             SAJIDA Foundation expanded to Uganda in 2023, introducing its proven community-based development
                             model to address critical local needs. Since then, our work has focused on improving access to
                             primary healthcare, promoting maternal and child health, building epidemic preparedness, and
@@ -64,7 +63,7 @@
                             <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home"
                                 role="tab" aria-controls="v-pills-home" aria-selected="true">Health</a>
                             <a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" href="#v-pills-profile"
-                                role="tab" aria-controls="v-pills-profile" aria- selected="false">Microfinance</a>
+                                role="tab" aria-controls="v-pills-profile" aria- selected="false">Financial Inclusion</a>
                         </div>
                     </div>
                     <div class="tab-content" id="v-pills-tabContent">
@@ -192,43 +191,41 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="title">
-                            <h1>Impacts Made</h1>
+                            <h1>Impact</h1>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="content">
-                            <p>We drive large-scale transformation by empowering women and their families to overcome
-                                poverty, build resilience, and foster resourcefulness. </p>
-                            <a href="https://www.sajida.org/annual-reports/" class="btn">See reports > </a>
+                            <p>Our work is currently focused in the Busoga region, one of the areas hardest hit by poverty. Here, we are supporting micro and small entrepreneurs who have been excluded by traditional MFIs and left without pathways for growth, while also expanding access to healthcare for the most poverty-stricken households.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="counters d-flex justify-content-between">
                     <!-- Set your targets with data-count -->
-                    <div class="stat" data-count="900" data-step="20" data-plus="true">
+                    <div class="stat" data-count="2100" data-step="20" data-plus="true">
                         <div class="number">0</div>
-                        <div class="label">Individuals</div>
+                        <div class="label">brought under financial inclusion</div>
                     </div>
                     <span class="border"></span>
-                    <div class="stat" data-count="67" data-suffix="%" data-step="1" data-plus="true">
-                        <div class="number">0%</div>
-                        <div class="label">Women</div>
-                    </div>
-                    <span class="border"></span>
-                    <div class="stat" data-count="200" data-step="5" data-plus="true">
+                    <div class="stat" data-count="181000"  data-step="1000" data-plus="true">
                         <div class="number">0</div>
-                        <div class="label">Children 5 & Under</div>
+                        <div class="label">USD portfolio</div>
                     </div>
                     <span class="border"></span>
-                    <div class="stat" data-count="600" data-step="10" data-plus="true">
+                    <div class="stat" data-count="1070" data-step="5" data-plus="true">
+                        <div class="number">0</div>
+                        <div class="label">individuals getting access to health care</div>
+                    </div>
+                    <!-- <span class="border"></span> -->
+                    <!-- <div class="stat" data-count="600" data-step="10" data-plus="true">
                         <div class="number">0</div>
                         <div class="label">Patients Served in <br> Static Clinics in 7 <br> Months</div>
-                    </div>
+                    </div> -->
                     <span class="border"></span>
-                    <div class="stat" data-count="926500" data-step="10000" data-plus="true">
+                    <div class="stat" data-count="2080500" data-step="10000" data-plus="true">
                         <div class="number">0</div>
-                        <div class="label">UGX Paid in Health <br> Financing in 2 <br> Months</div>
+                        <div class="label">UGX paid for health financing</div>
                     </div>
                 </div>
             </div>
@@ -243,9 +240,8 @@
                     <div class="slider-item d-flex justify-content-between ">
                         <div class="content">
                             <h2>SAJIDA Bangladesh</h2>
-                            <p>A value-driven organization transforming lives through health, education, livelihoods, and
-                                social innovation since 1993.</p>
-                            <a href="https://www.sajida.org/" class="btn"><span>learn</span> more > </a>
+                            <p>Ensuring health, happiness, and dignity since 1993 through programs in health, mental health, entrepreneurship, and equitable development, empowering communities to break free from cycles of deprivation.</p>
+                            <a href="https://www.sajida.org/" target="_blank" class="btn"><span>learn</span> more > </a>
                         </div>
                         <div class="image bangladesh-country-flag">
                             <img src="{{ asset('assets/img/dm.png') }}" alt="">
@@ -254,9 +250,8 @@
                     <div class="slider-item d-flex justify-content-between">
                         <div class="content">
                             <h2>SAJIDA Uganda</h2>
-                            <p>A value-driven organization transforming lives through health, education, livelihoods, and
-                                social innovation since 1993.</p>
-                            <a href="{{ route('about-us.index') }}" class="btn"><span>learn</span> more > </a>
+                            <p>Expanding access to healthcare and advancing financial inclusion for vulnerable and underserved communities in the Busoga region.</p>
+                            <a href="{{ route('about-us.index') }}" target="_blank" class="btn"><span>learn</span> more > </a>
                         </div>
                         <div class="image uganda-country-flag">
                             <img src="https://sajidausa.org/images/01-13-2024_21-39-04-us-map.png" alt="">
@@ -265,12 +260,11 @@
                     <div class="slider-item d-flex justify-content-between ">
                         <div class="content">
                             <h2>SAJIDA USA</h2>
-                            <p>A value-driven organization transforming lives through health, education, livelihoods, and
-                                social innovation since 1993.</p>
-                            <a href="https://www.sajidausa.org/" class="btn"><span>learn</span> more > </a>
+                            <p>Improving lives in communities across Bangladesh and Uganda through a diverse portfolio of development programs and mission-driven investments.</p>
+                            <a href="https://www.sajidausa.org/" target="_blank" class="btn"><span>learn</span> more > </a>
                         </div>
                         <div class="image usa-country-flag">
-                            <img src="https://sajidausa.org/images/07-29-2025_14-08-53-Uganda Country.png" alt="">
+                            <img src="{{ asset('assets/img/Blank_US_Map.png') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -348,11 +342,9 @@
     <section class="wrapper-5">
         <div class="content-container">
             <div class="content">
-                <h1>Make Your Contribution</h1>
-                <p>We drive large-scale transformation by empowering women
-                    and their families to overcome poverty, build resilience,
-                    and foster resourcefulness.</p>
-                <a href="{{ route('donation.index') }}" class="btn">learn more > </a>
+                <h1>Be the Change-Donate Today</h1>
+                <p>Your gift provides vital healthcare to vulnerable families and empowers small business owners in Uganda to break free from poverty and build brighter futures.</p>
+                <a href="{{ route('donation.index') }}" class="btn">Donate > </a>
             </div>
         </div>
         <div class="image">
@@ -365,7 +357,7 @@
                 <h1>Latest from SAJIDA</h1>
                 <div class="slider owl-carousel">
                     @foreach ($featureNewsItems as $item)
-                        <a href="{{ route('news-room.show', $item->id) }}">
+                        <a href="{{ route('news-room.show', $item->id) }}" target="_blank">
                             <div class="single-slider-item">
                                 <img src="{{ asset( 'images/' . $item->thumbnail_image) }}" alt="">
                                 <div class="space"></div>

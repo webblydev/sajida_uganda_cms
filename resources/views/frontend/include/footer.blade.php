@@ -2,7 +2,7 @@
     <div class="section-padding">
         <div class="container">
             <div class="footer">
-                <div class="company-details">
+                <!-- <div class="company-details">
                     <div class="logo">
                         <a href="{{ route('foundation.index') }}"> <img src="{{ asset('assets/img/logo.svg') }}"
                                 alt=""></a>
@@ -14,8 +14,8 @@
                         <input type="submit" value="Submit">
                     </form>
 
-                </div>
-                <div class="quick-link">
+                </div> -->
+                <!-- <div class="quick-link">
                     <h2 class="footer-h2">Quick Links</h2>
                     <ul>
                         <li><a href="https://www.sajida.org/we-are-sajida/sajida-at-a-glance/" target="_blank">SAJIDA at
@@ -25,16 +25,16 @@
                         <li><a href="https://www.sajida.org/research-learning/" target="_blank">Research & Learning</a>
                         </li>
                     </ul>
-                </div>
+                </div> -->
                 <div class="contact">
                     <h2 class="footer-h2">Connect With Us</h2>
                     <div class="social-icon">
                         <a href="https://www.facebook.com/NGOSAJIDA" target="_blank"><i
                                 class="fa-brands fa-facebook-f"></i></a>
-                        <a href="https://twitter.com/NGOSAJIDA" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://twitter.com/NGOSAJIDA" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
                         <a href="https://www.youtube.com/@sajidafoundation1993" target="_blank"> <i
                                 class="fa-brands fa-youtube"></i></a>
-                        <a href="mailto:get-involved@sajida.org"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="mailto:inquiry@Sajida.org" target="_blank"><i class="fa-solid fa-envelope"></i></a>
 
                     </div>
                 </div>

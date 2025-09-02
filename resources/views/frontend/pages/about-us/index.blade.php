@@ -28,15 +28,14 @@
             <div class="container">
                 <div class="content-container">
                     <h1>Who We Are</h1>
-                    <p>SAJIDA Foundation is a value-driven, non-government organisation. It embodies the principle of
-                        corporate philanthropy, with 51% shareholding of Renata Ltd, one of the fastest growing
-                        pharmaceutical and animal health product companies in Bangladesh. The organisation, founded in 1993,
-                        aims to empower communities, catalyse entrepreneurship, build equity and establish enterprises for
-                        good with an overarching vision of ensuring health, happiness, and dignity for all.</p>
+                    <p>SAJIDA Foundation is a value-driven non-profit organization from the Global South, headquartered in Bangladesh. Established in 1993 with the vision of ensuring health, happiness, and dignity for all, SAJIDA has grown into a trusted development actor with a presence across three countries. </br></br>
+                        Our work enhances community well-being through three core areas: providing access to high-quality health and mental health services, empowering entrepreneurship through financial inclusion, and promoting equitable development. Over the past three decades, we have reached more than 6 million individuals, powered by a dedicated workforce of over 6,000.
+
+                    </p>
                     <div class="btns">
                         {{-- got to governing body section --}}
-                        <a href="#wrapper-9" class="btn">Meet The Team</a>
-                        <a href="https://www.sajida.org/we-are-sajida/sajida-story/" class="btn">our history</a>
+                        <a href="#wrapper-9" class="btn">Leadership Team</a>
+                        <a href="https://www.sajida.org/we-are-sajida/sajida-story/" class="btn" target="blank">our history</a>
                     </div>
                 </div>
                 <div class="gallery row">
@@ -73,17 +72,16 @@
         <div class="section-padding">
             <div class="container">
                 <div class="headline">
-                    <h1>Meet The Team</h1>
-                    <p>We drive large-scale transformation by empowering women and their families to overcome poverty, build
-                        resilience, and foster resourcefulness.</p>
+                    <h1>Leadership Team</h1>
+                    <p>Our diverse leadership team brings a more effective and inclusive decision-making process to benefit the communities we serve</p>
                 </div>
-                <div class="slider owl-carousel">
+                <div class="slider d-flex">
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-01">
                         <div class="image">
                             <img src="{{ asset('assets/img/zahida_fizza_kabir.png') }}" alt="">
                         </div>
                         <div class="content">
-                            <h4>Zahida Fizza Kabir<span>Director</span></h4>
+                            <h4>Zahida Fizza Kabir<span>Director SAJIDA Microfinance Limited</span></h4>
                         </div>
                     </div>
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-02">
@@ -91,7 +89,7 @@
                             <img src="{{ asset('assets/img/shib_narayan_kairy.png') }}" alt="">
                         </div>
                         <div class="content">
-                            <h4>Shib Narayan Kairy <span>Director</span></h4>
+                            <h4>Shib Narayan Kairy <span>Director, SAJIDA Microfinance Limited</span></h4>
                         </div>
                     </div>
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-03">
@@ -99,7 +97,7 @@
                             <img src="{{ asset('assets/img/governing-body-img4.png') }}" alt="">
                         </div>
                         <div class="content">
-                            <h4>Ishtiaq Mohiuddin <span>Deputy CEO</span></h4>
+                            <h4>Ishtiaq Mohiuddin <span>Ishtiaq Moinuddin Deputy CEO SAJIDA Foundation (BGD)</span></h4>
                         </div>
                     </div>
                    
@@ -108,7 +106,7 @@
                             <img src="{{ asset('assets/img/04. Md Sayful Islam.jpg') }}" alt="">
                         </div>
                         <div class="content">
-                            <h4>Md Sayful Islam <span>Country Representive</span></h4>
+                            <h4>Md Sayful Islam <span>Country Representative SAJIDA Microfinance Limited)</span></h4>
                         </div>
                     </div>
 
@@ -117,7 +115,7 @@
                             <img src="{{ asset('assets/img/governing-body-img2.png') }}" alt="">
                         </div>
                         <div class="content">
-                            <h4>Muhymin Chowdhury <span>Director</span></h4>
+                            <h4>Muhymin Chowdhury <span>Director SAJIDA Foundation (BGD)</span></h4>
                         </div>
                     </div>
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-06">
@@ -125,7 +123,7 @@
                             <img src="{{ asset('assets/img/hridoy_islam.png') }}" alt="">
                         </div>
                         <div class="content">
-                            <h4>Hridoy Islam<span>Senior Manager</span></h4>
+                            <h4>Hridoy Islam<span>Senior Manager-Partnerships SAJIDA Foundation (BGD)</span></h4>
                         </div>
                     </div>
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-07">
@@ -133,7 +131,7 @@
                             <img src="{{ asset('assets/img/samanta_sarni_tira.png') }}" alt="">
                         </div>
                         <div class="content">
-                            <h4>Samanta Sarni Tira <span>General Manager</span></h4>
+                            <h4>Samanta Sarni Tira <span>General Manager-Partnerships SAJIDA Foundation (BGD)</span></h4>
                         </div>
                     </div>
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-08">
@@ -141,7 +139,7 @@
                             <img src="{{ asset('assets/img/shamira_mostafa.png') }}" alt="">
                         </div>
                         <div class="content">
-                            <h4>Shamira Mostafa<span>Associate Director</span></h4>
+                            <h4>Shamira Mostafa<span>Associate Director - Risk & Research SAJIDA Foundation (BGD)</span></h4>
                         </div>
                     </div>
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-09">
@@ -149,7 +147,7 @@
                             <img src="{{ asset('assets/img/showman_roy.png') }}" alt="">
                         </div>
                         <div class="content">
-                            <h4>Showman Roy <span>Associate Director</span></h4>
+                            <h4>Showman Roy <span>Associate Director-MIS & IT Infra SAJIDA Foundation (BGD)</span></h4>
                         </div>
                     </div>
                      
@@ -369,8 +367,7 @@
                         </div>
                         <div class="content">
                             <h3>Our Mission</h3>
-                            <p>As well as improving other economic opportunities for our targeted beneficiaries by expanding
-                                access to finance for micro, small and medium enterprises.</p>
+                            <p>To serve as a Global South leader in development by advancing healthcare, financial inclusion, and equitable opportunities that empower communities to thrive.</p>
                         </div>
                     </div>
                     <div class="content-item">
@@ -378,9 +375,8 @@
                             <img src="{{ asset('assets/img/binoculars 1.png') }}" alt="">
                         </div>
                         <div class="content">
-                            <h3>Our Mission</h3>
-                            <p>As well as improving other economic opportunities for our targeted beneficiaries by expanding
-                                access to finance for micro, small and medium enterprises.</p>
+                            <h3>Our Vision</h3>
+                            <p>Ensuring Health, Happiness, and Dignity for all.</p>
                         </div>
                     </div>
                 </div>
@@ -388,7 +384,7 @@
         </div>
     </section>
 
-    <section class="wrapper-11 section">
+    <!-- <section class="wrapper-11 section">
         <div class="section-padding">
             <div class="container">
                 <div class="content-container">
@@ -428,9 +424,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="wrapper-12 section">
+    <!-- <section class="wrapper-12 section">
         <div class="section-padding">
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
@@ -439,5 +435,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 @endsection

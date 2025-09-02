@@ -21,16 +21,14 @@
                 <div class="container">
                     <div class="content">
                         <h1 class="title">Background</h1>
-                        <p>With 5.85 million people and a rising disease burden, Uganda faces severe healthcare challenges.
-                            SAJIDA Foundation’s health program enhances access through digital health profiling,
-                            telemedicine, and community outreach, delivering preventive, promotive, and curative care to
-                            build a stronger, more resilient healthcare system.</p>
+                        <p>Uganda has one of the world’s lowest doctor-to-patient ratios—1 for every 25,000 people—leaving many without essential care. The Busoga region is hit hardest, with poverty affecting 29.2% of its population compared to the national average of 20.3%.</p>
+                        <p>To address this, SAJIDA Uganda has introduced a community-based healthcare model that uses telehealth and digital health tracking to deliver preventive, promotive, and curative care to underserved communities.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="wrapper-16 section">
+      {{--  <section class="wrapper-16 section">
             <div class="bg">
                 <img src="{{ asset('assets/img/bg4.jpg') }}" alt="">
             </div>
@@ -64,7 +62,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}} 
 
         <section class="wrapper-17 section">
             <div class="section-padding">
@@ -73,14 +71,15 @@
                     <div class="row">
                         <div class="col-xl-6">
                             <div class="content">
-                                <h3>Community Based Healthcare <br> Models</h3>
-                                <p>SAJIDA Foundation’s health program tackles these challenges by implementing
-                                    community-based healthcare models that integrate telemedicine, digital health tracking,
-                                    and structured referral systems. Trained Community Health Workers (CHWs) conduct
-                                    household screenings, raise health awareness, and identify at-risk individuals for early
-                                    intervention. Static clinics, staffed with clinical officers, provide primary care,
-                                    while telemedicine consultations connect patients with MBBS doctors for specialized
-                                    support.</p>
+                                <!-- <h3>Community Based Healthcare <br> Models</h3> -->
+                                <p>
+                                Building on program implementation learnings from Bangladesh, SAJIDA Uganda is implementing a community-based health program in Bugembe, a town in the Jinja district of Busoga. The program is anchored in a four-tier care model that includes community health workers, satellite clinics, telemedicine consultations, and partnerships with local health facilities for referrals.</p>
+                                <P>
+                                Trained Community Health Workers (CHWs) conduct household screenings, raise health awareness, and identify at-risk individuals for early intervention. Satellite clinics, staffed by clinical officers, deliver primary care, while telemedicine connects patients with MBBS doctors for specialized consultations. To ensure affordability and access, SAJIDA Uganda also facilitates health financing, enabling households to obtain essential diagnostics, medicines, consultations, and maternity services.
+
+                                
+                                </p>
+                                
                             </div>
                         </div>
                         <div class="col-xl-6">
@@ -125,43 +124,43 @@
                                 <h1>Impacts Made</h1>
                             </div>
                         </div>
-                        <div class="col-xl-5">
+                        <!-- <div class="col-xl-5">
                             <div class="content">
                                 <p>SAJIDA Foundation’s health initiatives in Uganda aim to bridge healthcare gaps and
                                     empower vulnerable communities through digital health profiling, telemedicine, and
                                     community-driven awareness. </p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
 
                     <div class="counters d-flex justify-content-between">
-                        <div class="stat" data-count="900" data-step="20" data-plus="true">
+                        <div class="stat" data-count="1070" data-step="20" data-plus="true">
                             <div class="number">0</div>
-                            <div class="label">Individuals</div>
+                            <div class="label">lives impacted</div>
                         </div>
                         <span class="border"></span>
 
-                        <div class="stat" data-count="67" data-suffix="%" data-step="1" data-plus="true">
+                        <div class="stat" data-count="100" data-suffix="%" data-step="2" data-plus="true">
                             <div class="number">0%</div>
-                            <div class="label">Women</div>
+                            <div class="label">pregnant mothers took folic acid supplements, surpassing the regional average</div>
                         </div>
                         <span class="border"></span>
 
-                        <div class="stat" data-count="200" data-step="5" data-plus="true">
+                        <div class="stat" data-count="200" data-suffix="%" data-step="5" data-plus="true">
                             <div class="number">0</div>
-                            <div class="label">Children 5 & Under</div>
+                            <div class="label">of pregnant mothers completed 4+ antenatal visits, nearly double the sub-regional average</div>
                         </div>
                         <span class="border"></span>
 
-                        <div class="stat" data-count="600" data-step="10" data-plus="true">
+                        <div class="stat" data-count="78" data-suffix="%" data-step="2" data-plus="true">
                             <div class="number">0</div>
-                            <div class="label">Patients Served in Static Clinics in 7 Months</div>
+                            <div class="label">child vaccination coverage, up from 53%</div>
                         </div>
                         <span class="border"></span>
 
-                        <div class="stat" data-count="926500" data-step="10000" data-plus="true">
+                        <div class="stat" data-count="2080500" data-step="50000" data-plus="true">
                             <div class="number">0</div>
-                            <div class="label">UGX Paid in Health Financing in 2 Months</div>
+                            <div class="label">UGX paid for health financing</div>
                         </div>
                     </div>
                 </div>

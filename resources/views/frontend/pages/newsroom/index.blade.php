@@ -55,7 +55,7 @@
                             <ul>
                                 <li data-filter="*">All</li>
                                 <li data-filter=".health">Health</li>
-                                <li data-filter=".microfinance">Microfinance</li>
+                                <li data-filter=".microfinance">Financial Inclusion</li>
                                 {{-- <li>
                                     <select name="" id="">
                                         <option value="">SORT BY</option>
@@ -73,7 +73,7 @@
                             $className = $recentNews->category->title == 'Health' ? 'health' : ($recentNews->category->title == 'Microfinance' ? 'microfinance' : 'other');
                         @endphp
                             <div class="m-2 {{ $className }}">
-                                <a href="{{ route('news-room.show', $recentNews->id) }}">
+                                <a href="{{ route('news-room.show', $recentNews->id) }}" target="blank">
                                 <div class="single-item">
                                     <img src="{{ asset('images/' . $recentNews->thumbnail_image) }}" alt="">
                                     <div class="space"></div>

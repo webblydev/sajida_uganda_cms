@@ -184,11 +184,13 @@ border: none;
 
 .counters {
   flex-wrap: wrap;
+  justify-content: start !important;
+  gap: 30px;
   
 }
 .counters .stat {
-  padding: 0 25px;
   margin-bottom: 30px;
+  max-width: 230px;
 }
 
 .counters span {
@@ -648,6 +650,7 @@ a.btn {
 }
 .wrapper-3 .counters {
   gap: 20px;
+  justify-content: start !important;
   
 }
 
@@ -1012,6 +1015,7 @@ a.btn {
   gap: 0px;
   align-items: center;
   gap: 20px;
+  width: 100%;
 
 
  }
@@ -1324,16 +1328,21 @@ flex-direction: column;
 }
 .wrapper-18 .counters .stat {
   padding: 0 10px;
-  width: 120px;
   margin-bottom: 20px;
+  max-width: 150px;
 }
 .wrapper-18 .counters .stat:nth-child(9) {
-  width: 190px;
+  max-width: 100%;
+  width: 100%;
+}
+a.case-btn {
+  margin-left: 0;
 }
 
 .wrapper-18 .counters {
   margin-top: 25px;
   margin-bottom: 0px;
+  justify-content:space-around ;
 }
 .wrapper-19 {
   padding: 40px 0;

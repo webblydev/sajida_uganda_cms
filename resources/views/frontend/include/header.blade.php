@@ -14,7 +14,13 @@
                         <ul>
                             <li><a href="{{ route('foundation.index') }}">Home</a></li>
                             <li><a href="{{ route('about-us.index') }}">About Us</a></li>
-                            <li><a href="{{ route('health.index') }}">Health</a></li>
+                            <li class="dropdown-btn">Programs <span><i class="fa-solid fa-angle-down"></i></span>
+                                <ul class="dropdowns-menu">
+                                    <li><a href="{{ route('health.index') }}">Health</a></li>
+                                    <li><a href="{{ route('health.index') }}">Financial Inclusion</a></li>
+                                </ul>
+                                
+                            </li>
                             <li><a href="{{ route('news-room.index') }}">News</a></li>
                             <li><a href="{{ route('contact-us.index') }}">Contact</a></li>
                             <li>
@@ -43,7 +49,14 @@
                         <ul>
                             <li><a href="{{ route('foundation.index') }}">Home</a></li>
                             <li><a href="{{ route('about-us.index') }}">About Us</a></li>
-                            <li><a href="{{ route('health.index') }}">Health</a></li>
+                            <li class="canves-dropdown-btn"><a href="#">Programs <span><i class="fa-solid fa-angle-down"></i></span></a>
+                                
+                                <ul class="canves-dropdowns-menu">
+                                    <li><a href="{{ route('health.index') }}">Health</a></li>
+                                    <li><a href="{{ route('health.index') }}">Financial Inclusion</a></li>
+                                </ul>
+                                
+                            </li>
                             <li><a href="{{ route('news-room.index') }}">News</a></li>
                             <li><a href="{{ route('contact-us.index') }}">Contact</a></li>
                             <li>
