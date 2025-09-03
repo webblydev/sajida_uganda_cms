@@ -1,7 +1,7 @@
     @extends('frontend.layout.main')
     @section('title', 'Health')
     @section('content')
-        <section class="hero-section">
+        <section class="hero-section health-hero">
             <div class="bg">
                 <img src="{{ asset('assets/img/hero-img5.jpg') }}" alt="">
             </div>
@@ -10,12 +10,14 @@
                     <div class="hero-content">
                         <div class="heading">
                             <h1>Health</h1>
+                            <p>Uganda has one of the world’s lowest doctor-to-patient ratios—1 for every 25,000 people—leaving many without essential care. The Busoga region is hit hardest, with poverty affecting 29.2% of its population compared to the national average of 20.3%.</p>
+                            <p>To address this, SAJIDA Uganda has introduced a community-based healthcare model that uses telehealth and digital health tracking to deliver preventive, promotive, and curative care to underserved communities.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
+<!-- 
         <section class="wrapper-15 section">
             <div class="section-padding">
                 <div class="container">
@@ -26,7 +28,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
       {{--  <section class="wrapper-16 section">
             <div class="bg">
@@ -88,7 +90,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-xl-6 order-xl-1 order-2">
                             <div class="image">
                                 <img src="{{ asset('assets/img/image6.jpg') }}" alt="">
@@ -106,7 +108,7 @@
                             </div>
                         </div>
 
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -134,11 +136,6 @@
                     </div>
 
                     <div class="counters d-flex justify-content-between">
-                        <div class="stat" data-count="1070" data-step="20" data-plus="true">
-                            <div class="number">0</div>
-                            <div class="label">lives impacted</div>
-                        </div>
-                        <span class="border"></span>
 
                         <div class="stat" data-count="100" data-suffix="%" data-step="2" data-plus="true">
                             <div class="number">0%</div>
@@ -151,6 +148,15 @@
                             <div class="label">of pregnant mothers completed 4+ antenatal visits, nearly double the sub-regional average</div>
                         </div>
                         <span class="border"></span>
+
+
+                        <div class="stat" data-count="1070" data-step="20" data-plus="true">
+                            <div class="number">0</div>
+                            <div class="label">lives impacted</div>
+                        </div>
+                        <span class="border"></span>
+
+                        
 
                         <div class="stat" data-count="78" data-suffix="%" data-step="2" data-plus="true">
                             <div class="number">0</div>
@@ -190,9 +196,7 @@
                                 <p>“I am so grateful for the coming of SAJIDA Foundation. My health is better, and I pray 
                                         every day for SAJIDA to grow and help thousands and thousands of people like me.” At 57, Namakula Christian is the sole income earner for her household. Despite living with a 
                                     physical disability caused by a past accident, she continues to prepare and sell food from her 
-                                    homestead to support her family. Alongside her disability, she manages two chronic conditions, 
-                                    HIV and hypertension, which place significant demands on both her health and her limited 
-                                    income.</p>
+                                    homestead to support her family.</p>
                                     <a href="#" class="btn case-btn" data-bs-toggle="modal" data-bs-target="#myModal-02">Read Full Story</a>
                             </div>
                             <div class="image">

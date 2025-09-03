@@ -30,7 +30,7 @@
 }
 
 .wrapper-2 .tab-container .tab-btn {
-  width: 225px;
+  width: 250px;
   padding-right: 35px;
  
 }
@@ -42,6 +42,9 @@
   max-width: 400px;
 }
 
+.wrapper-5 .content {
+  max-width: 87%;
+}
 
 .wrapper-5 .content-container {
   padding-right: 10px;
@@ -53,6 +56,9 @@
 
 .storiec-slider .slider .owl-dots {
   bottom: 20px;
+}
+.wrapper-9 .single-slider-item {
+  max-width: 350px;
 }
 .wrapper-11 .items-container .item {
   width: 220px;
@@ -150,7 +156,7 @@
 }
 
 .wrapper-2 .tab-container .tab-btn .nav-link {
-  width: 200px;
+  width: 220px;
   max-height: 63px;
   line-height: 45px;
   border-radius: 30px;
@@ -182,15 +188,15 @@ border: none;
   transform: translateX(-50%);
 }
 
-.counters {
+.wrapper-3 .counters {
   flex-wrap: wrap;
-  justify-content: start !important;
-  gap: 30px;
+  justify-content: space-around !important;
   
 }
-.counters .stat {
+.wrapper-3 .counters .stat {
   margin-bottom: 30px;
-  max-width: 230px;
+  max-width: 260px;
+  padding: 0 10px;
 }
 
 .counters span {
@@ -199,19 +205,22 @@ border: none;
 
 .wrapper-4 .image img {
   max-width: 370px;
-  margin-top: 80px;
+}
+.wrapper-4 .slider {
+  padding-bottom: 60px;
 }
 
 .wrapper-4 .container .vector-img {
   top: 55%;
   left: 44%;
+  display: none;
 }
 .wrapper-4 .content h1 {
   line-height: 60px;
   margin-bottom: 40px;
 }
 .wrapper-5 .content {
-    max-width: 76%;
+  max-width: 85%;
 }
 .storiec-slider .slider .single-slider-item {
   flex-direction: column;
@@ -251,14 +260,26 @@ border: none;
 
 
 
-.wrapper-9 .slider {
-
-  padding-bottom: 60px;
+.wrapper-9 .single-slider-item {
+  max-width: 330px;
+}
+.wrapper-9 .slider .image {
+  height: 360px;
 }
 
 .wrapper-11 .content-container {
   flex-direction: column;
   gap: 20px;
+}
+.health-hero{
+    height: 800px;
+}
+
+.wrapper-18 .counters {
+  flex-wrap: wrap;
+}
+.wrapper-18 .counters .stat {
+  margin-bottom: 30px;
 }
 
 
@@ -569,7 +590,7 @@ a.btn {
 .wrapper-2 .tab-container .tab-btn .nav-link {
   width: auto;
   height: auto;
-  padding: 5px 38px;
+  padding: 10px 20px;
   font-size: 12px;
 }
 
@@ -650,7 +671,7 @@ a.btn {
 }
 .wrapper-3 .counters {
   gap: 20px;
-  justify-content: start !important;
+  justify-content: space-around !important;
   
 }
 
@@ -665,7 +686,7 @@ a.btn {
 }
 
 .wrapper-3 .counters .number {
-  font-size: 36px;
+  font-size: 26px;
 
 }
 .wrapper-3 .counters .label {
@@ -721,10 +742,14 @@ a.btn {
 }
 
 .wrapper-4 .content h2 {
-  margin: 100px 0;
+  margin: 90px 0;
   font-weight: 600;
   font-size: 23px;
   line-height: 75px;
+}
+
+.wrapper-4 .slider {
+    padding-bottom: 0px;
 }
 
 .wrapper-4 .container .vector-img {
@@ -1647,7 +1672,18 @@ a.hero-btn {
 .payment {
     margin-bottom: 60px;
 }
+.nav {
+  flex-wrap: nowrap !important;
+}
 
+.health-hero {
+  height: 550px;
+}
+.health-hero p {
+  line-height: 20px;
+  font-size: 14px;
+  margin-top: 15px;
+}
 
 
   

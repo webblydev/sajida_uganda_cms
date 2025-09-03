@@ -17,7 +17,7 @@
                             <li class="dropdown-btn">Programs <span><i class="fa-solid fa-angle-down"></i></span>
                                 <ul class="dropdowns-menu">
                                     <li><a href="{{ route('health.index') }}">Health</a></li>
-                                    <li><a href="{{ route('health.index') }}">Financial Inclusion</a></li>
+                                    <li><a href="">Financial Inclusion</a></li>
                                 </ul>
                                 
                             </li>
@@ -53,7 +53,7 @@
                                 
                                 <ul class="canves-dropdowns-menu">
                                     <li><a href="{{ route('health.index') }}">Health</a></li>
-                                    <li><a href="{{ route('health.index') }}">Financial Inclusion</a></li>
+                                    <li><a href="">Financial Inclusion</a></li>
                                 </ul>
                                 
                             </li>

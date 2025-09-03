@@ -168,7 +168,7 @@
                                 </div>
                                 <div class="popup-content">
                                     
-                                    <h4>Zahida Fizza Kabir <span>Chief Executive Officer</span></h4>
+                                    <h4>Zahida Fizza Kabir <span>Director SAJIDA Microfinance Limited</span></h4>
                                     <p>Ms. Zahida Fizza Kabir, the Chief Executive Officer of SAJIDA Foundation, boasts over 30 years of leadership experience across financial services, healthcare, and community development. She has been integral to SAJIDA since its inception in 1993. SAJIDA operates through 400 unit offices and 6,000 full time staff in Bangladesh alone.
 
                                     Under Ms. Kabir's guidance, SAJIDA has established six portfolio companies, focusing on mental health, geriatric care & caregiving services, and support children with development delays. She also serves as the Managing Director of two specialised healthcare enterprises: Home and Community Care Limited and Inner Circle Limited.
@@ -193,7 +193,7 @@
                                 </div>
                                 <div class="popup-content">
                                     
-                                    <h4>Shib Narayan Kairy <span>Director,Sajida Microfinance Limited</span></h4>
+                                    <h4>Shib Narayan Kairy <span>Director, SAJIDA Microfinance Limited</span></h4>
                                     <p>Mr. Shib Narayan Kairy is the Treasurer of BRAC University and formerly served as the Chief Financial Officer of BRAC and BRAC International. With over 34 years of experience in development finance, he has played a critical role in strengthening financial systems in both local and global contexts.
 
                                     Mr. Kairy has contributed to key governance roles, serving as a Director on the boards of BRAC Bank Limited, bKash Limited, BRAC EPL Investments Limited, BRAC EPL Stock Brokerage Limited, and BRAC Tea Companies. He is also Chairman of Dhaka Handicrafts Limited and serves as a member of the Board of Trustees of RDRS and the Governing Body of the Credit and Development Forum (CDF).
@@ -204,9 +204,7 @@
                         </div>
                     </div>
                 </div>
-
-
-                
+    
 
                 <div class="modal" id="myModal-05">
                     <div class="modal-dialog">
@@ -220,7 +218,7 @@
                                 </div>
                                 <div class="popup-content">
                                     
-                                    <h4>Muhymin Chowdhury <span>Director - Impact Investment and Partnerships</span></h4>
+                                    <h4>Muhymin Chowdhury <span>Director SAJIDA Foundation (BGD)</span></h4>
                                     <p>Muhymin Chowdhury currently serves as the Director of Impact Investment & Partnerships at SAJIDA Foundation. In this role, he leads the management of an impact fund aimed at fostering the growth of startups and build strategic partnerships with institutional stakeholders to expand SAJIDA’s development programmes.
 
                                     Previously, Muhymin held the position of Deputy Challenge Fund Manager at Nathan Associates, where he successfully structured 36 results-based financing agreements worth GBP 27 million with key financial market actors. Earlier at Shorebank International, Muhymin managed a USD 10 million performance-based investment in bKash, a leading mobile money service provider.
@@ -245,7 +243,7 @@
                                 </div>
                                 <div class="popup-content">
                                     
-                                    <h4>Hridoy Islam <span>Senior Manager – Partnership & Fund Raising Unit</span></h4>
+                                    <h4>Hridoy Islam <span>Senior Manager-Partnerships SAJIDA Foundation (BGD)</span></h4>
                                     <p>Muhymin Chowdhury currently serves as the Director of Impact Investment & Partnerships at SAJIDA Foundation. In this role, he leads the management of an impact fund aimed at fostering the growth of startups and build strategic partnerships with institutional stakeholders to expand SAJIDA’s development programmes.
 
                                     Previously, Muhymin held the position of Deputy Challenge Fund Manager at Nathan Associates, where he successfully structured 36 results-based financing agreements worth GBP 27 million with key financial market actors. Earlier at Shorebank International, Muhymin managed a USD 10 million performance-based investment in bKash, a leading mobile money service provider.
@@ -271,7 +269,7 @@
                                 </div>
                                 <div class="popup-content">
                                     
-                                    <h4>Ishtiaq Mohiuddin <span>Deputy Chief Executive Officer - Microfinance</span></h4>
+                                    <h4>Ishtiaq Mohiuddin <span>Ishtiaq Moinuddin Deputy CEO SAJIDA Foundation (BGD)</span></h4>
                                     <p>Mr. Ishtiaq Mohiuddin is the Deputy Chief Executive Officer of Development Programmes and Risk Management Unit of SAJIDA Foundation. He has extensive experience in Bangladesh and abroad with financial institutions and non-government organisations. Before joining SAJIDA, Mr. Mohiuddin worked as the Deputy Managing Director of BRAC Bank. He has also worked as Director, Microfinance Programme of BRAC & BRAC International. His international experience includes working for FINCA, USA as Country Manager in Malawi and Operations Manager in South Africa. He has also managed portfolios in Saint Lucia and Grenada for Caribbean Microfinance Ltd.  
 
                                     Mr. Mohiuddin holds an MBA and a Bachelor's degree in Accounting from Southeastern Louisiana University, Hammond, Louisiana, USA. </p>
@@ -293,7 +291,7 @@
                                 </div>
                                 <div class="popup-content">
                                     
-                                    <h4>Samanta Sarni Tira <span>General Manager – Partnership & Fund Raising Unit</span></h4>
+                                    <h4>Samanta Sarni Tira <span>General Manager-Partnerships SAJIDA Foundation (BGD)</span></h4>
                                     <p>Samanta Sarni Tira has over ten years of experience across Bangladesh’s private and development sectors. She currently leads international operations and partnerships at SAJIDA Foundation, where she drives global growth and strategic collaborations. Tira began her career in digital marketing, managing campaigns for leading Bangladeshi brands, before joining Grameenphone to help launch the country’s first telco B-brand. She later moved into UX design and digital product development, eventually taking on a strategic role at ShopUp, where she focused on B2B innovation. Passionate about storytelling and social impact, she bridges business strategy with nonprofit vision to develop scalable, human-centered solutions.</p>
                                 </div>
                             </div>
@@ -313,7 +311,7 @@
                                 </div>
                                 <div class="popup-content">
                                     
-                                    <h4>Shamira Mostafa <span>Associate Director - Risk Management and Research & Evaluation</span></h4>
+                                    <h4>Shamira Mostafa <span>Associate Director - Risk & Research SAJIDA Foundation (BGD)</span></h4>
                                     <p>Ms Shamira Mostafa is the Head of Business Operations of Research, Monitoring & Evaluation. Ms Mostofa is an accomplished development practitioner with over 13 years of experience in project implementation, strategic communication, and monitoring and evaluation across diverse industries.
 
                                     Previously, Ms. Mostafa managed USD 13 million worth of portfolio under a financial inclusion project commenced by FCDO.  Prior to that, she managed pro-poor market lead interventions worth $1 million at Katalyst-Swisscontact. Her passion for uplifting underprivileged communities has been evident throughout her career. She actively contributed to the advancement of math and reading skills for young learners in diverse communities of the greater Boston area while collaborating with the Centre for Community-Based Learning during her Master's program. 
@@ -338,7 +336,7 @@
                                 </div>
                                 <div class="popup-content">
                                     
-                                    <h4>Showman Roy <span>Associate Director - MIS & IT</span></h4>
+                                    <h4>Showman Roy <span>Associate Director-MIS & IT Infra SAJIDA Foundation (BGD)</span></h4>
                                     <p>Mr. Showman Roy currently serves as Associate Director of MIS, IT & IT Infrastructure at SAJIDA Foundation. In his current role, he leads IT policy engagements, stimulates technology adaptation and supports SAJIDA’s expansion. 
 
                                     Prior to SAJIDA Foundation, Mr. Roy worked for Rahimafrooz Bangladesh as Senior Manager & Solution Architect for its technical solutions. He began his career at Southtech Group in early 2000 and served there for 16 years in different leadership roles, with his last appointment being Senior Vice President for its banking and microfinance solutions. Over the past 20+ years, he has been responsible for ensuring technical solutions to 19 microfinance institutions and banks, serving more than 3,500 branches, including BRAC, SAJIDA Foundation, Rangpur Dinajpur Rural Service, People’s Oriented Program Implementation, Integrated Development Foundation, Partnership for Cleaner Textile, and Bhutan Development Bank. 

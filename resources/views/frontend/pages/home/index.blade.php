@@ -55,7 +55,7 @@
         <div class="section-padding">
             <div class="container">
                 <div class="title">
-                    <h1>Our Programmes</h1>
+                    <h1>Latest from SAJIDA </h1>
                 </div>
                 <div class="tab-container">
                     <div class="tab-btn">
@@ -189,12 +189,12 @@
         <div class="section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-xl-6">
                         <div class="title">
                             <h1>Impact</h1>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-xl-6">
                         <div class="content">
                             <p>Our work is currently focused in the Busoga region, one of the areas hardest hit by poverty. Here, we are supporting micro and small entrepreneurs who have been excluded by traditional MFIs and left without pathways for growth, while also expanding access to healthcare for the most poverty-stricken households.</p>
                         </div>
@@ -244,7 +244,7 @@
                             <a href="https://www.sajida.org/" target="_blank" class="btn"><span>learn</span> more > </a>
                         </div>
                         <div class="image bangladesh-country-flag">
-                            <img src="{{ asset('assets/img/dm.png') }}" alt="">
+                            <img src="{{ asset('assets/img/Bangladesh-map.png') }}" alt="">
                         </div>
                     </div>
                     <div class="slider-item d-flex justify-content-between">
@@ -254,7 +254,7 @@
                             <a href="{{ route('about-us.index') }}" target="_blank" class="btn"><span>learn</span> more > </a>
                         </div>
                         <div class="image uganda-country-flag">
-                            <img src="https://sajidausa.org/images/01-13-2024_21-39-04-us-map.png" alt="">
+                            <img src="{{ asset('assets/img/Uganda-map.png') }}" alt="">
                         </div>
                     </div>
                     <div class="slider-item d-flex justify-content-between ">
@@ -264,7 +264,7 @@
                             <a href="https://www.sajidausa.org/" target="_blank" class="btn"><span>learn</span> more > </a>
                         </div>
                         <div class="image usa-country-flag">
-                            <img src="{{ asset('assets/img/Blank_US_Map.png') }}" alt="">
+                            <img src="{{ asset('assets/img/Usa-map.png') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -354,7 +354,7 @@
     <section class="wrapper-6">
         <div class="section-padding">
             <div class="container">
-                <h1>Latest from SAJIDA</h1>
+                <h1>News</h1>
                 <div class="slider owl-carousel">
                     @foreach ($featureNewsItems as $item)
                         <a href="{{ route('news-room.show', $item->id) }}" target="_blank">

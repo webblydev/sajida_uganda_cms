@@ -190,7 +190,7 @@
         </div>
     </div>
 
-    <section class="wrapper-12 section">
+    <!-- <section class="wrapper-12 section">
         <div class="section-padding">
             <div class="container">
                 <div class="d-flex align-items-center justify-content-between">
@@ -199,5 +199,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 @endsection

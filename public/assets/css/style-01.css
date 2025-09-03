@@ -1,6 +1,18 @@
-@font-face {
+/* @font-face {
   font-family: 'spring';
   src: url(../font/Fontspring-DEMO-argentcf-light.otf);
+} */
+
+@font-face {
+  font-family: 'Argent CF';
+  src: url('https://www.sajida.org/_nuxt/fonts/ArgentCF-Regular.8fe206b.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.argent-cf {
+  font-family: 'Argent CF', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 :root {
@@ -321,6 +333,9 @@ top: 50px;
   opacity: 0;
   visibility: hidden;
 }
+.scroll-up .header .dropdowns-menu {
+  bottom:-170px !important;
+}
 
 .dropdown-btn:hover .dropdowns-menu {
   opacity: 1;
@@ -460,18 +475,14 @@ text-align: center;
 margin-bottom: 10px;
 padding: 4px;
 border-radius: 5px;
-background: #F7CE19;
+background: var(--blue-color);
 text-decoration: none;
 font-size: var(--font-size-16);
-color: #000000;
-border: 1px solid #F7CE19;
+color: #ffffff;
+border: 1px solid var(--blue-color);
 transition: .3s;
 }
 
-.off-canves-menu .menu li a.menu-btn:nth-child(1):hover {
-background: none;
-color: #F7CE19;
-}
 .off-canves-menu .menu li a.menu-btn:nth-child(2) {
 background-color: #314454;
 color: white;
@@ -529,6 +540,8 @@ top: 40px;
 .canves-dropdowns-menu.active {
   max-height: 500px;
 }
+
+
 
 .section {
 display: flex;
@@ -638,6 +651,7 @@ align-items: center;
   line-height: 43px;
   letter-spacing: 1px;
   margin-top: 15px;
+  max-width: 565px;
 }
 
 .hero-content p {
@@ -647,6 +661,11 @@ align-items: center;
   font-weight: var(--font-weight-400);
   line-height: 33px;
   color: #ffffff;
+}
+
+.health-hero p {
+  margin-top: 30px;
+  max-width: 800px;
 }
 
 .wrapper-1 {
@@ -749,7 +768,7 @@ a.case-btn {
 
 .wrapper-2 {
   background-image: url(../img/bg.jpg);
-  height: 750px;
+  height: auto;
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -790,7 +809,7 @@ a.case-btn {
 }
 
 .wrapper-2 .tab-container .tab-btn {
-  width: 300px;
+  width: 270px;
   padding-right: 55px;
   border-right: 1px solid var(--blue-color);
   overflow: hidden;
@@ -798,7 +817,7 @@ a.case-btn {
 }
 
 .wrapper-2 .tab-container .tab-btn .nav-link {
-  max-width: 272px;
+  max-width: 250px;
   max-height: 83px;
   background: #00000080;
   border: 1px solid #141414;
@@ -806,7 +825,7 @@ a.case-btn {
   text-align: center;
   margin-bottom: 40px;
   line-height: 65px;
-  font-size: var(--font-size-24);
+  font-size: var(--font-size-18);
   font-weight: var(--font-weight-500);
   color: #ffffff;
 }
@@ -1012,19 +1031,22 @@ z-index: 1;
 .wrapper-4 .image img {
   max-width: 450px;
 }
-.uganda-country-flag {
+/* .uganda-country-flag {
   max-width: 550px;
 }
 
 .usa-country-flag {
   max-width: 550px;
-}
+} */
 
 .wrapper-4 .container .vector-img {
   position: absolute;
   top: 50%;
   left: 50%;
 
+}
+.wrapper-4 .slider {
+  padding-bottom: 100px;
 }
 .wrapper-4 .owl-dots {
   position: absolute;
@@ -1687,8 +1709,8 @@ color: #000000;
 .modal-header {
   border-bottom: none;
   position: absolute;
-  right: 80px;
-  top: 60px;
+  right: 20px;
+  top: 20px;
   z-index: 99;
 
 
@@ -2013,7 +2035,7 @@ padding: 80px 0;
 font-size: var(--font-size-60);
 font-family: var(--font-spring);
 color: var(--blue-color);
-margin-bottom: 90px;
+margin-bottom: 60px;
 font-weight: var(--font-weight-300);
 }
 
@@ -2575,6 +2597,7 @@ a.hero-btn {
   font-size: var(--font-size-60);
   font-family: var(--font-spring);
   color: var(--blue-color);
+  margin-bottom: 30px;
 }
 .contact-section .info-content {
   margin-left: 25px;
