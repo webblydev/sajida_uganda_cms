@@ -9,7 +9,7 @@
                 <div class="container">
                     <div class="hero-content">
                         <div class="heading">
-                            <h1>Health</h1>
+                            <h1>Health Program</h1>
                             <p>Uganda has one of the world’s lowest doctor-to-patient ratios—1 for every 25,000 people—leaving many without essential care. The Busoga region is hit hardest, with poverty affecting 29.2% of its population compared to the national average of 20.3%.</p>
                             <p>To address this, SAJIDA Uganda has introduced a community-based healthcare model that uses telehealth and digital health tracking to deliver preventive, promotive, and curative care to underserved communities.</p>
                         </div>

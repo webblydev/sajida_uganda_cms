@@ -49,6 +49,9 @@
 .wrapper-5 .content-container {
   padding-right: 10px;
 }
+.wrapper-9 .slider .image {
+  height: 480px;
+}
 
 .wrapper-5 .content h1 {
   font-size: 50px;
@@ -57,8 +60,8 @@
 .storiec-slider .slider .owl-dots {
   bottom: 20px;
 }
-.wrapper-9 .single-slider-item {
-  max-width: 350px;
+.wrapper-9 .slider .single-slider-item {
+    max-width: 348px;
 }
 .wrapper-11 .items-container .item {
   width: 220px;
@@ -263,11 +266,14 @@ border: none;
 
 
 
-.wrapper-9 .single-slider-item {
-  max-width: 330px;
-}
+
+
+
 .wrapper-9 .slider .image {
   height: 360px;
+}
+.wrapper-9 .slider .single-slider-item {
+    max-width: 320px;
 }
 
 .wrapper-11 .content-container {

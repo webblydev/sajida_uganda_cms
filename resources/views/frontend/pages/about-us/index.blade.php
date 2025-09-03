@@ -89,7 +89,7 @@
                             <img src="{{ asset('assets/img/shib_narayan_kairy.png') }}" alt="">
                         </div>
                         <div class="content">
-                            <h4>Shib Narayan Kairy <span>Director, SAJIDA Microfinance Limited</span></h4>
+                            <h4>Shib Narayan Kairy <span>Director, SAJIDA Foundation Uganda Ltd.</span></h4>
                         </div>
                     </div>
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-03">
@@ -100,8 +100,16 @@
                             <h4>Ishtiaq Mohiuddin <span>Deputy CEO SAJIDA Foundation (BGD)</span></h4>
                         </div>
                     </div>
-                   
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-04">
+                        <div class="image">
+                            <img src="{{ asset('assets/img/governing-body-img2.png') }}" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Muhymin Chowdhury <span>Director SAJIDA Foundation (BGD)</span></h4>
+                        </div>
+                    </div>
+                   
+                    <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-05">
                         <div class="image">
                             <img src="{{ asset('assets/img/Md-Sayful-Islam.png') }}" alt="">
                         </div>
@@ -110,14 +118,7 @@
                         </div>
                     </div>
 
-                    <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-05">
-                        <div class="image">
-                            <img src="{{ asset('assets/img/governing-body-img2.png') }}" alt="">
-                        </div>
-                        <div class="content">
-                            <h4>Muhymin Chowdhury <span>Director SAJIDA Foundation (BGD)</span></h4>
-                        </div>
-                    </div>
+                    
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-06">
                         <div class="image">
                             <img src="{{ asset('assets/img/hridoy_islam.png') }}" alt="">
@@ -193,7 +194,7 @@
                                 </div>
                                 <div class="popup-content">
                                     
-                                    <h4>Shib Narayan Kairy <span>Director, SAJIDA Microfinance Limited</span></h4>
+                                    <h4>Shib Narayan Kairy <span>Director, SAJIDA Foundation Uganda Ltd.</span></h4>
                                     <p>Mr. Shib Narayan Kairy is the Treasurer of BRAC University and formerly served as the Chief Financial Officer of BRAC and BRAC International. With over 34 years of experience in development finance, he has played a critical role in strengthening financial systems in both local and global contexts.
 
                                     Mr. Kairy has contributed to key governance roles, serving as a Director on the boards of BRAC Bank Limited, bKash Limited, BRAC EPL Investments Limited, BRAC EPL Stock Brokerage Limited, and BRAC Tea Companies. He is also Chairman of Dhaka Handicrafts Limited and serves as a member of the Board of Trustees of RDRS and the Governing Body of the Credit and Development Forum (CDF).
@@ -225,7 +226,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal" id="myModal-04">
+                <div class="modal" id="myModal-05">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -246,7 +247,7 @@
                 </div>
     
 
-                <div class="modal" id="myModal-05">
+                <div class="modal" id="myModal-04">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
