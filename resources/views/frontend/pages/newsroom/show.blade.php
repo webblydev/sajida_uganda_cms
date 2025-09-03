@@ -51,7 +51,7 @@
                 <h1>Latest from SAJIDA</h1>
                 <div class="slider owl-carousel">
                     @foreach ($recentNewsItems as $item)
-                        <a href="{{ route('news-room.show', $item->id) }}">
+                        <a href="{{ route('news-room.show', $item->id) }}" target="_blank">
                             <div class="single-slider-item">
                                 <img src="{{ asset('images/' . $item->thumbnail_image) }}" alt="">
                                 <div class="space"></div>
@@ -68,7 +68,7 @@
         </div>
     </section>
 
-    <section class="wrapper-12 section">
+    <!-- <section class="wrapper-12 section">
         <div class="section-padding">
             <div class="container">
                 <div class="d-flex align-items-center justify-content-between">
@@ -77,5 +77,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 @endsection

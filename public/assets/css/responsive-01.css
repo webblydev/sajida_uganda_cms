@@ -293,7 +293,7 @@ border: none;
 }
 
 
-.wrapper-16 .content-container {
+.wrapper-16 .content-container { 
   gap: 0px;
   flex-direction: column;
 }
@@ -304,6 +304,7 @@ border: none;
 
 .wrapper-17 .content {
   margin-bottom: 30px;
+  padding: 0;
 }
 .wrapper-17 .content2 {
   padding: 0px;
@@ -1179,6 +1180,7 @@ flex-direction: column;
 
 .wrapper-9 .slider {
   margin-top: 35px;
+  justify-content: center;
 }
 
 .wrapper-9 .slider .image {
@@ -1684,6 +1686,10 @@ a.hero-btn {
   font-size: 14px;
   margin-top: 15px;
 }
+.wrapper-8 .content-container .btns a {
+  width: 150px;
+}
+
 
 
   

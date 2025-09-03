@@ -71,20 +71,22 @@
                 <div class="container">
                     <h1>Our Approach</h1>
                     <div class="row">
-                        <div class="col-xl-6">
+                        <div class="col-xl-5">
                             <div class="content">
                                 <!-- <h3>Community Based Healthcare <br> Models</h3> -->
                                 <p>
-                                Building on program implementation learnings from Bangladesh, SAJIDA Uganda is implementing a community-based health program in Bugembe, a town in the Jinja district of Busoga. The program is anchored in a four-tier care model that includes community health workers, satellite clinics, telemedicine consultations, and partnerships with local health facilities for referrals.</p>
+                                Building on program implementation learnings from Bangladesh, SAJIDA Uganda is implementing a community-based health program in Bugembe, a town in the Jinja district of Busoga. </p>
+                                <p> The program is anchored in a four-tier care model that includes community health workers, satellite clinics, telemedicine consultations, and partnerships with local health facilities for referrals.</p>
                                 <P>
-                                Trained Community Health Workers (CHWs) conduct household screenings, raise health awareness, and identify at-risk individuals for early intervention. Satellite clinics, staffed by clinical officers, deliver primary care, while telemedicine connects patients with MBBS doctors for specialized consultations. To ensure affordability and access, SAJIDA Uganda also facilitates health financing, enabling households to obtain essential diagnostics, medicines, consultations, and maternity services.
+                                Trained Community Health Workers (CHWs) conduct household screenings, raise health awareness, and identify at-risk individuals for early intervention. Satellite clinics, staffed by clinical officers, deliver primary care, while telemedicine connects patients with MBBS doctors for specialized consultations. </p>
+                                <p> To ensure affordability and access, SAJIDA Uganda also facilitates health financing, enabling households to obtain essential diagnostics, medicines, consultations, and maternity services.
 
                                 
                                 </p>
                                 
                             </div>
                         </div>
-                        <div class="col-xl-6">
+                        <div class="col-xl-7">
                             <div class="image">
                                 <img src="{{ asset('assets/img/image8.jpg') }}" alt="">
                             </div>

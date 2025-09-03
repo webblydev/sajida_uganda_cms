@@ -97,7 +97,7 @@
                             <img src="{{ asset('assets/img/governing-body-img4.png') }}" alt="">
                         </div>
                         <div class="content">
-                            <h4>Ishtiaq Mohiuddin <span>Ishtiaq Moinuddin Deputy CEO SAJIDA Foundation (BGD)</span></h4>
+                            <h4>Ishtiaq Mohiuddin <span>Deputy CEO SAJIDA Foundation (BGD)</span></h4>
                         </div>
                     </div>
                    
@@ -106,7 +106,7 @@
                             <img src="{{ asset('assets/img/04. Md Sayful Islam.jpg') }}" alt="">
                         </div>
                         <div class="content">
-                            <h4>Md Sayful Islam <span>Country Representative SAJIDA Microfinance Limited)</span></h4>
+                            <h4>Md Sayful Islam <span>Country Representative SAJIDA Microfinance Limited</span></h4>
                         </div>
                     </div>
 
@@ -204,6 +204,46 @@
                         </div>
                     </div>
                 </div>
+                <div class="modal" id="myModal-03">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                            <div class="popup-message d-flex">
+                                <div class="popup-image">
+                                    <img src="{{ asset('assets/img/governing-body-img4.png') }}" alt="">
+                                </div>
+                                <div class="popup-content">
+                                    
+                                    <h4>Ishtiaq Mohiuddin <span>Deputy CEO SAJIDA Foundation (BGD)</span></h4>
+                                    <p>Mr. Ishtiaq Mohiuddin is the Deputy Chief Executive Officer of Development Programmes and Risk Management Unit of SAJIDA Foundation. He has extensive experience in Bangladesh and abroad with financial institutions and non-government organisations. Before joining SAJIDA, Mr. Mohiuddin worked as the Deputy Managing Director of BRAC Bank. He has also worked as Director, Microfinance Programme of BRAC & BRAC International. His international experience includes working for FINCA, USA as Country Manager in Malawi and Operations Manager in South Africa. He has also managed portfolios in Saint Lucia and Grenada for Caribbean Microfinance Ltd.  
+
+                                    Mr. Mohiuddin holds an MBA and a Bachelor's degree in Accounting from Southeastern Louisiana University, Hammond, Louisiana, USA. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="myModal-04">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                            <div class="popup-message d-flex">
+                                <div class="popup-image">
+                                    <img src="{{ asset('assets/img/04. Md Sayful Islam.jpg') }}" alt="">
+                                </div>
+                                <div class="popup-content">
+                                    
+                                    <h4>Md Sayful Islam<span>Country Representative SAJIDA Microfinance Limited</span></h4>
+                                    <p>Sayful Islam holds both a BBA and MBA in Marketing from the University of Dhaka. He began his career with BRAC in Bangladesh, Tanzania, and Myanmar, where he focused on staff training, product development, and digitizing microfinance operations. He later served as Head of Operations at Umoja Microfinance in Uganda, leading its expansion from 2 to 60 branches and growing the loan portfolio from $100,000 to $10 million. Since 2024, Sayful has been Country Representative for SAJIDA Foundation Uganda, where he has established core systems, built strong teams, developed organizational policies, and introduced financial products designed for the local market. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
     
 
                 <div class="modal" id="myModal-05">
@@ -257,27 +297,7 @@
 
                
 
-                <div class="modal" id="myModal-03">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                                </div>
-                            <div class="popup-message d-flex">
-                                <div class="popup-image">
-                                    <img src="{{ asset('assets/img/governing-body-img4.png') }}" alt="">
-                                </div>
-                                <div class="popup-content">
-                                    
-                                    <h4>Ishtiaq Mohiuddin <span>Ishtiaq Moinuddin Deputy CEO SAJIDA Foundation (BGD)</span></h4>
-                                    <p>Mr. Ishtiaq Mohiuddin is the Deputy Chief Executive Officer of Development Programmes and Risk Management Unit of SAJIDA Foundation. He has extensive experience in Bangladesh and abroad with financial institutions and non-government organisations. Before joining SAJIDA, Mr. Mohiuddin worked as the Deputy Managing Director of BRAC Bank. He has also worked as Director, Microfinance Programme of BRAC & BRAC International. His international experience includes working for FINCA, USA as Country Manager in Malawi and Operations Manager in South Africa. He has also managed portfolios in Saint Lucia and Grenada for Caribbean Microfinance Ltd.  
-
-                                    Mr. Mohiuddin holds an MBA and a Bachelor's degree in Accounting from Southeastern Louisiana University, Hammond, Louisiana, USA. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
 
                 <div class="modal" id="myModal-07">
                     <div class="modal-dialog">
