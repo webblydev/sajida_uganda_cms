@@ -83,6 +83,9 @@
 .wrapper-23  p {
   line-height: 30px;
 }
+.wrapper-17 .content {
+  padding-right: 20px;
+}
 
 
 
@@ -1688,6 +1691,9 @@ a.hero-btn {
 }
 .wrapper-8 .content-container .btns a {
   width: 150px;
+}
+.wrapper-22 {
+  padding-top: 0;
 }
 
 
