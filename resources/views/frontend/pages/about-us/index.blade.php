@@ -103,7 +103,7 @@
                    
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-04">
                         <div class="image">
-                            <img src="{{ asset('assets/img/04. Md Sayful Islam.jpg') }}" alt="">
+                            <img src="{{ asset('assets/img/Md-Sayful-Islam.png') }}" alt="">
                         </div>
                         <div class="content">
                             <h4>Md Sayful Islam <span>Country Representative SAJIDA Microfinance Limited</span></h4>
@@ -233,7 +233,7 @@
                                 </div>
                             <div class="popup-message d-flex">
                                 <div class="popup-image">
-                                    <img src="{{ asset('assets/img/04. Md Sayful Islam.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/img/Md-Sayful-Islam.png') }}" alt="">
                                 </div>
                                 <div class="popup-content">
                                     
