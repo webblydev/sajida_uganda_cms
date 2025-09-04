@@ -2,7 +2,7 @@
 <section class="header">
     <div class="section-padding">
         <div class="container">
-            <div class="header-section-pc d-none d-xl-flex">
+            <div class="header-section-pc d-none d-lg-flex">
                 <div class="left-header">
                     <div class="logo">
                         <a href="{{ route('foundation.index') }}"><img src="{{ asset('assets/img/logo.svg') }}"
@@ -38,7 +38,7 @@
 
 
 
-            <div class="header-section-mobile d-xl-none">
+            <div class="header-section-mobile d-lg-none">
                 <div class="off-canves-menu">
                     <div class="logo">
                         <a href="{{ route('foundation.index') }}"><img src="{{ asset('assets/img/blue-logo.png') }}"

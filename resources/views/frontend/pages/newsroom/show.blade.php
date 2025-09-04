@@ -25,19 +25,19 @@
         <div class="section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6 order-xl-2">
+                    <div class="col-lg-6 order-lg-2">
                         <div class="image">
                             <img src="{{ asset('images/' . $news->article_image) }}" alt="">
                         </div>
                     </div>
-                    <div class="col-xl-6">
+                    <div class="col-lg-6">
                         <div class="content">
                             {{-- <img src="{{ asset('assets/img/right 1.png') }}" alt=""> --}}
                             <h4>{{ $news->paragraph_one }}</h4>
                             <p>{{ $news->paragraph_two }}</p>
                         </div>
                     </div>
-                    <div class="col-xl-10 order-xl-3">
+                    <div class="col-lg-10 order-lg-3">
                         <p>{{ $news->paragraph_three }}</p>
                     </div>
                 </div>

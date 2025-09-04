@@ -19,7 +19,7 @@
         <div class="section-padding">
             <div class="container">
                 <h1>Contribute</h1>
-                <div class="d-xl-flex justify-content-between">
+                <div class="d-lg-flex justify-content-between">
                     <div class="content">
                         <h4>Be the Light in Someone’s Darkest Hour</h4>
                         <p>Your donation can bring hope and healing to families living in poverty—providing access to lifesaving medicines, doctor consultations, and critical treatment.</p>

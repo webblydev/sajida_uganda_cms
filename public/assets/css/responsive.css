@@ -102,7 +102,7 @@
 
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 990px) {
 
   .header-section-mobile .header .header-right .bars {
   margin-right: 0px;
@@ -382,6 +382,7 @@ border: none;
 }
 .payment .item-container {
   flex-wrap: wrap;
+  gap: 0;
 }
 .payment .item-container .content {
   width: 100%;
@@ -1399,6 +1400,9 @@ a.case-btn {
 }
 .wrapper-19 .slider .owl-dots {
   bottom: -25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .wrapper-21 {
@@ -1601,8 +1605,8 @@ a.hero-btn {
 }
 
 .wrapper-19 .slider .owl-dots button {
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   border: 2px solid #005AAA;
 }
 

@@ -21,7 +21,7 @@
             <div class="container">
                 <h1>We Are Here To Help</h1>
                 <div class="row">
-                    <div class="col-xl-6">
+                    <div class="col-lg-6">
                         <div class="contact-info">
                             <p>Have a question? Concern? Request? Your questions haven't been answered? Connect with us in
                                 your convenient way.</p>
@@ -89,7 +89,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6">
+                    <div class="col-lg-6">
                         <div class="contact-form">
                             <form action="">
                                 <label for="name">Name*</label><br>

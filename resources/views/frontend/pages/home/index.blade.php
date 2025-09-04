@@ -53,7 +53,7 @@
                     <h1>Latest from SAJIDA </h1>
                 </div>
                 <div class="tab-container row">
-                    <div class="tab-btn col-xl-3">
+                    <div class="tab-btn col-lg-3">
                         <div class="nav flex-column" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home"
                                 role="tab" aria-controls="v-pills-home" aria-selected="true">Health</a>
@@ -61,7 +61,7 @@
                                 role="tab" aria-controls="v-pills-profile" aria- selected="false">Financial Inclusion</a>
                         </div>
                     </div>
-                    <div class="tab-content col-xl-9" id="v-pills-tabContent">
+                    <div class="tab-content col-lg-9" id="v-pills-tabContent">
                         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                             aria-labelledby="v-pills-home-tab">
                             <div class="slider owl-carousel">
@@ -184,12 +184,12 @@
         <div class="section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6">
+                    <div class="col-lg-6">
                         <div class="title">
                             <h1>Impact</h1>
                         </div>
                     </div>
-                    <div class="col-xl-6">
+                    <div class="col-lg-6">
                         <div class="content">
                             <p>Our work is currently focused in the Busoga region, one of the areas hardest hit by poverty. Here, we are supporting micro and small entrepreneurs who have been excluded by traditional MFIs and left without pathways for growth, while also expanding access to healthcare for the most poverty-stricken households.</p>
                         </div>

@@ -24,8 +24,8 @@
             <div class="container">
                 <h1>Featured News</h1>
                 @foreach ($featureNewsItems as $featureNews)
-                    <div class="featured-story d-xl-flex justify-content-between align-items-center">
-                        <div class="featured-story-left mr-xl-4">
+                    <div class="featured-story d-lg-flex justify-content-between align-items-center">
+                        <div class="featured-story-left mr-lg-4">
                             @php
                                 $shortParagraphTwo = Str::limit(strip_tags($featureNews->paragraph_two), 140)
                             @endphp
@@ -34,7 +34,7 @@
                             <p>{{ $shortParagraphTwo }}</p>
                             <a href="{{ route('news-room.show', $featureNews->id) }}" class="btn">Read More ></a>
                         </div>
-                        <div class="featured-story-right ml-xl-4">
+                        <div class="featured-story-right ml-lg-4">
                             <div class="image">
                                 <img src="{{ asset('images/'. $featureNews->thumbnail_image) }}" alt="">
                             </div>

@@ -71,7 +71,7 @@
                 <div class="container">
                     <h1>Our Approach</h1>
                     <div class="row">
-                        <div class="col-xl-5">
+                        <div class="col-lg-5">
                             <div class="content">
                                 <!-- <h3>Community Based Healthcare <br> Models</h3> -->
                                 <p>
@@ -86,19 +86,19 @@
                                 
                             </div>
                         </div>
-                        <div class="col-xl-7">
+                        <div class="col-lg-7">
                             <div class="image">
                                 <img src="{{ asset('assets/img/image8.jpg') }}" alt="">
                             </div>
                         </div>
                     </div>
                     <!-- <div class="row">
-                        <div class="col-xl-6 order-xl-1 order-2">
+                        <div class="col-lg-6 order-lg-1 order-2">
                             <div class="image">
                                 <img src="{{ asset('assets/img/image6.jpg') }}" alt="">
                             </div>
                         </div>
-                        <div class="col-xl-6 order-xl-2 order-1">
+                        <div class="col-lg-6 order-lg-2 order-1">
                             <div class="content content2">
                                 <h3>Health Financing</h3>
                                 <p>Additionally, SAJIDA facilitates health financing, ensuring affordability and access to
@@ -123,12 +123,12 @@
             <div class="section-padding">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-7">
+                        <div class="col-lg-7">
                             <div class="title">
                                 <h1>Impacts Made</h1>
                             </div>
                         </div>
-                        <!-- <div class="col-xl-5">
+                        <!-- <div class="col-lg-5">
                             <div class="content">
                                 <p>SAJIDA Foundation’s health initiatives in Uganda aim to bridge healthcare gaps and
                                     empower vulnerable communities through digital health profiling, telemedicine, and
