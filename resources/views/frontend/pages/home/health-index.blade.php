@@ -239,7 +239,7 @@
                                 <img src="{{ asset('assets/img/story-6.jpg') }}" alt="">
                             </div>
                         </div>
-                        <div class="slider-item">
+                        <!-- <div class="slider-item">
                             <div class="content">
                                 <img src="{{ asset('assets/img/right 1.png') }}" alt="">
                                 <p>Starting with a loan of 500,000 from Sajida microfinance, Mariam launched a charcoal business. Over time, with additional loan of 600,000 and 800,000, she grew her operation and was able to employ 2 people full time. Her success enabled her to send her children to school and transform </p>
@@ -250,7 +250,7 @@
                             <div class="image">
                                 <img src="{{ asset('assets/img/story-7.jpg') }}" alt="">
                             </div>
-                        </div>
+                        </div> -->
                         <div class="slider-item">
                             <div class="content">
                                 <img src="{{ asset('assets/img/right 1.png') }}" alt="">
@@ -285,7 +285,7 @@
 
                             </div>
                             <div class="image">
-                                <img src="{{ asset('assets/img/story-9.jpg') }}" alt="">
+                                <img src="{{ asset('assets/img/story-10.jpg') }}" alt="">
                             </div>
                         </div>
                     </div>
@@ -479,33 +479,7 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="modal case-modal" id="myModal-07">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                                </div>
-                            <div class="popup-message d-flex">
-                                <!-- <div class="popup-image">
-                                    <img src="{{ asset('assets/img/governing-body-img1.png') }}" alt="">
-                                </div> -->
-                                <div class="popup-content">
-                                    
-                                    <h2><b>Participant Name:</b> Nabiryo Mariam </h2>  
-                                    <h3><b>Location:</b> Lubasi, Jinja</h3>
-                                    <p>
-                                       <b>Business type:</b> Charcoal   <br>
-                                      <b>Group/Individual Loan. Group loan </b>  <br>
-
-                                      Starting with a loan of 500,000 from Sajida microfinance, Mariam launched a charcoal business. Over time, with additional loan of 600,000 and 800,000, she grew her operation and was able to employ 2 people full time. Her success enabled her to send her children to school and transform her family’s future. The whole day Mariam works at her business place. The business place is situated in a market where so many restaurants are there. Her charcoal business has a monopoly in this market and she has no any competitor here. Next cycle she wants to be an individual client (SEL). She needs more money to expand her business. She is grateful to Sajida microfinance which supported her a lot.
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+             
 
                 <div class="modal case-modal" id="myModal-08">
                     <div class="modal-dialog">
