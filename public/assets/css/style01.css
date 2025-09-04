@@ -1,9 +1,9 @@
-/* @font-face {
-  font-family: 'spring';
-  src: url(../font/Fontspring-DEMO-argentcf-light.otf);
-} */
-
 @font-face {
+  font-family: 'spring';
+  src: url(../font/Argent-CF.woff2);
+}
+
+/* @font-face {
   font-family: 'Argent CF';
   src: url('https://www.sajida.org/_nuxt/fonts/ArgentCF-Regular.8fe206b.woff2') format('woff2');
   font-weight: normal;
@@ -13,13 +13,13 @@
 
 .argent-cf {
   font-family: 'Argent CF', -apple-system, BlinkMacSystemFont, sans-serif;
-}
+} */
 
 :root {
 --primary-color: #ffffff;
 --blue-color: #005AAA;
 
---font-spring: Argent CF;
+--font-spring: spring;
 
 --font-weight-300: 300;
 --font-weight-400: 400;
