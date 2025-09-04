@@ -10,12 +10,12 @@
                 <div class="hero-content">
                     <p id="country-name">SAJIDA Uganda</p>
                     <div class="heading">
-                        <h1><span>Fighting</span> Poverty.</h1>
+                        <h1><span>Fighting</span> Poverty</h1>
                         <img src="{{ asset('assets/img/Yellow Lines.png') }}" alt="">
                     </div>
                     <h3>By transforming lives through healthcare, financial inclusion, and dignity.</h3>
-                    <p>SAJIDA Foundation is a value-driven, non-government organisation. The organisation has come a long
-                        way since its humble beginnings in 1993.</p>
+                    <!-- <p>SAJIDA Foundation is a value-driven, non-government organisation. The organisation has come a long
+                        way since its humble beginnings in 1993.</p> -->
                 </div>
                 <div class="image">
                     <img src="{{ asset('assets/img/arrow.svg') }}" alt="">
@@ -29,17 +29,12 @@
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center item-container">
                     <div class="content">
-                        <h1>Strengthening Communities</h1>
+                        <h1><b>Strengthening Communities</b></h1>
                         <p>
                             <span>SAJIDA Uganda is working with vulnerable communities in the Busoga region to create lasting pathways toward resilience, opportunity, and dignity.</span>
-                            SAJIDA Foundation expanded to Uganda in 2023, introducing its proven community-based development
-                            model to address critical local needs. Since then, our work has focused on improving access to
-                            primary healthcare, promoting maternal and child health, building epidemic preparedness, and
-                            tackling financial barriers that keep vulnerable families from seeking medical care. Through
-                            household outreach, static clinics, telemedicine support, and health financing schemes, we have
-                            already reached hundreds of households across underserved communities. Uganda is now home to our
-                            largest operation outside Bangladesh, reflecting our long-term commitment to creating
-                            sustainable, inclusive change.
+                            Drawing from its learnings in Bangladesh, SAJIDA Foundation in Uganda is addressing two critical needs: health and financial inclusion. Our health program improves access to primary care, maternal and child health services, and essential treatment through household outreach, community clinics, telemedicine, and health financing support. Alongside this, our microfinance program provides small loans to families excluded by larger institutions, helping them build livelihoods and break cycles of poverty. <br><br>
+                            Together, these programs are reaching hundreds of households across underserved communities, laying the foundation for sustainable, inclusive change in Uganda.
+
                         </p>
                         <a href="{{ route('about-us.index') }}" class="btn"><span>about</span> sajida ></a>
                     </div>
@@ -57,8 +52,8 @@
                 <div class="title">
                     <h1>Latest from SAJIDA </h1>
                 </div>
-                <div class="tab-container">
-                    <div class="tab-btn">
+                <div class="tab-container row">
+                    <div class="tab-btn col-xl-3">
                         <div class="nav flex-column" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home"
                                 role="tab" aria-controls="v-pills-home" aria-selected="true">Health</a>
@@ -66,7 +61,7 @@
                                 role="tab" aria-controls="v-pills-profile" aria- selected="false">Financial Inclusion</a>
                         </div>
                     </div>
-                    <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-content col-xl-9" id="v-pills-tabContent">
                         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                             aria-labelledby="v-pills-home-tab">
                             <div class="slider owl-carousel">

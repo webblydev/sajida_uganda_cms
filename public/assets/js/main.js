@@ -30,7 +30,8 @@ $(document).ready(function(){
         loop:true,
         nav:false,
         dots:true,
-        margin:30
+        margin:30,
+        autoplay: true,
     });
 
     $(" .wrapper-6 .slider").owlCarousel({

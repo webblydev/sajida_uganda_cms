@@ -24,11 +24,6 @@
   width: 550px;
 }
 
-.wrapper-2 .slider {
-  max-width: 830px;
-  
-}
-
 .wrapper-2 .tab-container .tab-btn {
   width: 250px;
   padding-right: 35px;
@@ -177,9 +172,7 @@ border: none;
   background: none;
 }
 
-.wrapper-2 .slider {
-  max-width: 100%;
-}
+
 
 .wrapper-2 .slider-item .image  {
   width: 400px;
@@ -1702,6 +1695,11 @@ a.hero-btn {
   padding-top: 0;
 }
 
+.hero-content h3 {
+
+  line-height: 30px;
+}
+
 
 
   
@@ -1710,6 +1708,42 @@ a.hero-btn {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 340px) {
+  .container {
+    padding: 10px;
+  }
+
+.wrapper-18 .counters .stat {
+  width: 100%;
+  max-width: 100%;
+}
+.home-hero {
+  height: 100vh;
+}
+.hero-content h3 {
+
+  line-height: 26px;
+}
+.wrapper-1 .image {
+  height: 220px;
+}
+.wrapper-6 .single-slider-item img {
+  height: 195px;
+}
+.wrapper-6 .single-slider-item .content {
   
+  padding: 10px;
+  height: 145px;
+}
+.wrapper-22 .single-item .content {
+  padding: 10px;
+}
+.wrapper-22 .single-item img {
+  height: 200px;
+}
+.wrapper-22 .case-stories .project-item ul {
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
 }
