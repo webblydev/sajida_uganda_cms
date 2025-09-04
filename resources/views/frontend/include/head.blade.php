@@ -15,5 +15,5 @@
     <!-- <title>SAJIDA Foundation Uganda</title> -->
 
     <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style01.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/responsive01.css') }}">
