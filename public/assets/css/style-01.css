@@ -734,7 +734,7 @@ color: #1E1E1E;
   margin-bottom: 10px;
   display: block;
   color: #1E1E1E;
-  text-transform: capitalize;
+
 }
 
 
@@ -1181,7 +1181,6 @@ z-index: 1;
   font-size: var(--font-size-18);
   font-weight: var(--font-weight-500);
   line-height: var(--line-height);
-  text-transform: capitalize;
 }
 
 .wrapper-5 .image {
@@ -1497,7 +1496,6 @@ background: #314453;
   .wrapper-8 .content-container p {
   font-size: var(--font-size-24);
   text-align: center;
-  text-transform: capitalize;
   padding: 20px;
   }
 
@@ -1663,13 +1661,14 @@ color: #000000;
 .wrapper-9 .popup-message {
   width: 100%;
   margin: auto;
+  height: 800px;
 
 
 }
 
 .wrapper-9 .popup-message .popup-image {
   width: 500px;
-  height: 700px;
+  height: 100%;
 }
 .wrapper-9 .popup-message .popup-image img {
   width: 100%;
@@ -2549,6 +2548,7 @@ a.hero-btn {
   font-size: 32px;
   font-family: var(--font-spring);
   margin-bottom: 40px;
+  text-transform: capitalize;
 }
 .contribute .content p {
   font-size: 18px;

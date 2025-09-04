@@ -145,7 +145,7 @@
                         </div>
                         <span class="border"></span>
 
-                        <div class="stat" data-count="200" data-suffix="%" data-step="5" data-plus="true">
+                        <div class="stat" data-count="93" data-suffix="%" data-step="2" data-plus="true">
                             <div class="number">0</div>
                             <div class="label">of pregnant mothers completed 4+ antenatal visits, nearly double the sub-regional average</div>
                         </div>

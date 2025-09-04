@@ -73,10 +73,12 @@
                                         <div class="info-content">
                                             <h4>Social</h4>
                                             <div class="social-icon">
-                                                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                                                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                                                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                                <a href="https://www.facebook.com/NGOSAJIDA" target="_blank"><i
+                                                        class="fa-brands fa-facebook-f"></i></a>
+                                                <a href="https://twitter.com/NGOSAJIDA" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                                                <a href="https://www.youtube.com/@sajidafoundation1993" target="_blank"> <i
+                                                        class="fa-brands fa-youtube"></i></a>
+                                                <a href="mailto:inquiry@Sajida.org" target="_blank"><i class="fa-solid fa-envelope"></i></a>
 
                                             </div>
                                         </div>
@@ -113,12 +115,7 @@
                                 <input type="text" id="name" name="name" required><br>
 
                                 <label for="contactPurpose">Contact Purpose*</label><br>
-                                <select name="" id="">
-                                    <option value="">Select</option>
-                                    <option value="">Select</option>
-                                    <option value="">Select</option>
-                                    <option value="">Select</option>
-                                </select><br>
+                                <input type="text" id="name" name="name" required><br>
 
 
 
