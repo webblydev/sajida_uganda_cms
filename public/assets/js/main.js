@@ -1,8 +1,8 @@
-$(document).ready(function(){
+$(document).ready(function() {
 
-    $(window).on("load", function () {
-      $(".loader").fadeOut("slow");
-    });
+    // $(window).on("load", function () {
+    //   $(".loader").fadeOut("slow");
+    // });
 
     $(" .wrapper-2 .slider").owlCarousel({
         items:1,
@@ -191,32 +191,6 @@ $(document).ready(function(){
         }
     })
 
-    // gsap.from('.wrapper-1 .image',{
-    //     x:300,
-    //     duration:1,
-    //     opacity:0,
-    //     scrollTrigger:{
-    //         trigger:'.wrapper-1 .image',
-    //         scroller:'body',
-    //         start:'top 100%',
-    //         end:'top 90%',  
-    //         //  markers:true,
-    //         scrub:2,
-    //     }
-    // })
-    // gsap.from('.wrapper-1 .content',{
-    //     y:-300,
-    //     duration:1,
-    //     opacity:0,
-    //     scrollTrigger:{
-    //         trigger:'.wrapper-1 .content',
-    //         scroller:'body',
-    //         start:'top 50%',
-    //         end:'top 30%',
-    //         // markers:true,
-    //         scrub:2,
-    //     }
-    // })
 
 
     $(".project-item li").on("click", function() {
@@ -237,28 +211,7 @@ $(document).ready(function(){
   });
 
 
-//   jQuery(window).load(function() {
 
-//     jQuery(".project-list").isotope();
-
-//   });
-
-    //  let valueDisplays = document.querySelectorAll('.num');
-    // let interval = 1000;
-
-    // valueDisplays.forEach((valueDisplays) => {
-    //     let startValue = 0;
-    //     let endValue = parseInt(valueDisplays.getAttribute('data-val'));
-    //     let duration = Math.floor(interval / endValue);
-    //     let counter = setInterval(function () {
-    //         startValue += 1;
-    //         valueDisplays.textContent = startValue;
-    //         if (startValue == endValue) {
-    //             clearInterval(counter);
-    //         }
-    //     }, duration);
-
-    // });
 
 
 
@@ -330,3 +283,9 @@ window.addEventListener('scroll', () => {
 
   lastScroll = currentScroll;
 });
+
+
+const loaderContainer = document.querySelector('.loader-container')
+window.addEventListener('load', () => {
+  loaderContainer.classList.add('hidden')
+})

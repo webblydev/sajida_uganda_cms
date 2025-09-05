@@ -72,7 +72,32 @@ body {
 overflow-x: hidden;
 }
 
+/* page loader */
+
+.loader-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 9999;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s;
+}
+.loader-container img {
+  width: 150px;
+}
+.loader-container.hidden {
+  z-index: -9999;
+  opacity: 0;
+}
+
+/* page loader */
+
 /* loader */
+
+/* 
 .loader {
   position: fixed;
   top: 0;
@@ -108,16 +133,16 @@ overflow-x: hidden;
   border-radius: 50%;
   border: 3px solid transparent;
   border-bottom-color: #F7CE19;
-}
+} */
 
-@keyframes rotation {
+/* @keyframes rotation {
   0% {
     -webkit-transform: rotate(0deg);
   }
   100% {
     -webkit-transform: rotate(360deg);
   }
-}
+} */
 
 /* loader */
 
