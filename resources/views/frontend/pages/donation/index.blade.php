@@ -27,7 +27,7 @@
                         <p>
                         Every contribution uplifts the most vulnerable, easing their suffering and restoring dignity, comfort, and strength in the face of immense challenges.</p>
 
-    
+
                     </div>
                     <div class="image">
                         <img src="{{ asset('assets/img/hero-img6.jpg') }}" alt="">
@@ -55,7 +55,7 @@
                             <!-- <b>International Routing Code (IRC):</b> 0260-13673 -->
                         </p>
                     </div>
-                    <!-- <div class="paypal-transfer">
+               {{--     <!-- <div class="paypal-transfer">
                         <h5>PAYPAL TRANSFER</h5>
                         <img src="{{ asset('assets/img/paypal.jpg') }}" alt="">
                         <p><b>Paypal:</b> SAJIDA FOUNDATION uganda</p>
@@ -64,7 +64,7 @@
                         <h5>ZELLE TRANSFER</h5>
                         <img src="{{ asset('assets/img/zelle.png') }}" alt="">
                         <p><b>Zelle:</b> donate@sajidauganda.org</p>
-                    </div> -->
+                    </div> --> --}}
                 </div>
             </div>
         </div>

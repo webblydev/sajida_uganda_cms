@@ -52,7 +52,7 @@
 
                                 </div>
                             </div>
-                            <div class="row mt-4">
+                            <div class="row mt-md-4">
                                 <div class="col-sm-7">
                                     <div class="location d-flex">
                                         <div class="icon">
