@@ -70,7 +70,7 @@
                     <div class="project-list">
                         @foreach ($recentNewsItems as $recentNews)
                         @php
-                            $className = $recentNews->category->title == 'Health' ? 'health' : ($recentNews->category->title == 'Microfinance' ? 'microfinance' : 'other');
+                            $className = $recentNews->category->title == 'Health' ? 'health' : ($recentNews->category->title == 'Financial Inclusion' ? 'microfinance' : 'other');
                         @endphp
                             <div class="m-2 {{ $className }}">
                                 <a href="{{ route('news-room.show', $recentNews->id) }}" target="blank">
