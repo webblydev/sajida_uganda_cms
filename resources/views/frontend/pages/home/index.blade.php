@@ -8,7 +8,7 @@
         <div class="section-padding">
             <div class="container">
                 <div class="hero-content">
-                    <p id="country-name">SAJIDA Uganda</p>
+                    <h5 id="country-name">SAJIDA Uganda</h5>
                     <div class="heading">
                         <h1><span>Fighting</span> Poverty</h1>
                         <img src="{{ asset('assets/img/Yellow Lines.png') }}" alt="">

@@ -1,9 +1,5 @@
 $(document).ready(function() {
 
-    // $(window).on("load", function () {
-    //   $(".loader").fadeOut("slow");
-    // });
-
     $(" .wrapper-2 .slider").owlCarousel({
         items:1,
         loop:true,
@@ -69,45 +65,9 @@ $(document).ready(function() {
         }
     });
 
-    //     $(" .wrapper-9 .slider").owlCarousel({
-    //     items:3,
-    //     loop:true,
-    //     margin:25,
-    //     nav:false,
-    //     dots:false,
-    //     autoplay: true,
-    //     autoplayTimeout: 4000, // Time between slides (in ms)
-    //     autoplaySpeed: 4000, // Speed of the slide transition (in ms)
-    //     slideTransition: 'linear',
-    //     responsive : {
-
-    //         0 : {
-    //             items:1.5,
-    //             center: true,
-    //             dots:true,
-    //             nav:false,
-    //         },
-    //         768 : {
-    //             items:2,
-    //             dots:true,
-    //         },
-
-    //         900 : {
-    //             items:2,
-    //         },
-
-    //         1200 : {
-    //             items:3,
-    //             nav:false,
-    //             dots:false,
-
-    //         },
-
-    //     }
-    // });
 
 
-     $(".storiec-slider .slider").owlCarousel({
+    $(".storiec-slider .slider").owlCarousel({
         items:1,
         loop:true,
         margin:25,
@@ -151,32 +111,39 @@ $(document).ready(function() {
 
     })
 
+    let tl = gsap.timeline();
 
-    gsap.from('.hero-content h1',{
-
-        duration:1,
+    tl.from('#country-name ',{
+        duration:.3,
         delay:.5,
         opacity:0,
     })
-    gsap.from('.hero-content img',{
-        x:-300,
-        duration:1,
-        delay:.6,
+
+
+    tl.from('.hero-content h1',{
+
+        duration:.5,
         opacity:0,
     })
-    gsap.from('.hero-content h3',{
-        x:300,
-        duration:1,
-        delay:.7,
+
+    tl.from('.hero-content h3',{
+        duration:.5,
+        opacity:0,
+    })
+    tl.from('.hero-content .heading img',{
+        x:-100,
+        duration:.5,
         opacity:0,
     })
 
     gsap.from('.hero-content p',{
-        x:-300,
-        duration:1,
-        delay:.8,
+        y:50,
+        duration:.5,
+        delay:1,
         opacity:0,
     })
+
+
     gsap.from('.hero-section .image',{
         y:-300,
         duration:1,
