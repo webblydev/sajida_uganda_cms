@@ -17,9 +17,15 @@
     <script src="{{ asset('assets/js/isotop.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
 
- 
+
 <script>
-        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    document.addEventListener("DOMContentLoaded", function () {
+        const yearEl = document.getElementById("currentYear");
+            if (yearEl) {
+            yearEl.textContent = new Date().getFullYear();
+            }
+        });
+
     function toaster(message, class_name) {
         Toastify({
             newWindow: !0,

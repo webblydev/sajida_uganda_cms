@@ -11,7 +11,7 @@ $(document).ready(function() {
         nav:false,
         dots:true,
         autoplay:true,
-        
+
     });
     $(" .wrapper-4 .slider").owlCarousel({
         items:1,
@@ -22,7 +22,7 @@ $(document).ready(function() {
         autoplay:true,
         animateOut: 'fadeOut',
         autoplayTimeout: 6000,
-        
+
     });
 
      $(" .wrapper-19 .slider").owlCarousel({
@@ -41,7 +41,7 @@ $(document).ready(function() {
         nav:true,
         dots:false,
         responsive : {
-  
+
             0 : {
                 items:1,
                 center: true,
@@ -49,22 +49,22 @@ $(document).ready(function() {
             },
             768 : {
                 items:1.5,
-                dots:true, 
+                dots:true,
                 nav:false
             },
-            
+
             900 : {
                 items:2,
-                
+
             },
-           
+
             1200 : {
                 items:2.5,
-                
+
             },
               1400 : {
                 items:3,
-                
+
             }
         }
     });
@@ -80,7 +80,7 @@ $(document).ready(function() {
     //     autoplaySpeed: 4000, // Speed of the slide transition (in ms)
     //     slideTransition: 'linear',
     //     responsive : {
-  
+
     //         0 : {
     //             items:1.5,
     //             center: true,
@@ -89,20 +89,20 @@ $(document).ready(function() {
     //         },
     //         768 : {
     //             items:2,
-    //             dots:true, 
+    //             dots:true,
     //         },
-            
+
     //         900 : {
     //             items:2,
     //         },
-           
+
     //         1200 : {
     //             items:3,
     //             nav:false,
     //             dots:false,
-                
+
     //         },
-          
+
     //     }
     // });
 
@@ -113,7 +113,7 @@ $(document).ready(function() {
         margin:25,
         nav:false,
         dots:true,
-      
+
     });
 
     $(".header-section-mobile .mobile-header .header-rihgt .bars").click(function(){
@@ -123,7 +123,7 @@ $(document).ready(function() {
 
       });
 
-      
+
     $(".overlay").click(function(){
         $(".header-section-mobile .mobile-header .header-rihgt .bars").toggleClass("active");
         $(".header-section-mobile").toggleClass("active");
@@ -140,7 +140,7 @@ $(document).ready(function() {
         Preloader
     ========================================*/
 
-      
+
 
 
     gsap.to('.hero-section .bg img',{
@@ -148,12 +148,12 @@ $(document).ready(function() {
         duration:20,
         repeat:-1,
         yoyo:true,
-    
+
     })
 
 
     gsap.from('.hero-content h1',{
-        
+
         duration:1,
         delay:.5,
         opacity:0,
@@ -202,9 +202,9 @@ $(document).ready(function() {
     });
 
 
-  
 
- 
+
+
     $('.project-list').isotope();
 
 
@@ -234,11 +234,18 @@ function animateCounter(el, target, step, suffix = "", plus = false) {
 }
 
 function isInView(el) {
+  if (!el) return false; // prevent error if el is null/undefined
   const rect = el.getBoundingClientRect();
   return rect.top < window.innerHeight && rect.bottom > 0;
 }
 
-const stats = document.querySelectorAll(".stat");
+// const stats = document.querySelectorAll(".stat");
+  let stats = document.querySelectorAll(".stat");
+
+if (!stats || stats.length === 0) {
+  stats = document.querySelectorAll(".stat");
+}
+
 let started = false;
 
 function checkScroll() {

@@ -17,7 +17,7 @@
                 </div>
             </div>
         </section>
-<!-- 
+<!--
         <section class="wrapper-15 section">
             <div class="section-padding">
                 <div class="container">
@@ -64,7 +64,7 @@
                     </div>
                 </div>
             </div>
-        </section> --}} 
+        </section> --}}
 
         <section class="wrapper-17 section">
             <div class="section-padding">
@@ -81,9 +81,9 @@
                                 Trained Community Health Workers (CHWs) conduct household screenings, raise health awareness, and identify at-risk individuals for early intervention. Satellite clinics, staffed by clinical officers, deliver primary care, while telemedicine connects patients with MBBS doctors for specialized consultations. </p>
                                 <p> To ensure affordability and access, SAJIDA Uganda also facilitates health financing, enabling households to obtain essential diagnostics, medicines, consultations, and maternity services.
 
-                                
+
                                 </p>
-                                
+
                             </div>
                         </div>
                         <div class="col-lg-7">
@@ -92,7 +92,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="row">
+                 {{--   <!-- <div class="row">
                         <div class="col-lg-6 order-lg-1 order-2">
                             <div class="image">
                                 <img src="{{ asset('assets/img/image6.jpg') }}" alt="">
@@ -110,7 +110,7 @@
                             </div>
                         </div>
 
-                    </div> -->
+                    </div> --> --}}
                 </div>
             </div>
         </section>
@@ -158,7 +158,7 @@
                         </div>
                         <span class="border"></span>
 
-                        
+
 
                         <div class="stat" data-count="78" data-suffix="%" data-step="2" data-plus="true">
                             <div class="number">0</div>
@@ -239,7 +239,7 @@
                                 <img src="{{ asset('assets/img/story-6.jpg') }}" alt="">
                             </div>
                         </div>
-                        <!-- <div class="slider-item">
+                     {{--   <!-- <div class="slider-item">
                             <div class="content">
                                 <img src="{{ asset('assets/img/right 1.png') }}" alt="">
                                 <p>Starting with a loan of 500,000 from Sajida microfinance, Mariam launched a charcoal business. Over time, with additional loan of 600,000 and 800,000, she grew her operation and was able to employ 2 people full time. Her success enabled her to send her children to school and transform </p>
@@ -250,7 +250,7 @@
                             <div class="image">
                                 <img src="{{ asset('assets/img/story-7.jpg') }}" alt="">
                             </div>
-                        </div> -->
+                        </div> -->--}}
                         <div class="slider-item">
                             <div class="content">
                                 <img src="{{ asset('assets/img/right 1.png') }}" alt="">
@@ -266,7 +266,7 @@
                         <div class="slider-item">
                             <div class="content">
                                 <img src="{{ asset('assets/img/right 1.png') }}" alt="">
-                                <p>My name is Bugonzi Sophie a residence of Buligo Iganga district. I am a client of Sajida microfinance I sell clothes in Nabidonga market. Below is my success story 
+                                <p>My name is Bugonzi Sophie a residence of Buligo Iganga district. I am a client of Sajida microfinance I sell clothes in Nabidonga market. Below is my success story
                                     Sajida Microfinance came in at the time I needed the most I was having challenge of low working capital in my business.  </p>
 
                                 <a href="#" class="btn case-btn" data-bs-toggle="modal" data-bs-target="#myModal-09">Read Full Story</a>
@@ -304,19 +304,19 @@
                                     <img src="{{ asset('assets/img/governing-body-img1.png') }}" alt="">
                                 </div> -->
                                 <div class="popup-content">
-                                    
-                                    <h2>Madina Nakaja</h2>  
+
+                                    <h2>Madina Nakaja</h2>
                                     <h3><b> Location:</b> Wanyama Katamba Cell, Jinja City</h3>
-                                    
+
                                     <p>
-                                        Madina Nakaja, a 56-year-old resident of Wanyama Katamba Cell in Jinja City, lived unaware of the silent threat of hypertension. With no symptoms to warn her, she carried on, dismissing her worsening vision as aging. For years, she lived with untreated hypertension, a silent threat eroding her well-being. Though she sought care at a government facility four years ago, financial hardship and inconsistent healthcare access forced her to discontinue treatment. One fateful morning, as she peered into her stove to prepare a meal, an excruciating pain struck her eyes, plunging her into total darkness. Fear consumed her and her family, who, unable to understand the medical cause, believed her sudden blindness was the result of witchcraft. In desperation, they turned to traditional healers, clinging to the hope of a miracle. But days turned to months, and her world remained shrouded in darkness, leaving her in deep despair. <br> 
+                                        Madina Nakaja, a 56-year-old resident of Wanyama Katamba Cell in Jinja City, lived unaware of the silent threat of hypertension. With no symptoms to warn her, she carried on, dismissing her worsening vision as aging. For years, she lived with untreated hypertension, a silent threat eroding her well-being. Though she sought care at a government facility four years ago, financial hardship and inconsistent healthcare access forced her to discontinue treatment. One fateful morning, as she peered into her stove to prepare a meal, an excruciating pain struck her eyes, plunging her into total darkness. Fear consumed her and her family, who, unable to understand the medical cause, believed her sudden blindness was the result of witchcraft. In desperation, they turned to traditional healers, clinging to the hope of a miracle. But days turned to months, and her world remained shrouded in darkness, leaving her in deep despair. <br>
                                         Hope arrived when SAJIDA Foundation’s community health program reached her doorstep. Identified as a beneficiary, Madina and her family were given a new chance at life. During a household visit, SAJIDA Foundation’s Program Officer for Health, alongside a dedicated Community Health Worker (CHW), assessed her condition and suspected bilateral cataracts. Understanding the urgency, SAJIDA’s team facilitated her referral to a government health facility for further evaluation. With unwavering support, SAJIDA’s CHW guided Madina through the healthcare system, where specialists confirmed mature cataracts in both eyes. However, her uncontrolled hypertension posed a significant risk to surgery. Determined to restore her sight, SAJIDA’s CHW provided consistent follow-ups, ensuring she received proper medication and lifestyle counseling to stabilize her blood pressure. After weeks of diligent care, her hypertension was managed, allowing her to undergo surgery. The first cataract operation restored vision in one eye, and two months later, the second procedure brought full clarity back to her world. For the first time in years, Madina could see clearly her family’s faces, her home, and the community that stood by her side. <br>
                                         Madina’s story is one of resilience, transformation, and the profound impact of accessible healthcare. Today, she moves through life with renewed independence and confidence, no longer reliant on others to navigate her surroundings. More than just restoring her sight, SAJIDA Foundation gave her dignity, hope, and a future filled with possibilities.
 
                                     </p>
-                                
-     
-                                
+
+
+
                                 </div>
                             </div>
                         </div>
@@ -334,8 +334,8 @@
                                     <img src="{{ asset('assets/img/governing-body-img1.png') }}" alt="">
                                 </div> -->
                                 <div class="popup-content">
-                                    
-                                    <h2><b>Participant Name:</b> Kawala Rosemary</h2>  
+
+                                    <h2><b>Participant Name:</b> Kawala Rosemary</h2>
                                     <h3><b>Location:</b> School Cell, Budhumbuli, Bugembe, Jinja, Uganda</h3>
                                     <p>
                                        <b>Initial Health Condition:</b>  Uncontrolled Hypertension with Mild Heart Failure <br>
@@ -349,10 +349,10 @@
                                         "I can now walk to church and cook for my children again. SAJIDA Foundation brought me back to life when I had given up."
 
                                     </p>
-                                    
-                                   
 
-                                    
+
+
+
 
                                 </div>
                             </div>
@@ -371,8 +371,8 @@
                                     <img src="{{ asset('assets/img/governing-body-img1.png') }}" alt="">
                                 </div> -->
                                 <div class="popup-content">
-                                    
-                                    <h2><b>Participant Name:</b> Namakula Christian</h2>  
+
+                                    <h2><b>Participant Name:</b> Namakula Christian</h2>
                                     <h3><b>Location:</b> School Cell, Budhumbuli, Bugembe, Jinja, Uganda</h3>
                                     <p>
                                        Namakula Christian, a 57-year-old woman, lives with a disability resulting from a past accident. In addition to being HIV positive, she also suffers from hypertension. Despite these challenges, she remains the primary breadwinner for her family. When SAJIDA’s Community Health Worker  first met her in May 2024 after her enrollment within the Health program she was in a dire state—struggling to survive by cooking and selling foods at her homestead. This small income barely sustained her family and left her unable to purchase her hypertensive medications regularly this was also worsen by her inability to move to health facility. Although her HIV medications were being delivered to her home by another organization, there was no support for her hypertension management and her herpertension kept worsening day by day. <br>
@@ -390,10 +390,10 @@
                                         “I am so grateful for the coming of SAJIDA Foundation. My health is better, and I pray every day for SAJIDA to grow and help thousands and thousands of people like me.”
 
                                     </p>
-                                    
-                                   
 
-                                    
+
+
+
 
                                 </div>
                             </div>
@@ -412,8 +412,8 @@
                                     <img src="{{ asset('assets/img/governing-body-img1.png') }}" alt="">
                                 </div> -->
                                 <div class="popup-content">
-                                    
-                                    <h2><b>Participant Name:</b> Nansubuga Mwamini</h2>  
+
+                                    <h2><b>Participant Name:</b> Nansubuga Mwamini</h2>
                                     <h3><b>Location:</b> Namizzi, Jinja</h3>
                                     <p>
                                        <b>Business type:</b>  Farmer, Poultry, Retail shop</b> <br>
@@ -438,8 +438,8 @@
                                     <img src="{{ asset('assets/img/governing-body-img1.png') }}" alt="">
                                 </div> -->
                                 <div class="popup-content">
-                                    
-                                    <h2><b>Participant Name:</b> Namaganda Lydia</h2>  
+
+                                    <h2><b>Participant Name:</b> Namaganda Lydia</h2>
                                     <h3><b>Location:</b> Wanyange, Jinja</h3>
                                     <p>
                                        <b>Business type:</b> Retail shop <br>
@@ -464,8 +464,8 @@
                                     <img src="{{ asset('assets/img/governing-body-img1.png') }}" alt="">
                                 </div> -->
                                 <div class="popup-content">
-                                    
-                                    <h2><b>Participant Name:</b> Bogere Kafeero</h2>  
+
+                                    <h2><b>Participant Name:</b> Bogere Kafeero</h2>
                                     <h3><b>Location:</b> Jinja town</h3>
                                     <p>
                                        <b>Business type:</b> Butcher  <br>
@@ -479,7 +479,7 @@
                         </div>
                     </div>
                 </div>
-             
+
 
                 <div class="modal case-modal" id="myModal-08">
                     <div class="modal-dialog">
@@ -492,8 +492,8 @@
                                     <img src="{{ asset('assets/img/governing-body-img1.png') }}" alt="">
                                 </div> -->
                                 <div class="popup-content">
-                                    
-                                    <h2><b>Participant Name:</b> Atimango Stella </h2>  
+
+                                    <h2><b>Participant Name:</b> Atimango Stella </h2>
                                     <h3><b>Location:</b> Buligo subcounty, Nawansinge</h3>
                                     <p>
                                        My name is Atimango Stella a resident Nawansinge, Buligo subcounty in Iganga town. I have been a member of Sajida since last year I am currently in 2ndcycle with Sajida under SML loan product. This is my success story with Sajida.
@@ -520,12 +520,12 @@
                                     <img src="{{ asset('assets/img/governing-body-img1.png') }}" alt="">
                                 </div> -->
                                 <div class="popup-content">
-                                    
-                                    <h2><b>Participant Name:</b> Bugonzi Sophie  </h2>  
+
+                                    <h2><b>Participant Name:</b> Bugonzi Sophie  </h2>
                                     <h3><b>Location:</b> Buligo Iganga district</h3>
                                     <p>
-                                        My name is Bugonzi Sophie a residence of Buligo Iganga district. I am a client of Sajida microfinance I sell clothes in Nabidonga market. Below is my success story 
-                                        Sajida Microfinance came in at the time I needed the most I was having challenge of low working capital in my business. Then I was marketed to by the staff of Sajida microfinance who told I would be able to get individual loan to boost my capital. 
+                                        My name is Bugonzi Sophie a residence of Buligo Iganga district. I am a client of Sajida microfinance I sell clothes in Nabidonga market. Below is my success story
+                                        Sajida Microfinance came in at the time I needed the most I was having challenge of low working capital in my business. Then I was marketed to by the staff of Sajida microfinance who told I would be able to get individual loan to boost my capital.
                                         The low interest rates, and zero admissions fees attracted me the more to join Sajida Microfinance. I saw this would be of my advantage since the only fee I was to pay was security fee and loan processing fee and I would have to pay back on a weekly process.
                                         I then proceed to process all requirement that the field officer told me. I obtained my 1st cycle loan UGX 1,500,000. I boosted my businesses added more stock in my business this boosted my capital gains and the weekly payments was convenient for me. This motivated me to apply for the 2nd loan for 2,000,0000 which I was given.
                                         I used part of this money to complete my house construction and currently I have a house and my children have shelter. Some of the money I visited in my business. I live a healthy and happy life together with my family my business is also doing well. Am so grateful to Sajida microfinance.
@@ -544,15 +544,15 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                                 </div>
                             <div class="popup-message d-flex">
-                                <!-- <div class="popup-image">
+                            {{--    <!-- <div class="popup-image">
                                     <img src="{{ asset('assets/img/governing-body-img1.png') }}" alt="">
-                                </div> -->
+                                </div> -->--}}
                                 <div class="popup-content">
-                                    
-                                    <h2><b>Participant Name:</b> Namataba Norah  </h2>  
+
+                                    <h2><b>Participant Name:</b> Namataba Norah  </h2>
                                     <h3><b>Location:</b>  </h3>
                                     <p>
-                                        My name is Namataba Norah, a business lady in Iganga town. I have a boutique located along Kaliro road in Iganga municipality. I first joined Sajida Microfinance under SML loan product where I was disbursed to a loan of 500,000 UGX.  Before I had a working capital of 700,000. When I was given this working capital, I used it to restock my business. I went to Kenya and bought classy items for my business. 
+                                        My name is Namataba Norah, a business lady in Iganga town. I have a boutique located along Kaliro road in Iganga municipality. I first joined Sajida Microfinance under SML loan product where I was disbursed to a loan of 500,000 UGX.  Before I had a working capital of 700,000. When I was given this working capital, I used it to restock my business. I went to Kenya and bought classy items for my business.
                                         During my 1st cycle I did not find any difficulty to pay my loan, since I had invested the whole of it in my business which boosted it and I was able to enjoy my timely payments of my loan.  This made my capital to increase to 1, 200,000 UGX. When my 2nd cycle reached, I was verified and I was then migrated to Sadjida enterprise loan. I acquired a loan of 1,500,000 UGX, my business was boosted and it expanded. I have a stock of over 3,000,000 UGX and I am able to make profits of over 300,000 per a week. I also referred a friend of mine to Sajida and she was given an enterprise loan of 1,000,000 UGX. I am no able to cater for my children school fees and other basic needs at home without any challenges. Am so grateful to Sajida Microfinance.
 
                                     </p>

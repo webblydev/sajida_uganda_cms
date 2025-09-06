@@ -87,7 +87,7 @@
                             </div>
                         @endforeach
 
-                        <!-- <div class="m-2 health">
+                    {{--    <!-- <div class="m-2 health">
                             <div class="single-item">
                                 <img src="{{ asset('assets/img/slider1.png') }}" alt="">
                                 <div class="space"></div>
@@ -183,14 +183,14 @@
                                 </div>
                                 <span>Mar 13, 2023</span>
                             </div>
-                        </div>  -->
+                        </div>  -->--}}
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- <section class="wrapper-12 section">
+   {{-- <!-- <section class="wrapper-12 section">
         <div class="section-padding">
             <div class="container">
                 <div class="d-flex align-items-center justify-content-between">
@@ -199,5 +199,5 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section> -->--}}
 @endsection

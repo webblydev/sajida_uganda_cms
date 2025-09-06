@@ -2,7 +2,7 @@
     <div class="section-padding">
         <div class="container">
             <div class="footer">
-                <!-- <div class="company-details">
+               {{-- <!-- <div class="company-details">
                     <div class="logo">
                         <a href="{{ route('foundation.index') }}"> <img src="{{ asset('assets/img/logo.svg') }}"
                                 alt=""></a>
@@ -26,6 +26,8 @@
                         </li>
                     </ul>
                 </div> -->
+
+--}}
                 <div class="contact">
                     <h2 class="footer-h2">Connect With Us</h2>
                     <div class="social-icon">
@@ -48,7 +50,7 @@
     <h4>© 2025 All Rights Reserved <a href="https://www.sajida.org/">SAJIDA Foundation.</a></h4>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
     integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
@@ -67,8 +69,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/fontawesome.min.js"
     integrity="sha512-j12pXc2gXZL/JZw5Mhi6LC7lkiXL0e2h+9ZWpqhniz0DkDrO01VNlBrG3LkPBn6DgG2b8CDjzJT+lxfocsS1Vw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
-<script src="{{ asset('assets/js/main.js') }}"></script>
+
 @section('customscript2')
     @include('frontend.include.toaster')
 @endsection
