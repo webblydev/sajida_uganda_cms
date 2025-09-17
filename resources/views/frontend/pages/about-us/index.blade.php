@@ -284,12 +284,12 @@
                                 </div>
                                 <div class="popup-content">
 
-                                    <h4>Hridoy Islam <span>Senior Manager-Partnerships SAJIDA Foundation (BGD)</span></h4>
-                                    <p>Muhymin Chowdhury currently serves as the Director of Impact Investment & Partnerships at SAJIDA Foundation. In this role, he leads the management of an impact fund aimed at fostering the growth of startups and build strategic partnerships with institutional stakeholders to expand SAJIDA’s development programmes.
+                                    <h4>Hridoy Islam <span>Senior Manager – Partnership & Fund Raising Unit</span></h4>
+                                    <p>Hridoy Islam is serving as Senior Manager of the Partnerships and Fundraising unit at SAJIDA Foundation. In this role, he oversees fund mobilisation to advance financial inclusion and scale SAJIDA Foundation’s healthcare social enterprises. With a strong focus on impact-driven finance, Hridoy has successfully structured investment strategies that have generated substantial funding for high-impact projects across Bangladesh.<br>
+                                    In previous roles, Hridoy developed extensive expertise in alternative investment management, including in his position as Vice President, Head of Research at Alternative Investment Management of STEPs Ltd. (an asset management company licensed to manage Alternative Investment Funds in Bangladesh) where he led the structuring of Bangladesh’s first composite alternative investment fund - an initiative targeted at MSMEs in key sectors such as healthcare and technology. He also led Bangladesh’s first microfinance portfolio securitisation transaction, worth $3.25 million, facilitating increased capital flow to underserved communities. His tenure at Bangladesh SME Corporation Ltd. (a FinTech company) was marked by his leadership in developing financial products for marginalized entrepreneurs, which included securing $1.4 million for 2,300 MSMEs and deploying over $3.6 million to SMEs through innovative quasi-equity instruments.<br>
+                                    Hridoy holds a Bachelor’s degree in Business Administration, with double majors in Finance & Accounting and Economics from North South University in Dhaka, Bangladesh.
 
-                                    Previously, Muhymin held the position of Deputy Challenge Fund Manager at Nathan Associates, where he successfully structured 36 results-based financing agreements worth GBP 27 million with key financial market actors. Earlier at Shorebank International, Muhymin managed a USD 10 million performance-based investment in bKash, a leading mobile money service provider.
-
-                                    Muhymin's professional experience extends across Nepal, Pakistan, and Kenya, where he collaborated with commercial banks, international non-governmental organisations (INGOs), and bilateral donors on financial product development, mobile money agent network expansion, and customer segmentation strategies.</p>
+                                    </p>
                                 </div>
                             </div>
                         </div>
