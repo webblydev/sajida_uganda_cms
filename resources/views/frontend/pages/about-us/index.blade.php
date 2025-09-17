@@ -124,7 +124,7 @@
                             <img src="{{ asset('assets/img/hridoy_islam.png') }}" alt="">
                         </div>
                         <div class="content">
-                            <h4>Hridoy Islam<span>Senior Manager-Partnerships SAJIDA Foundation (BGD)</span></h4>
+                            <h4>Hridoy Islam<span>Senior Manager – Partnership & Fund Raising Unit</span></h4>
                         </div>
                     </div>
                     <div class="single-slider-item" data-bs-toggle="modal" data-bs-target="#myModal-07">
