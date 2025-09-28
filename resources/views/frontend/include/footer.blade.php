@@ -36,7 +36,7 @@
                         <a href="https://twitter.com/NGOSAJIDA" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
                         <a href="https://www.youtube.com/@sajidafoundation1993" target="_blank"> <i
                                 class="fa-brands fa-youtube"></i></a>
-                        <a href="mailto:inquiry@Sajida.org" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="mailto:info.uganda@sajida.org" target="_blank"><i class="fa-solid fa-envelope"></i></a>
 
                     </div>
                 </div>

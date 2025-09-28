@@ -206,6 +206,7 @@ transition: .6s ease-in;
 
 .scroll-down .header {
   -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
 }
 
 

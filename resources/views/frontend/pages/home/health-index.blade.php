@@ -335,7 +335,7 @@
                                 </div> -->
                                 <div class="popup-content">
 
-                                    <h2><b>Participant Name:</b> Kawala Rosemary</h2>
+                                    <h2> Kawala Rosemary</h2>
                                     <h3><b>Location:</b> School Cell, Budhumbuli, Bugembe, Jinja, Uganda</h3>
                                     <p>
                                        <b>Initial Health Condition:</b>  Uncontrolled Hypertension with Mild Heart Failure <br>
@@ -372,7 +372,7 @@
                                 </div> -->
                                 <div class="popup-content">
 
-                                    <h2><b>Participant Name:</b> Namakula Christian</h2>
+                                    <h2> Namakula Christian</h2>
                                     <h3><b>Location:</b> School Cell, Budhumbuli, Bugembe, Jinja, Uganda</h3>
                                     <p>
                                        Namakula Christian, a 57-year-old woman, lives with a disability resulting from a past accident. In addition to being HIV positive, she also suffers from hypertension. Despite these challenges, she remains the primary breadwinner for her family. When SAJIDA’s Community Health Worker  first met her in May 2024 after her enrollment within the Health program she was in a dire state—struggling to survive by cooking and selling foods at her homestead. This small income barely sustained her family and left her unable to purchase her hypertensive medications regularly this was also worsen by her inability to move to health facility. Although her HIV medications were being delivered to her home by another organization, there was no support for her hypertension management and her herpertension kept worsening day by day. <br>
@@ -413,7 +413,7 @@
                                 </div> -->
                                 <div class="popup-content">
 
-                                    <h2><b>Participant Name:</b> Nansubuga Mwamini</h2>
+                                    <h2> Nansubuga Mwamini</h2>
                                     <h3><b>Location:</b> Namizzi, Jinja</h3>
                                     <p>
                                        <b>Business type:</b>  Farmer, Poultry, Retail shop</b> <br>
@@ -439,7 +439,7 @@
                                 </div> -->
                                 <div class="popup-content">
 
-                                    <h2><b>Participant Name:</b> Namaganda Lydia</h2>
+                                    <h2> Namaganda Lydia</h2>
                                     <h3><b>Location:</b> Wanyange, Jinja</h3>
                                     <p>
                                        <b>Business type:</b> Retail shop <br>
@@ -465,7 +465,7 @@
                                 </div> -->
                                 <div class="popup-content">
 
-                                    <h2><b>Participant Name:</b> Bogere Kafeero</h2>
+                                    <h2> Bogere Kafeero</h2>
                                     <h3><b>Location:</b> Jinja town</h3>
                                     <p>
                                        <b>Business type:</b> Butcher  <br>
@@ -493,7 +493,7 @@
                                 </div> -->
                                 <div class="popup-content">
 
-                                    <h2><b>Participant Name:</b> Atimango Stella </h2>
+                                    <h2> Atimango Stella </h2>
                                     <h3><b>Location:</b> Buligo subcounty, Nawansinge</h3>
                                     <p>
                                        My name is Atimango Stella a resident Nawansinge, Buligo subcounty in Iganga town. I have been a member of Sajida since last year I am currently in 2ndcycle with Sajida under SML loan product. This is my success story with Sajida.
@@ -521,7 +521,7 @@
                                 </div> -->
                                 <div class="popup-content">
 
-                                    <h2><b>Participant Name:</b> Bugonzi Sophie  </h2>
+                                    <h2> Bugonzi Sophie  </h2>
                                     <h3><b>Location:</b> Buligo Iganga district</h3>
                                     <p>
                                         My name is Bugonzi Sophie a residence of Buligo Iganga district. I am a client of Sajida microfinance I sell clothes in Nabidonga market. Below is my success story
@@ -549,7 +549,7 @@
                                 </div> -->--}}
                                 <div class="popup-content">
 
-                                    <h2><b>Participant Name:</b> Namataba Norah  </h2>
+                                    <h2> Namataba Norah  </h2>
                                     <h3><b>Location:</b>  </h3>
                                     <p>
                                         My name is Namataba Norah, a business lady in Iganga town. I have a boutique located along Kaliro road in Iganga municipality. I first joined Sajida Microfinance under SML loan product where I was disbursed to a loan of 500,000 UGX.  Before I had a working capital of 700,000. When I was given this working capital, I used it to restock my business. I went to Kenya and bought classy items for my business.

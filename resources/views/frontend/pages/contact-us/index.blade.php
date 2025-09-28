@@ -33,7 +33,7 @@
                                         </div>
                                         <div class="info-content">
                                             <h4>Location</h4>
-                                            <p>Plot 12 Kampala Road <br>Nakasero, Central Division <br>Kampala, Uganda <br> P.O. Box 12345</p>
+                                            <p>House no: A, PLot: 2541, Block: 3, Katende road, Bugembe, Jinja, Ugagda.</p>
                                         </div>
 
                                     </div>
@@ -44,8 +44,8 @@
                                             <img src="assets/img/phone.png" alt="">
                                         </div>
                                         <div class="info-content">
-                                            <h4>Phone</h4>
-                                            <p>+8802222290513</p>
+                                            <h4>Tel No:</h4>
+                                            <p>0700678206</p>
                                         </div>
 
                                     </div>
@@ -60,7 +60,7 @@
                                         </div>
                                         <div class="info-content">
                                             <h4>Email</h4>
-                                            <p>inquiry@sajida.org</p>
+                                            <p>info.uganda@sajida.org</p>
                                         </div>
 
                                     </div>
@@ -78,7 +78,7 @@
                                                 <a href="https://twitter.com/NGOSAJIDA" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
                                                 <a href="https://www.youtube.com/@sajidafoundation1993" target="_blank"> <i
                                                         class="fa-brands fa-youtube"></i></a>
-                                                <a href="mailto:inquiry@Sajida.org" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                                                <a href="mailto:info.uganda@sajida.org" target="_blank"><i class="fa-solid fa-envelope"></i></a>
 
                                             </div>
                                         </div>
@@ -140,14 +140,11 @@
 
                     <div class="office-address d-flex flex-column justify-content-md-center">
                         <h2>Our Office</h2>
-                        <p>Plot 12 Kampala Road <br>Nakasero, Central Division <br>Kampala, Uganda <br> P.O. Box 12345</p>
+                        <p>House no: A,<br> PLot: 2541,<br>  Block: 3,<br>  Katende road,<br>  Bugembe, Jinja, Ugagda.</p>
                     </div>
 
                     <div class="google-maps">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.75894592945!2d32.580838473577145!3d0.3125800640345728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbc7e112721b1%3A0xb24549fa0cceba9c!2s12%20Kampala%20Road%2C%20Kampala%2C%20Uganda!5e0!3m2!1sen!2sbd!4v1755068669881!5m2!1sen!2sbd"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d559.7954565843766!2d32.62464739137431!3d0.28619240466866497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sbd!4v1759044904174!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
