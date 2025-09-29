@@ -33,7 +33,8 @@
                                         </div>
                                         <div class="info-content">
                                             <h4>Location</h4>
-                                            <p>House no: A, PLot: 2541, Block: 3, Katende road, Bugembe, Jinja, Ugagda.</p>
+                                            <p>House no: A, Plot: 2541, Block: 3, Katende road, Bugembe, Jinja, Uganda.</p>
+                                            <p><b>Postal Address:</b> P.O Box 901211, Jinja.</p>
                                         </div>
 
                                     </div>
@@ -140,7 +141,8 @@
 
                     <div class="office-address d-flex flex-column justify-content-md-center">
                         <h2>Our Office</h2>
-                        <p>House no: A,<br> PLot: 2541,<br>  Block: 3,<br>  Katende road,<br>  Bugembe, Jinja, Ugagda.</p>
+                        <p>House no: A,<br> PLot: 2541,<br>  Block: 3,<br>  Katende road,<br>  Bugembe, Jinja, Uganda.</p>
+                        <p>Postal Address: P.O Box 901211, Jinja.</p>
                     </div>
 
                     <div class="google-maps">
