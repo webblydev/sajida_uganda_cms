@@ -23,7 +23,7 @@
                             </li>
                             <li><a href="{{ route('news-room.index') }}">News</a></li>
                             <li><a href="{{ route('contact-us.index') }}">Contact</a></li>
-                            <li><a href="https://sajidauganda.org/">Sajida Uganda</a></li>
+                            <li><a href="https://sajidauganda.org/">SAJIDA Uganda</a></li>
                             <li>
                                 <a href="{{ route('donation.index') }}" class="menu-btn">Donate</a>
                                 <a href="#" class="menu-btn">
@@ -60,7 +60,7 @@
                             </li>
                             <li><a href="{{ route('news-room.index') }}">News</a></li>
                             <li><a href="{{ route('contact-us.index') }}">Contact</a></li>
-                            <li><a href="https://sajidauganda.org/">Sajida Uganda</a></li>
+                            <li><a href="https://sajidauganda.org/">SAJIDA Uganda</a></li>
                             <li>
                                 <a href="{{ route('donation.index') }}" class="menu-btn">Donate</a>
                             </li>
