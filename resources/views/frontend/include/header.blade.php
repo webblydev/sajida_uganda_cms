@@ -42,7 +42,7 @@
             <div class="header-section-mobile d-lg-none">
                 <div class="off-canves-menu">
                     <div class="logo">
-                        <a href="{{ route('foundation.index') }}"><img src="{{ asset('assets/img/blue-logo.png') }}"
+                        <a href="{{ route('foundation.index') }}"><img src="{{ asset('assets/img/blue-logo.svg') }}"
                                 alt=""></a>
                     </div>
                     <hr>

@@ -86,7 +86,7 @@ overflow-x: hidden;
   transition: .3s;
 }
 .loader-container img {
-  width: 150px;
+  width: 250px;
 }
 .loader-container.hidden {
   z-index: -9999;
@@ -255,7 +255,7 @@ width: 140px;
 
 .header-section-pc .header-rihgt .menu li {
 display: inline-block;
-padding: 0 25px;
+padding: 0 15px;
 }
 .header-section-pc .header-rihgt .menu li a:hover {
 color: #F7CE19;
@@ -709,7 +709,7 @@ align-items: center;
 }
 .wrapper-1 .item-container {
 
-  gap: 25px;
+  gap: 50px;
 
 }
 
@@ -719,7 +719,7 @@ align-items: center;
   overflow: hidden;
   border-radius: 20px;
   border: none;
-  width: 800px;
+  width: 750px;
   height: 537px;
 }
 
@@ -731,7 +731,7 @@ align-items: center;
 }
 
 .wrapper-1 .content {
-  width: 550px;
+  width: 600px;
 }
 
 .wrapper-1 .content h1{
@@ -2176,7 +2176,7 @@ padding-bottom: 150px;
 display: -webkit-flex;;
 justify-content: space-between;
 align-items: center;
-gap: 20px;
+gap: 30px;
 
 }
 
