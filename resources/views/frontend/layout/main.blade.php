@@ -12,7 +12,7 @@
         <div class="loader-container">
 
             <div class="page-loaderInner">
-                <img src="{{ asset('assets/img/blue-logo.png') }}"alt="">
+                <img src="{{ asset('assets/img/blue-logo.svg') }}"alt="">
             </div>
 
         </div>
