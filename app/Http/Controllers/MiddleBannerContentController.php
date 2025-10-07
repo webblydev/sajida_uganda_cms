@@ -105,6 +105,7 @@ class MiddleBannerContentController extends Controller
             'title'=> 'required',
             'country_name'=> 'required',
             'country_image'=> 'required',
+            'link'=> 'required',
         ]);
 
         try {
@@ -118,6 +119,7 @@ class MiddleBannerContentController extends Controller
                 'country_image' => $image,
                 'country_name' => $request->country_name,
                 'description' => $request->title,
+                'link' => $request->link,
             ]);
             return redirect()->route('home-page.middle-banner-content.index')->with('success','Content Added Successfully');
         } catch (\Exception $e) {
@@ -161,6 +163,8 @@ class MiddleBannerContentController extends Controller
         $this->validate($request, [
             'title'=> 'required',
             'country_name'=> 'required',
+            'link'=> 'required',
+            'country_image'=> 'sometimes|image|mimes:jpeg,jpg,png|max:10000',
         ]);
 
         try {
@@ -186,6 +190,7 @@ class MiddleBannerContentController extends Controller
                 'country_name' => $request->country_name,
                 'country_image' => $image ?? $oldImageFileName,
                 'description' => $request->title,
+                'link' => $request->link,
             ]);
             return redirect()->route('home-page.middle-banner-content.index')->with('success','Content Updated Successfully');
         } catch (\Exception $e) {

@@ -37,6 +37,9 @@ class TopBannerController extends Controller
                     
                         return $topBanner->title ?? '';
                     })
+                    ->addColumn('description', function ($topBanner) {
+                        return $topBanner->description ?? '';
+                    })
                     ->addColumn('banner_image', function ($topBanner) {
                     
                         return '<div class="table-actions text-center">
@@ -93,6 +96,7 @@ class TopBannerController extends Controller
 
         $this->validate($request, [
             'title'=> 'required',
+            'description'=> 'required',
             'banner_image' => 'required',
             // 'banner_image' => 'mimes:jpeg,jpg,png|required|max:10000' // max 10000kb
         ]);
@@ -105,6 +109,7 @@ class TopBannerController extends Controller
 
             TopBanner::create([
                 'title' => $request->title,
+                'description' => $request->description,
                 'banner_image' => $banner_image
             ]);
             return redirect()->route('home-page.top-banner.create')->with('success','Top Banner Added Successfully');
@@ -147,6 +152,7 @@ class TopBannerController extends Controller
     {
         $this->validate($request, [
             'title'=> 'required',
+            'description'=> 'required',
             'banner_image' => 'sometimes|image|mimes:jpeg,jpg,png|max:10000',
         ]);
 
@@ -169,6 +175,7 @@ class TopBannerController extends Controller
 
             $topBanner->update([
                 'title' => $request->title,
+                'description' => $request->description,
                 'banner_image' => $banner_image ?? $oldImageFileName, // Use the new image file name or keep the old one
             ]);
             return redirect()->route('home-page.top-banner.create')->with('success','Top Banner Updated Successfully');

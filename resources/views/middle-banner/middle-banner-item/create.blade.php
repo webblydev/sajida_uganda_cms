@@ -46,7 +46,7 @@
                         <form action="{{route('middle-banner-content.store')}}" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="form-row">
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-2">
                                     <label for="country_name">
                                         {{ __('Country Name') }}
                                         <span class="text-red">*</span>
@@ -56,7 +56,17 @@
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>
-                                
+                                {{-- link --}}
+                                <div class="form-group col-md-4">
+                                    <label for="link">
+                                        {{ __('Link') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <input type="text" class="form-control" id="link" name="link" placeholder="Enter Link Here" value="{{ old('link') }}" required>
+                                    @error('link')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
                                 <div class="form-group col-md-6">
                                     <label for="title">
                                         {{ __('Title') }}
@@ -69,7 +79,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6">
                                     <label for="country_image">
                                         {{ __('Country Image (261*268)') }}
                                         <span class="text-red">*</span>

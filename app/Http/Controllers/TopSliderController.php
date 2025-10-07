@@ -86,8 +86,8 @@ class TopSliderController extends Controller
      */
     public function create()
     {
-        // $topSlider = TopSlider::latest()->first();
-        return view('top-slider.create');
+        $topSlider = TopSlider::latest()->first();
+        return view('top-slider.createoredit', compact('topSlider'));
     }
 
     /**

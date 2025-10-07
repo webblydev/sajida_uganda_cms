@@ -68,7 +68,7 @@
                                         {{ __('Slider Image') }}
                                         <span class="text-red">*</span>
                                     </label>
-                                    <input type="file" class="form-control" id="slider_image" name="banner_image">
+                                    <input type="file" class="form-control" id="slider_image" name="slider_image">
 
                                     @if ($topSlider && $topSlider->slider_image)
                                         <img class="mt-3" src="{{ asset('images/' . $topSlider->slider_image) }}"
@@ -87,7 +87,7 @@
                                         {{ __('Description') }}
                                         <span class="text-red">*</span>
                                     </label>
-                                    <textarea class="form-control" name="description" id="summernote">{{ $topSlider->description }}</textarea>
+                                    <textarea class="form-control" name="description" id="summernote" value="{{ old('description', isset($topSlider) ? $topSlider->description : '') }}"></textarea>
                                     @error('description')
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror

@@ -43,7 +43,7 @@
                         </div>
                                     <!-- Image container, adjust the path accordingly -->
                         <div class="image-container mt-2">
-                            <a href="{{ route('home-page.top-slider.index') }}">
+                            <a href="{{ route('home-page.top-slider.create') }}">
                                 <img src="{{ asset('sections/home/home-s2.jpg') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
                             </a>
                         </div>
@@ -94,13 +94,13 @@
                                     <!-- Image container, adjust the path accordingly -->
                         <div class="image-container mt-2">
                             <a href="{{ route('home-page.middle-banner-content.index') }}">
-                                <img src="{{ asset('sections/home/home-s4.jpg') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
+                                <img src="{{ asset('sections/home/home-s5.jpg') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-6 col-md-6">
+            {{-- <div class="col-xl-6 col-md-6">
                 <div class="card card-white text-black">
                     <div class="card-block">
                         <div class="row align-items-center">
@@ -123,13 +123,13 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <div class="col-xl-6 col-md-6">
                 <div class="card card-white text-black">
                     <div class="card-block">
                         <div class="row align-items-center">
                             <div class="col-8">
-                                <h4 class="mb-0">{{ __('Section 6')}}</h4>
+                                <h4 class="mb-0">{{ __('Section 5')}}</h4>
                             </div>
                             <div class="col-4 text-right">
                                 <label class="switch">
@@ -142,13 +142,13 @@
                                     <!-- Image container, adjust the path accordingly -->
                         <div class="image-container mt-2">
                             <a href="{{ route('home-page.bottom-banner.create') }}">
-                                <img src="{{ asset('sections/home/home-s6.jpg') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
+                                <img src="{{ asset('sections/home/home-s7.jpg') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-6 col-md-6">
+            {{-- <div class="col-xl-6 col-md-6">
                 <div class="card card-white text-black">
                     <div class="card-block">
                         <div class="row align-items-center">
@@ -171,7 +171,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
     	</div>
     </div>
     @push('script')

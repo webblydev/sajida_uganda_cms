@@ -49,7 +49,7 @@
                             @csrf
                             @method('PUT')
                             <div class="form-row">
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-2">
                                     <label for="country_name">
                                         {{ __('Country Name') }}
                                         <span class="text-red">*</span>
@@ -59,6 +59,16 @@
                                         value="{{ old('country_name', optional($middleBannerItem)->country_name) }}"
                                         required>
                                     @error('country_name')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="link">
+                                        {{ __('Link') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <input type="text" class="form-control" id="link" name="link" placeholder="Enter Link Here" value="{{ old('link', optional($middleBannerItem)->link) }}" required>
+                                    @error('link')
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>

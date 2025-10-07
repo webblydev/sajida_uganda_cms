@@ -61,6 +61,18 @@
                                 </div>
                             </div>
                             <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="description">
+                                        {{ __('Description') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <input type="text" class="form-control" id="description" name="description" placeholder="Enter Banner Description Here" value="{{ old('description', isset($topBanner) ? $topBanner->description : '') }}">
+                                    @error('description')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="banner_image">
                                         {{ __('Banner Image (1920*800)') }}
