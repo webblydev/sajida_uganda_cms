@@ -5,7 +5,7 @@
             <div class="header-section-pc d-none d-lg-flex">
                 <div class="left-header">
                     <div class="logo">
-                        <a href="{{ route('foundation.index') }}"><img src="{{ asset('assets/img/logo.svg') }}"
+                        <a href="https://sajidauganda.org/"><img src="{{ asset('assets/img/logo.svg') }}"
                                 alt=""></a>
                     </div>
                 </div>
@@ -23,7 +23,7 @@
                             </li>
                             <li><a href="{{ route('news-room.index') }}">News</a></li>
                             <li><a href="{{ route('contact-us.index') }}">Contact</a></li>
-                            <li><a href="https://sajidauganda.org/">SAJIDA Uganda</a></li>
+                            
                             <li>
                                 <a href="{{ route('donation.index') }}" class="menu-btn">Donate</a>
                                 <a href="#" class="menu-btn">
@@ -42,7 +42,7 @@
             <div class="header-section-mobile d-lg-none">
                 <div class="off-canves-menu">
                     <div class="logo">
-                        <a href="{{ route('foundation.index') }}"><img src="{{ asset('assets/img/blue-logo.svg') }}"
+                        <a href="https://sajidauganda.org/"><img src="{{ asset('assets/img/blue-logo.svg') }}"
                                 alt=""></a>
                     </div>
                     <hr>
@@ -60,7 +60,7 @@
                             </li>
                             <li><a href="{{ route('news-room.index') }}">News</a></li>
                             <li><a href="{{ route('contact-us.index') }}">Contact</a></li>
-                            <li><a href="https://sajidauganda.org/">SAJIDA Uganda</a></li>
+                            
                             <li>
                                 <a href="{{ route('donation.index') }}" class="menu-btn">Donate</a>
                             </li>
@@ -70,7 +70,7 @@
 
                 <div class="mobile-header">
                     <div class="header-left">
-                        <a href="{{ route('foundation.index') }}"><img src="{{ asset('assets/img/logo.svg') }}" alt=""></a>
+                        <a href="https://sajidauganda.org/"><img src="{{ asset('assets/img/logo.svg') }}" alt=""></a>
                     </div>
                     <div class="header-rihgt">
                         <div class="bars">
