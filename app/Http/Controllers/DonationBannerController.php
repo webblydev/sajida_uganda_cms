@@ -51,9 +51,6 @@ class DonationBannerController extends Controller
     {
         $this->validate($request, [
             'title'=> 'required',
-            'heading'=> 'required',
-            'information'=> 'required',
-            'form_image'=> 'required',
             'banner_image'=> 'required',
         ]);
 
@@ -62,17 +59,10 @@ class DonationBannerController extends Controller
                 $destinationPath = public_path('images/');
                 $banner_image = $this->imageUploadService->uploadImages($request->file('banner_image'), $destinationPath);
             }
-            if ($request->hasfile('form_image')) {
-                $destinationPath = public_path('images/');
-                $form_image = $this->imageUploadService->uploadImages($request->file('form_image'), $destinationPath);
-            }
 
             DonationBanner::create([
                 'title' => $request->title,
-                'heading' => $request->heading,
-                'information' => $request->information,
                 'banner_image' => $banner_image,
-                'form_image' => $form_image,
             ]);
             return redirect()->back()->with('success','Data Added Successfully');
         } catch (\Exception $e) {
@@ -114,8 +104,6 @@ class DonationBannerController extends Controller
     {
         $this->validate($request, [
             'title'=> 'required',
-            'heading'=> 'required',
-            'information'=> 'required',
         ]);
 
         try {
@@ -137,23 +125,8 @@ class DonationBannerController extends Controller
                 }
             }
 
-            if ($request->hasFile('form_image')) {
-                $destinationPath = public_path('images/');
-
-                // Upload the new image
-                $formImage = $this->imageUploadService->uploadImages($request->file('form_image'), $destinationPath);
-
-                // Delete the old image if it exists
-                $oldformImagePath = $destinationPath . $oldFormimgeName;
-                if (File::exists($oldformImagePath)) {
-                    File::delete($oldformImagePath);
-                }
-            }
             $donationBanner->update([
                 'title' => $request->title,
-                'heading' => $request->heading,
-                'information' => $request->information,
-                'form_image' => $formImage ?? $oldFormimgeName,
                 'banner_image' => $bannerImage ?? $oldBannerImageName, // Use the new image file name or keep the old one
             ]);
             return redirect()->back()->with('success','Data Updated Successfully');

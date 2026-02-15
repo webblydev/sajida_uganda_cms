@@ -132,8 +132,6 @@ Route::group(['middleware' => 'auth'], function(){
 		Route::resource('impact', 'ImpactController');
 			// Donation Section Routes
 		Route::resource('donation-section', 'DonationSectionController');
-		// Donation Section Two Routes
-		Route::resource('donation-section-two', 'DonationSectionTwoController');
 		Route::get('approach/status/{id}','ApproachController@updateStatus')->name('approach.status');
 		route::resource('approach-item','ApproachItemController');
 		route::resource('middle-banner-content','MiddleBannerContentController');
@@ -193,6 +191,8 @@ Route::group(['middleware' => 'auth'], function(){
 	});
 
 	Route::resource('donation-banner','DonationBannerController');
+		// Donation Section Two Routes
+	Route::resource('donation-section-two', 'DonationSectionTwoController');
 	Route::get('donation-info','DonationController@index')->name('donation-info');
 
 

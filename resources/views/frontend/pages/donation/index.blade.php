@@ -3,13 +3,13 @@
 @section('content')
     <section class="hero-section">
         <div class="bg">
-            <img src="{{ asset('assets/img/bg5.jpg') }}" alt="">
+            <img src="{{ asset('images/' . ($donationBanner->banner_image ?? 'default.jpg')) }}" alt="">
         </div>
         <div class="section-padding">
             <div class="container">
                 <div class="hero-content">
                     <div class="heading">
-                        <h1>Donation</h1>
+                        <h1>{{ $donationBanner->title ?? 'Donation' }}</h1>
                     </div>
                 </div>
             </div>
@@ -18,19 +18,14 @@
     <div class="contribute">
         <div class="section-padding">
             <div class="container">
-                <h1>Contribute</h1>
+                <h1>{{ $donationSectionTwo->heading ?? '' }}</h1>
                 <div class="d-lg-flex justify-content-between">
                     <div class="content">
-                        <h4>Be the Light in Someone’s Darkest Hour</h4>
-                        <p>Your donation can bring hope and healing to families living in poverty—providing access to lifesaving medicines, doctor consultations, and critical treatment.</p>
-
-                        <p>
-                        Every contribution uplifts the most vulnerable, easing their suffering and restoring dignity, comfort, and strength in the face of immense challenges.</p>
-
-
+                        <h4>{{ $donationSectionTwo->title ?? '' }}</h4>
+                        <p>{!! $donationSectionTwo->description ?? '' !!}</p>
                     </div>
                     <div class="image">
-                        <img src="{{ asset('assets/img/hero-img6.jpg') }}" alt="">
+                        <img src="{{ asset('images/' . ($donationSectionTwo->image ?? 'default.jpg')) }}" alt="">
                     </div>
                 </div>
             </div>

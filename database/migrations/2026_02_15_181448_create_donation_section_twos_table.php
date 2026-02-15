@@ -15,6 +15,7 @@ class CreateDonationSectionTwosTable extends Migration
     {
         Schema::create('donation_section_twos', function (Blueprint $table) {
             $table->id();
+            $table->string('heading');
             $table->string('title');
             $table->text('description');
             $table->string('image')->nullable();

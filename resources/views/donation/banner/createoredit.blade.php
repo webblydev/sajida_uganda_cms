@@ -49,7 +49,7 @@
                                 @method('PUT')
                             @endif
                             <div class="row">
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-12">
                                     <label for="title">
                                         {{ __('Title') }}
                                         <span class="text-red">*</span>
@@ -58,29 +58,7 @@
                                     @error('title')
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="heading">
-                                        {{ __('Heading') }}
-                                        <span class="text-red">*</span>
-                                    </label>
-                                    <input type="text" class="form-control" id="heading" name="heading" placeholder="Enter Heading Here" value="{{ old('title', isset($donationBanner) ? $donationBanner->heading : '') }}">
-                                    @error('heading')
-                                        <span class="text-danger">{{ $message }}</span>
-                                    @enderror
-                                </div>                                
-                            </div>
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="information">
-                                        {{ __('Information') }}
-                                        <span class="text-red">*</span>
-                                    </label>
-                                    <textarea class="form-control" name="information" id="summernote">{{ old('information', isset($donationBanner) ? $donationBanner->information : '') }}</textarea>
-                                    @error('information')
-                                        <span class="text-danger">{{ $message }}</span>
-                                    @enderror
-                                </div>
+                                </div>                               
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-6">
@@ -104,31 +82,6 @@
                                 </div>
                                 @endif
                             </div>
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="form_image">
-                                        {{ __('Form Image (1920*1080)') }}
-                                        <span class="text-red">*</span>
-                                    </label>
-                                    <input type="file" class="form-control dropify" id="form_image" name="form_image">
-
-                                    @error('form_image')
-                                        <span class="text-danger">{{ $message }}</span>
-                                    @enderror
-                                </div>
-                                    @if ($donationBanner && $donationBanner->form_image)
-                                    <div class="form-group col-md-6">
-                                        <label for="image">
-                                            {{ __('Current Image') }}
-                                        </label>
-                                        {{-- <img class="mt-3" src="{{ asset('images/' . $donationBanner->form_image) }}" height="80px" width="120px" alt="Existing Image"> --}}
-                                        <img class="form-control" src="{{ asset('images/' . $donationBanner->form_image) }}"
-                                        width="100px" alt="Existing Image" style="height: 200px">
-                                    </div>
-                                    @endif
-                                                
-                            </div>
-
                             <div class="row mt-30">
                                 <div class="col-sm-12">
                                     <button type="submit" class="btn btn-info">Update</button>

@@ -54,6 +54,20 @@
                             <!-- Title -->
                             <div class="row">
                                 <div class="form-group col-md-12">
+                                    <label for="heading">
+                                        {{ __('Heading') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <input type="text" class="form-control" id="heading" name="heading"
+                                        placeholder="e.g., Contribution"
+                                        value="{{ old('heading', isset($donationSectionTwo) ? $donationSectionTwo->heading : '') }}">
+                                    @error('heading')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12">
                                     <label for="title">
                                         {{ __('Title') }}
                                         <span class="text-red">*</span>

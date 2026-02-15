@@ -5,12 +5,14 @@ namespace App\Http\Controllers\Frontend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Donation\DonationBanner;
+use App\Models\DonationSectionTwo;
 
 class DonationPageController extends Controller
 {
     public function index()
     {
         $donationBanner=DonationBanner::latest()->first();
-        return view('frontend.pages.donation.index', compact('donationBanner'));
+        $donationSectionTwo=DonationSectionTwo::latest()->first();
+        return view('frontend.pages.donation.index', compact('donationBanner', 'donationSectionTwo'));
     }
 }

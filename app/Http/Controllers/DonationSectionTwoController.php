@@ -37,6 +37,7 @@ class DonationSectionTwoController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
+            'heading' => 'required',
             'title' => 'required',
             'description' => 'required',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
@@ -44,6 +45,7 @@ class DonationSectionTwoController extends Controller
 
         try {
             $data = [
+                'heading' => $request->heading,
                 'title' => $request->title,
                 'description' => $request->description,
             ];
@@ -97,6 +99,7 @@ class DonationSectionTwoController extends Controller
     public function update(Request $request, $id)
     {
         $this->validate($request, [
+            'heading' => 'required',
             'title' => 'required',
             'description' => 'required',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
@@ -106,6 +109,7 @@ class DonationSectionTwoController extends Controller
             $donationSectionTwo = DonationSectionTwo::findOrFail($id);
             
             $data = [
+                'heading' => $request->heading,
                 'title' => $request->title,
                 'description' => $request->description,
             ];

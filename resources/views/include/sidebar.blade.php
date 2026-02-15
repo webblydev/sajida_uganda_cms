@@ -108,12 +108,14 @@
                     </div>
                 </div>
                 <div
-                    class="nav-item {{ \Request::is('donation-banner/*') || \Request::is('donation-info') ? 'active open' : '' }} has-sub">
+                    class="nav-item {{ \Request::is('donation-banner/*') || \Request::is('donation-info') || \Request::is('donation-section-two') || \Request::is('donation-section-two/*') ? 'active open' : '' }} has-sub">
                     <a href="#"><i class="fas fa-hand-holding-heart"></i><span>{{ __(' Donation') }}</span></a>
                     <div class="submenu-content">
                         @canany(['access_to_users'])
                             <a href="{{ url('donation-banner/create') }}"
                                 class="menu-item {{ \Request::is('donation-banner') || \Request::is('donation-banner/*') ? 'active' : '' }}">{{ __('Donation Page Banner') }}</a>
+                            <a href="{{ url('donation-section-two/create') }}"
+                                class="menu-item {{ \Request::is('donation-section-two') || \Request::is('donation-section-two/*') ? 'active' : '' }}">{{ __('Donation Section Two') }}</a>
                             <a href="{{ url('donation-info') }}"
                                 class="menu-item {{ \Request::is('donation-info') || \Request::is('donation-info/*') ? 'active' : '' }}">{{ __('Donation List') }}</a>
                         @endcan
