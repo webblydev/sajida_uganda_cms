@@ -39,6 +39,10 @@ class AboutUsSectionOneController extends Controller
         $this->validate($request, [
             'title'=> 'required',
             'description' => 'required',
+            'button_one_text' => 'required',
+            'button_one_link' => 'required|url',
+            'button_two_text' => 'required',
+            'button_two_link' => 'required|url',
         ]);
 
         try {
@@ -46,6 +50,10 @@ class AboutUsSectionOneController extends Controller
             AboutUsSectionOne::create([
                 'title' => $request->title,
                 'description' => $request->description,
+                'button_one_text' => $request->button_one_text,
+                'button_one_link' => $request->button_one_link,
+                'button_two_text' => $request->button_two_text,
+                'button_two_link' => $request->button_two_link,
             ]);
             return redirect()->back()->with('success','Data Created Successfully');
         } catch (\Exception $e) {
@@ -88,6 +96,10 @@ class AboutUsSectionOneController extends Controller
         $this->validate($request, [
             'title'=> 'required',
             'description' => 'required',
+            'button_one_text' => 'required',
+            'button_one_link' => 'required|url',
+            'button_two_text' => 'required',
+            'button_two_link' => 'required|url',
         ]);
 
         try {
@@ -96,6 +108,10 @@ class AboutUsSectionOneController extends Controller
             $aboutUsSectionOne->update([
                 'title' => $request->title,
                 'description' => $request->description,
+                'button_one_text' => $request->button_one_text,
+                'button_one_link' => $request->button_one_link,
+                'button_two_text' => $request->button_two_text,
+                'button_two_link' => $request->button_two_link,
             ]);
             return redirect()->back()->with('success','Data Updated Successfully');
         } catch (\Exception $e) {

@@ -136,6 +136,20 @@
                                 </div>
                             </div>
 
+                            {{-- Bio --}}
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="bio">
+                                        {{ __('Bio') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <textarea class="form-control" id="bio" name="bio" placeholder="Enter Bio Here" required>{{ old('bio') }}</textarea>
+                                    @error('bio')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                            </div>
+
                             <div class="row mt-30">
                                 <div class="col-sm-12">
                                     <button type="submit" class="btn btn-info">Create</button>

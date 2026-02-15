@@ -3,13 +3,17 @@
 @section('content')
     <section class="hero-section">
         <div class="bg">
-            <img src="assets/img/hero-img10.jpg" alt="">
+            @if(isset($contactUsBanner) && $contactUsBanner->background_image)
+                <img src="{{ asset('images/' . $contactUsBanner->background_image) }}" alt="{{ $contactUsBanner->title ?? 'Contact Us' }}">
+            @else
+                <img src="assets/img/hero-img10.jpg" alt="Contact Us">
+            @endif
         </div>
         <div class="section-padding">
             <div class="container">
                 <div class="hero-content">
                     <div class="heading">
-                        <h1>Contact Us</h1>
+                        <h1>{{ $contactUsBanner->title ?? 'Contact Us' }}</h1>
                     </div>
                 </div>
             </div>
@@ -92,37 +96,53 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="contact-form">
-                            <form action="">
+                            @if(session('success'))
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    {{ session('success') }}
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                            @endif
+                            
+                            @if($errors->any())
+                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                    <ul class="mb-0">
+                                        @foreach($errors->all() as $error)
+                                            <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                            @endif
+                            
+                            <form action="{{ route('contact-us.store') }}" method="POST">
+                                @csrf
                                 <label for="name">Name*</label><br>
-                                <input type="text" id="name" name="name" required><br>
+                                <input type="text" id="name" name="name" value="{{ old('name') }}" required><br>
 
                                 <div class="row">
                                     <div class="col-md-6">
                                         <label for="email">E-mail*</label><br>
-                                        <input type="email" id="name" name="email" required><br>
+                                        <input type="email" id="email" name="email" value="{{ old('email') }}" required><br>
 
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="number">Mobile Number*</label><br>
-                                        <input type="tel" id="name" name="number" required><br>
+                                        <label for="phone">Mobile Number*</label><br>
+                                        <input type="tel" id="phone" name="phone" value="{{ old('phone') }}" required><br>
                                     </div>
                                 </div>
 
+                                <label for="company_name">Company Name</label><br>
+                                <input type="text" id="company_name" name="company_name" value="{{ old('company_name') }}"><br>
 
+                                <label for="contact_purpose">Contact Purpose</label><br>
+                                <input type="text" id="contact_purpose" name="contact_purpose" value="{{ old('contact_purpose') }}"><br>
 
-
-
-                                <label for="companyName">Company Name*</label><br>
-                                <input type="text" id="name" name="name" required><br>
-
-                                <label for="contactPurpose">Contact Purpose*</label><br>
-                                <input type="text" id="name" name="name" required><br>
-
-
-
-
-                                <label for="text">Your Message</label><br>
-                                <textarea id="w3review" name="w3review"></textarea>
+                                <label for="message">Your Message</label><br>
+                                <textarea id="message" name="message">{{ old('message') }}</textarea>
 
                                 <input class="submit-btn" type="submit" value="SEND >">
 

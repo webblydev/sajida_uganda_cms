@@ -49,23 +49,13 @@
                                 @method('PUT')
                             @endif
                             <div class="form-row">
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-12">
                                     <label for="title">
                                         {{ __('Title') }}
                                         <span class="text-red">*</span>
                                     </label>
                                     <input type="text" class="form-control" id="title" name="title" placeholder="Enter Title Here" value="{{ old('title', isset($aboutUsSectionFour) ? $aboutUsSectionFour->title : '') }}">
                                     @error('title')
-                                        <span class="text-danger">{{ $message }}</span>
-                                    @enderror
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="link">
-                                        {{ __('Link') }}
-                                        <span class="text-red">*</span>
-                                    </label>
-                                    <input type="text" class="form-control" id="link" name="link" placeholder="Enter Link Here" value="{{ old('link', isset($aboutUsSectionFour) ? $aboutUsSectionFour->link : '') }}">
-                                    @error('link')
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>
@@ -94,16 +84,47 @@
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="description">
-                                        {{ __('Description') }}
+                                    <label for="content_one_title">
+                                        {{ __('Content One Title') }}
                                         <span class="text-red">*</span>
                                     </label>
-                                    <textarea class="form-control" name="description" id="" rows="10">{{ old('description', isset($aboutUsSectionFour) ? $aboutUsSectionFour->description : '') }}</textarea>
-                                    @error('code')
+                                    <input type="text" class="form-control" id="content_one_title" name="content_one_title" placeholder="Enter Title Here" value="{{ old('content_one_title', isset($aboutUsSectionFour) ? $aboutUsSectionFour->content_one_title : '') }}">
+                                    @error('content_one_title')
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>
-                                
+                                <div class="form-group col-md-12">
+                                    <label for="content_one_description">
+                                        {{ __('Content One Description') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <textarea class="form-control" id="content_one_description" name="content_one_description" placeholder="Enter Description Here">{{ old('content_one_description', isset($aboutUsSectionFour) ? $aboutUsSectionFour->content_one_description : '') }}</textarea>
+                                    @error('content_one_description')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="content_two_title">
+                                        {{ __('Content Two Title') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <input type="text" class="form-control" id="content_two_title" name="content_two_title" placeholder="Enter Title Here" value="{{ old('content_two_title', isset($aboutUsSectionFour) ? $aboutUsSectionFour->content_two_title : '') }}">
+                                    @error('content_two_title')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="content_two_description">
+                                        {{ __('Content Two Description') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <textarea class="form-control" id="content_two_description" name="content_two_description" placeholder="Enter Description Here">{{ old('content_two_description', isset($aboutUsSectionFour) ? $aboutUsSectionFour->content_two_description : '') }}</textarea>
+                                    @error('content_two_description')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
                             </div>
 
                             <div class="row mt-30">

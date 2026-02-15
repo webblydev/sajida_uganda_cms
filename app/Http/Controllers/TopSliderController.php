@@ -99,6 +99,7 @@ class TopSliderController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
+            'title' => 'required',
             'link'=> 'required',
             'description' => 'required',
             'slider_image' => 'required',
@@ -112,11 +113,12 @@ class TopSliderController extends Controller
             }
 
             TopSlider::create([
+                'title' => $request->title,
                 'link' => $request->link,
                 'slider_image' => $slider_image,
                 'description' => $request->description
             ]);
-            return redirect()->route('home-page.top-slider.index')->with('success','Top Slider Added Successfully');
+            return redirect()->back()->with('success','Top Slider Added Successfully');
         } catch (\Exception $e) {
             $bug = $e->getMessage();
             return redirect()->back()->with('error', $bug);
@@ -156,9 +158,10 @@ class TopSliderController extends Controller
     {
 
         $this->validate($request, [
+            'title' => 'required',
             'link'=> 'required',
             'description'=> 'required',
-            // 'slider_image' => 'sometimes|image|mimes:jpeg,jpg,png|max:10000',
+            'slider_image' => 'sometimes|image|mimes:jpeg,jpg,png|max:10000',
         ]);
 
         try {
@@ -180,12 +183,13 @@ class TopSliderController extends Controller
             }
 
             $topSlider->update([
+                'title' => $request->title,
                 'link' => $request->link,
                 'slider_image' => $slider_image ?? $oldImageFileName, // Use the new image file name or keep the old one
                 'description' => $request->description
             ]);
 
-            return redirect()->route('home-page.top-slider.index')->with('success','Top Slider Updated Successfully');
+            return redirect()->back()->with('success','Top Slider Updated Successfully');
         } catch (\Exception $e) {
             $bug = $e->getMessage();
             return redirect()->back()->with('error', $bug);

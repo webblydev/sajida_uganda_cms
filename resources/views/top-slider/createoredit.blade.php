@@ -80,14 +80,27 @@
                                     @enderror
                                 </div>
                             </div>
-
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="title">
+                                        {{ __('Title') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <input type="text" class="form-control" id="title" name="title"
+                                        placeholder="Enter Title Here"
+                                        value="{{ old('title', isset($topSlider) ? $topSlider->title : '') }}">
+                                    @error('title')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                            </div>
                             <div class="form-row">
                                 <div class="form-group col-md-12">
                                     <label for="description">
                                         {{ __('Description') }}
                                         <span class="text-red">*</span>
                                     </label>
-                                    <textarea class="form-control" name="description" id="summernote" value="{{ old('description', isset($topSlider) ? $topSlider->description : '') }}"></textarea>
+                                    <textarea class="form-control" name="description" id="summernote">{{ old('description', isset($topSlider) ? $topSlider->description : '') }}</textarea>
                                     @error('description')
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror

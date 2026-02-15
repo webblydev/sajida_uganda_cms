@@ -60,6 +60,8 @@
                                 <tr>
                                     <th>{{ __('Sl')}}</th>
                                     <th>{{ __('Title')}}</th>
+                                    <th>{{ __('Type')}}</th>
+                                    <th>{{ __('Image')}}</th>
                                     <th>{{ __('Status')}}</th>
                                     <th class="text-center">{{ __('Action')}}</th>
                                 </tr>
@@ -111,6 +113,8 @@
                 columns: [
                     { data: 'DT_RowIndex', name: 'DT_RowIndex', orderable: false, searchable: false },
                     {data:'title', name: 'title', orderable: true, searchable: true},
+                    {data:'type', name: 'type', orderable: true, searchable: true},
+                    {data:'image', name: 'image', orderable: false, searchable: false},
                     {data:'status', name: 'status', orderable: true, searchable: true},
                     {data:'action', name: 'action',  orderable: false, searchable: false}
 

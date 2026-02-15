@@ -9,9 +9,23 @@ class ImageUploadService
 {
     public function uploadImages($file, $destinationPath, $resizeQuality = 60)
     {
-            $uploadedFile = $this->processImage($file, $destinationPath, $resizeQuality);
+        if (is_array($file)) {
+            $uploadedFiles = [];
 
-        return $uploadedFile;
+            foreach ($file as $singleFile) {
+                if ($singleFile instanceof UploadedFile) {
+                    $uploadedFiles[] = $this->processImage($singleFile, $destinationPath, $resizeQuality);
+                }
+            }
+
+            return $uploadedFiles;
+        }
+
+        if ($file instanceof UploadedFile) {
+            return $this->processImage($file, $destinationPath, $resizeQuality);
+        }
+
+        return null;
     }
 
     private function processImage(UploadedFile $file, $destinationPath, $resizeQuality)

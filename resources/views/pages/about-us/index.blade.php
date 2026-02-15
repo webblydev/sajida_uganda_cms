@@ -94,7 +94,7 @@
                         </div>
                                     <!-- Image container, adjust the path accordingly -->
                         <div class="image-container mt-2">
-                            <a href="{{ route('home-page.members.index') }}">
+                            <a href="{{ route('about-us-page.section-four.create') }}">
                                 <img src="{{ asset('sections/aboutus/aboutus-s4.jpg') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
                             </a>
                         </div>
@@ -106,7 +106,7 @@
                     <div class="card-block">
                         <div class="row align-items-center">
                             <div class="col-8">
-                                <h4 class="mb-0">{{ __('Section 4')}}</h4>
+                                <h4 class="mb-0">{{ __('Section 5')}}</h4>
                             </div>
                             <div class="col-4 text-right">
                                 <label class="switch">
@@ -118,7 +118,8 @@
                         </div>
                                     <!-- Image container, adjust the path accordingly -->
                         <div class="image-container mt-2">
-                            <a href="{{ route('about-us-page.section-four.create') }}">
+                            {{-- <a href="{{ route('about-us-page.section-four.create') }}"> --}}
+                            <a href="{{ route('home-page.members.index') }}">
                                 <img src="{{ asset('sections/aboutus/aboutus-s4.jpg') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
                             </a>
                         </div>
@@ -144,30 +145,6 @@
                         <div class="image-container mt-2">
                             <a href="{{ route('about-us-page.section-five.create') }}">
                                 <img src="{{ asset('sections/aboutus/aboutus-s5.jpg') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-md-6">
-                <div class="card card-white text-black">
-                    <div class="card-block">
-                        <div class="row align-items-center">
-                            <div class="col-8">
-                                <h4 class="mb-0">{{ __('Section 6')}}</h4>
-                            </div>
-                            <div class="col-4 text-right">
-                                <label class="switch">
-                                    <input type="checkbox" class="changeStatus" id="customSwitch6" getid="6" title="status" 
-                                           @if($aboutPageManager->section_6 == 1) checked @endif>
-                                    <span class="slider round"></span>
-                                </label>                                
-                            </div>
-                        </div>
-                                    <!-- Image container, adjust the path accordingly -->
-                        <div class="image-container mt-2">
-                            <a href="{{ route('about-us-page.section-six.create') }}">
-                                <img src="{{ asset('sections/aboutus/aboutus-s6.jpg') }}" style="height:210px" width="1359" alt="Image Alt Text" class="img-fluid" />
                             </a>
                         </div>
                     </div>

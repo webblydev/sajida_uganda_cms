@@ -51,23 +51,18 @@ class AboutUsSectionTwoController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'title'=> 'required',
-            'link'=> 'required',
-            'description'=> 'required',
-            'image' => 'required',
+            'images' => 'nullable|array|max:4',
         ]);
 
         try {
-            if ($request->hasfile('image')) {
+            if ($request->hasfile('images')) {
                 $destinationPath = public_path('images/');
-                $image = $this->imageUploadService->uploadImages($request->file('image'), $destinationPath);
+                $image = $this->imageUploadService->uploadImages($request->file('images'), $destinationPath);
             }
 
             AboutUsSectionTwo::create([
-                'title' => $request->title,
-                'link' => $request->link,
-                'description' => $request->description,
-                'image' => $image
+                // multiple images
+                'images' => isset($image) ? json_encode($image) : null,
             ]);
             return redirect()->back()->with('success','Data Added Successfully');
         } catch (\Exception $e) {
@@ -108,22 +103,19 @@ class AboutUsSectionTwoController extends Controller
     public function update(Request $request, AboutUsSectionTwo $aboutUsSectionTwo, $id)
     {
         $this->validate($request, [
-            'title'=> 'required',
-            'link'=> 'required',
-            'description'=> 'required',
-            // 'image' => 'required',
+            'images' => 'nullable|array|max:4',
         ]);
 
         try {
             $aboutUsSectionTwo=AboutUsSectionTwo::findOrFail($id);
             // Get the old image file name
-            $oldImageFileName = $aboutUsSectionTwo->image;
+            $oldImageFileName = $aboutUsSectionTwo->images;
 
-            if ($request->hasFile('image')) {
+            if ($request->hasFile('images')) {
                 $destinationPath = public_path('images/');
 
                 // Upload the new image
-                $image = $this->imageUploadService->uploadImages($request->file('image'), $destinationPath);
+                $image = $this->imageUploadService->uploadImages($request->file('images'), $destinationPath);
 
                 // Delete the old image if it exists
                 $oldImagePath = $destinationPath . $oldImageFileName;
@@ -133,10 +125,7 @@ class AboutUsSectionTwoController extends Controller
             }
 
             $aboutUsSectionTwo->update([
-                'title' => $request->title,
-                'link' => $request->link,
-                'description' => $request->description,
-                'image' => $image ?? $oldImageFileName,
+                'images' => isset($image) ? json_encode($image) : $oldImageFileName,
             ]);
             return redirect()->back()->with('success','Data Updated Successfully');
         } catch (\Exception $e) {

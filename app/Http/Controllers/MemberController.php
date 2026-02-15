@@ -109,6 +109,7 @@ class MemberController extends Controller
             'member_category_id'=> 'required',
             'member_image' => 'required',
             'order_no' => 'required|unique:members',
+            'bio' => 'required',
         ]);
 
         try {
@@ -122,7 +123,8 @@ class MemberController extends Controller
                 'member_type_id' => $request->member_type_id,
                 'member_category_id' => $request->member_category_id,
                 'member_image' => $image,
-                'order_no' => $request->order_no
+                'order_no' => $request->order_no,
+                'bio' => $request->bio,
             ]);
             return redirect()->route('home-page.members.index')->with('success','Member Added Successfully');
         } catch (\Exception $e) {
@@ -170,6 +172,7 @@ class MemberController extends Controller
             'member_type_id'=> 'required',
             'member_category_id'=> 'required',
             'order_no' => 'required|unique:members,order_no,'.$id,
+            'bio' => 'required',
         ]);
 
         try {
@@ -195,7 +198,8 @@ class MemberController extends Controller
                 'member_type_id' => $request->member_type_id,
                 'member_category_id' => $request->member_category_id,
                 'member_image' => $image ?? $oldImageFileName,
-                'order_no' => $request->order_no
+                'order_no' => $request->order_no,
+                'bio' => $request->bio,
             ]);
             return redirect()->route('home-page.members.index')->with('success','Member Updated Successfully');
         } catch (\Exception $e) {

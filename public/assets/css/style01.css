@@ -1009,7 +1009,7 @@ background: #005AAA;
 }
 
 .wrapper-4 {
-background-image: url(../img/bg2.png);
+/* background-image: url(../img/bg2.png); */
 background-size: cover;
 background-position: center;
 overflow: hidden;
@@ -1211,7 +1211,7 @@ z-index: 1;
 .wrapper-5 .image {
   width: 50%;
   position: relative;
-  background-image: url(../img/image4.jpg);
+  /* background-image: url(../img/image4.jpg); */
   background-position: center;
   background-size: cover;
 }

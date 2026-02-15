@@ -67,7 +67,7 @@
                                     @enderror
                                 </div>
                             </div>
-                            <div class="row">
+                            {{-- <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="thumbnail">
                                         {{ __('Link') }}
@@ -80,7 +80,7 @@
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>
-                            </div>
+                            </div> --}}
 
                             <div class="row">
                                 <div class="form-group col-md-6">
@@ -107,41 +107,17 @@
                                 @endif
                             </div>
                             {{-- <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="thumbnail">
-                                        {{ __('Thumbnail Image (456*292)') }}
-                                        <span class="text-red">*</span>
-                                    </label>
-                                    <input type="file" class="form-control dropify" id="thumbnail" name="thumbnail">
-
-                                    @error('thumbnail')
-                                        <span class="text-danger">{{ $message }}</span>
-                                    @enderror
-                                </div>
-                                @if ($newsBanner && $newsBanner->thumbnail)
-                                    <div class="form-group col-md-6">
-                                        <label for="image">
-                                            {{ __('Current Image') }}
-                                        </label>
-                                        <img class="form-control" src="{{ asset('images/' . $newsBanner->thumbnail) }}"
-                                            width="100px" alt="Existing Image" style="height: 200px">
-                                    </div>
-                                @endif
-
-
-                            </div> --}}
-                            <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="description">
                                         {{ __('Description') }}
                                         <span class="text-red">*</span>
                                     </label>
                                     <textarea class="form-control" name="description" id="summernote">{{ old('description', isset($newsBanner) ? $newsBanner->description : '') }}</textarea>
-                                    @error('code')
+                                    @error('description')
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>
-                            </div>
+                            </div> --}}
 
                             <div class="row mt-30">
                                 <div class="col-sm-12">

@@ -26,11 +26,19 @@ class AboutUsController extends Controller
         $aboutUsSectionOne=AboutUsSectionOne::latest()->first();
         $aboutUsSectionTwo=AboutUsSectionTwo::latest()->first();
         $aboutUsSectionThree=AboutUsSectionThree::latest()->first();
+        $directorTeamMembers = Member::with('designation', 'category')->whereHas('category', function($query) {
+            $query->where('title', 'Director');
+        })->orderBy('order_no','ASC')->get();
+        
+        $managementTeamMembers = Member::with('designation', 'category')->whereHas('category', function($query) {
+            $query->where('title', 'Management Team');
+        })->orderBy('order_no','ASC')->get();
+
         $aboutUsSectionFour=AboutUsSectionFour::latest()->first();
-        $aboutUsSectionFive=AboutUsSectionFive::latest()->first();
-        $aboutUsSectionSix=AboutUsSectionSix::latest()->first();
-        $aboutUsSectionSeven=AboutUsSectionSeven::latest()->first();
-        return view('frontend.pages.about-us.index', compact('aboutPageManager','aboutUsBanner','aboutUsSectionOne','aboutUsSectionTwo','aboutUsSectionThree','aboutUsSectionFour','aboutUsSectionFive','aboutUsSectionSix','aboutUsSectionSeven'));
+        // $aboutUsSectionFive=AboutUsSectionFive::latest()->first();
+        // $aboutUsSectionSix=AboutUsSectionSix::latest()->first();
+        // $aboutUsSectionSeven=AboutUsSectionSeven::latest()->first();
+        return view('frontend.pages.about-us.index', compact('aboutPageManager','aboutUsBanner','aboutUsSectionOne','aboutUsSectionTwo','aboutUsSectionThree','directorTeamMembers','managementTeamMembers','aboutUsSectionFour'));
     }
 
     public function show($slug)

@@ -43,6 +43,7 @@ use App\Http\Controllers\PayPalController;
 Route::get('/', 'Frontend\LandingPageController@foundationPage')->name('foundation.index');
 Route::get('/health', 'Frontend\LandingPageController@healthPage')->name('health.index');
 Route::get('/contact-us', 'Frontend\ContactUsPageController@index')->name('contact-us.index');
+Route::post('/contact-us', 'Frontend\ContactUsPageController@store')->name('contact-us.store');
 Route::get('/about-us', 'Frontend\AboutUsController@index')->name('about-us.index');
 Route::get('/news-room', 'Frontend\NewsController@index')->name('news-room.index');
 Route::get('/news-room/{id}/show', 'Frontend\NewsController@show')->name('news-room.show');
@@ -127,6 +128,12 @@ Route::group(['middleware' => 'auth'], function(){
 		route::resource('top-banner','TopBannerController');
 		route::resource('top-slider','TopSliderController');
 		route::resource('approach','ApproachController');
+			// Impact Section Routes
+		Route::resource('impact', 'ImpactController');
+			// Donation Section Routes
+		Route::resource('donation-section', 'DonationSectionController');
+		// Donation Section Two Routes
+		Route::resource('donation-section-two', 'DonationSectionTwoController');
 		Route::get('approach/status/{id}','ApproachController@updateStatus')->name('approach.status');
 		route::resource('approach-item','ApproachItemController');
 		route::resource('middle-banner-content','MiddleBannerContentController');
@@ -165,6 +172,13 @@ Route::group(['middleware' => 'auth'], function(){
 
 		Route::get('news-page-show-hide/{id}/status','Admin\HomeController@newsPageshowHide')->name('news-page-show-hide.status');
 	});
+
+	// Contact Us Banner Routes
+	Route::resource('contact-us-banner','ContactUsBannerController');
+
+	// Contact Leads Routes
+	Route::resource('contact-leads','ContactLeadController');
+	Route::put('contact-leads/{id}/toggle-status','ContactLeadController@toggleStatus')->name('contact-leads.toggle-status');
 
 	Route::group(['prefix' => 'job', 'as' => 'job.', 'middleware' => 'auth'], function(){
 		route::resource('profession', 'ProfessionController');

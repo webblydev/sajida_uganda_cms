@@ -32,7 +32,6 @@ class HomeController extends Controller
         $bottomBanner = BottomBanner::latest()->first();
         $newsCategories = NewsCategory::where('status',1)->latest()->get();
         $featureNewsItems = News::where('type', 0)->with('category')->latest()->get();
-        dd($featureNewsItems);
         return view('frontend.pages.home.index',compact('homePageManager','topBanner','topSliders','approaches','approachItems','middleBanner','middleBannerItems','members','bottomBanner','newsCategories','featureNewsItems'));
     }
 

@@ -52,24 +52,13 @@ class AboutUsSectionThreeController extends Controller
     {
         $this->validate($request, [
             'title'=> 'required',
-            'name'=> 'required',
             'description'=> 'required',
-            'image' => 'required',
         ]);
 
         try {
-            if ($request->hasfile('image')) {
-                $destinationPath = public_path('images/');
-                $image = $this->imageUploadService->uploadImages($request->file('image'), $destinationPath);
-            }
-
             AboutUsSectionThree::create([
                 'title' => $request->title,
-                'name' => $request->link,
                 'description' => $request->description,
-                'description_two' => $request->description_two,
-                'description_three' => $request->description_three,
-                'image' => $image
             ]);
             return redirect()->back()->with('success','Data Added Successfully');
         } catch (\Exception $e) {
@@ -111,35 +100,16 @@ class AboutUsSectionThreeController extends Controller
     {
         $this->validate($request, [
             'title'=> 'required',
-            'name'=> 'required',
             'description'=> 'required',
         ]);
 
         try {
             $aboutUsSectionThree=AboutUsSectionThree::findOrFail($id);
-            // Get the old image file name
-            $oldImageFileName = $aboutUsSectionThree->image;
 
-            if ($request->hasFile('image')) {
-                $destinationPath = public_path('images/');
-
-                // Upload the new image
-                $image = $this->imageUploadService->uploadImages($request->file('image'), $destinationPath);
-
-                // Delete the old image if it exists
-                $oldImagePath = $destinationPath . $oldImageFileName;
-                if (File::exists($oldImagePath)) {
-                    File::delete($oldImagePath);
-                }
-            }
 
             $aboutUsSectionThree->update([
                 'title' => $request->title,
-                'name' => $request->link,
                 'description' => $request->description,
-                'description_two' => $request->description_two,
-                'description_three' => $request->description_three,
-                'image' => $image ?? $oldImageFileName,
             ]);
             return redirect()->back()->with('success','Data Updated Successfully');
         } catch (\Exception $e) {

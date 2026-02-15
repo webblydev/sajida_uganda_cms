@@ -39,7 +39,7 @@
                         <h3>{{ __('Update Approach') }}</h3>
                     </div>
                     <div class="card-body">
-                        <form action="{{ route('home-page.approach.update', $approach->id) }}" method="POST">
+                        <form action="{{ route('home-page.approach.update', $approach->id) }}" method="POST" enctype="multipart/form-data">
                             @csrf
                             @method('PUT')
                             <div class="form-row">
@@ -52,6 +52,61 @@
                                         placeholder="Enter Approach Title Here"
                                         value="{{ old('title', optional($approach)->title) }}">
                                     @error('title')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="description">
+                                        {{ __('Short Description') }} 
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <input type="text" class="form-control" id="description" name="description"
+                                        placeholder="Enter Approach Description Here"
+                                        value="{{ old('description', optional($approach)->description) }}">
+                                    @error('description')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-4">
+                                    <label for="link">
+                                        {{ __('Link') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <input type="text" class="form-control" id="link" name="link" placeholder="Enter Slider Link Here" value="{{ old('link', optional($approach)->link) }}" required>
+                                    @error('link')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                {{-- type: Health / Microfinance --}}
+                                <div class="form-group col-md-4">
+                                    <label for="type">
+                                        {{ __('Type') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <select class="form-control" id="type" name="type" required>
+                                        <option value="" disabled selected>Select Type</option>
+                                        <option value="Health" {{ old('type', optional($approach)->type) == 'Health' ? 'selected' : '' }}>Health</option>
+                                        <option value="Financial" {{ old('type', optional($approach)->type) == 'Financial' ? 'selected' : '' }}>Financial</option>
+                                    </select>
+                                    @error('type')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                {{-- Image Upload --}}
+                                <div class="form-group col-md-4">
+                                    <label for="image">
+                                        {{ __('Image') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <input type="file" class="form-control" id="image" name="image" required>
+                                    @if(optional($approach)->image)
+                                        <img src="{{ asset('images/' . $approach->image) }}" alt="Current Image" style="max-width: 100px; margin-top: 10px;">
+                                    @endif
+                                    @error('image')
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>

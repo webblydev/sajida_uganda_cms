@@ -66,12 +66,54 @@
                                         {{ __('Description') }}
                                         <span class="text-red">*</span>
                                     </label>
-                                    <textarea class="form-control" name="description" id="" rows="10">{{ old('description', isset($aboutUsSectionOne) ? $aboutUsSectionOne->description : '') }}</textarea>
-                                    @error('code')
+                                    <textarea class="form-control" name="description" id="summernote" rows="10">{{ old('description', isset($aboutUsSectionOne) ? $aboutUsSectionOne->description : '') }}</textarea>
+                                    @error('description')
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>
                                 
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-3">
+                                    <label for="button_one_text">
+                                        {{ __('Button One Text') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <input type="text" class="form-control" id="button_one_text" name="button_one_text" placeholder="Enter Button One Text Here" value="{{ old('button_one_text', isset($aboutUsSectionOne) ? $aboutUsSectionOne->button_one_text : '') }}">
+                                    @error('button_one_text')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="button_one_link">
+                                        {{ __('Button One Link') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <input type="text" class="form-control" id="button_one_link" name="button_one_link" placeholder="Enter Button One Link Here" value="{{ old('button_one_link', isset($aboutUsSectionOne) ? $aboutUsSectionOne->button_one_link : '') }}">
+                                    @error('button_one_link')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="button_two_text">
+                                        {{ __('Button Two Text') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <input type="text" class="form-control" id="button_two_text" name="button_two_text" placeholder="Enter Button Two Text Here" value="{{ old('button_two_text', isset($aboutUsSectionOne) ? $aboutUsSectionOne->button_two_text : '') }}">
+                                    @error('button_two_text')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="button_two_link">
+                                        {{ __('Button Two Link') }}
+                                        <span class="text-red">*</span>
+                                    </label>
+                                    <input type="text" class="form-control" id="button_two_link" name="button_two_link" placeholder="Enter Button Two Link Here" value="{{ old('button_two_link', isset($aboutUsSectionOne) ? $aboutUsSectionOne->button_two_link : '') }}">
+                                    @error('button_two_link')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
                             </div>
 
                             <div class="row mt-30">

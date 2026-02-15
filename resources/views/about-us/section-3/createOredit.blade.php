@@ -48,63 +48,38 @@
                             @if(isset($aboutUsSectionTwo))
                                 @method('PUT')
                             @endif
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label for="title">
-                                        {{ __('Title') }}
+                            <div class="row">
+                                <div class="form-group col-md-3">
+                                    <label for="images">
+                                        {{ __('Gallery Images (658*439)') }}
                                         <span class="text-red">*</span>
                                     </label>
-                                    <input type="text" class="form-control" id="title" name="title" placeholder="Enter Title Here" value="{{ old('title', isset($aboutUsSectionTwo) ? $aboutUsSectionTwo->title : '') }}">
-                                    @error('title')
-                                        <span class="text-danger">{{ $message }}</span>
-                                    @enderror
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="link">
-                                        {{ __('Link') }}
-                                        <span class="text-red">*</span>
-                                    </label>
-                                    <input type="text" class="form-control" id="link" name="link" placeholder="Enter Link Here" value="{{ old('link', isset($aboutUsSectionTwo) ? $aboutUsSectionTwo->link : '') }}">
-                                    @error('link')
-                                        <span class="text-danger">{{ $message }}</span>
+                                    <input type="file" class="form-control dropify" id="images" name="images[]" multiple>
+                                     @error('images')
+                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="form-group col-md-3">
-                                    <label for="image">
-                                        {{ __('Image (831*589)') }}
-                                        <span class="text-red">*</span>
+                                <div class="form-group">
+                                    <label for="images">
+                                        {{ __('Current Images') }}
                                     </label>
-                                    <input type="file" class="form-control dropify" id="image" name="image">                              
-                                    @error('image')
-                                        <span class="text-danger">{{ $message }}</span>
-                                    @enderror
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="image">
-                                        {{ __('Current Image') }}
-                                    </label>
-                                    @if ($aboutUsSectionTwo && $aboutUsSectionTwo->image)
-                                        <img class="form-control" src="{{ asset('images/' . $aboutUsSectionTwo->image) }}"
-                                             width="100px" alt="Existing Image" style="height: 200px">
+                                    @if ($aboutUsSectionTwo && $aboutUsSectionTwo->images)
+                                    @php
+                                        $images = json_decode($aboutUsSectionTwo->images, true);
+                                    @endphp
+                                        <div class="row">
+                                            @foreach ($images as $image)
+                                            <div class="col-md-3">
+                                                <img class="form-control" src="{{ asset('images/' . $image) }}"
+                                                    width="100px" alt="Existing Image" style="height: 200px">
+                                            </div>
+                                            @endforeach
+                                        </div>
                                     @endif
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="description">
-                                        {{ __('Description') }}
-                                        <span class="text-red">*</span>
-                                    </label>
-                                    <textarea class="form-control" name="description" id="" rows="10">{{ old('description', isset($aboutUsSectionTwo) ? $aboutUsSectionTwo->description : '') }}</textarea>
-                                    @error('code')
-                                        <span class="text-danger">{{ $message }}</span>
-                                    @enderror
-                                </div>
-                                
-                            </div>
-
                             <div class="row mt-30">
                                 <div class="col-sm-12">
                                     <button type="submit" class="btn btn-info">Update</button>
@@ -121,6 +96,13 @@
             $('#summernote').summernote({
                 placeholder: 'Enter description here',
                 height: 200
+            });
+            // set gallery images max items to 4
+            $('#galery_images').on('change', function() {
+                if (this.files.length > 4) {
+                    alert('You can only upload a maximum of 4 images');
+                    this.value = '';
+                }
             });
         </script> 
         @endpush

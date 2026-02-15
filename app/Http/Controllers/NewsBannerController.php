@@ -51,9 +51,7 @@ class NewsBannerController extends Controller
     {
         $this->validate($request, [
             'title'=> 'required',
-            'description'=> 'required',
             'background_image' => 'required',
-            // 'thumbnail' => 'required',
         ]);
 
         try {
@@ -69,10 +67,7 @@ class NewsBannerController extends Controller
 
             NewsBanner::create([
                 'title' => $request->title,
-                'description' => $request->description,
                 'background_image' => $background_image,
-                'thumbnail' => $thumbnail,
-                'link' => $request->link,
             ]);
             return redirect()->back()->with('success','Data Added Successfully');
         } catch (\Exception $e) {
@@ -115,7 +110,6 @@ class NewsBannerController extends Controller
         {
             $this->validate($request, [
                 'title'=> 'required',
-                'description'=> 'required',
             ]);
     
             try {
@@ -152,10 +146,7 @@ class NewsBannerController extends Controller
     
                 $newsBanner->update([
                     'title' => $request->title,
-                    'description' => $request->description,
                     'background_image' => $background_image ?? $oldBackgroundImageName, // Use the new image file name or keep the old one
-                    'thumbnail' => $thumbnail ?? $oldThumbNailmageName, // Use the new image file name or keep the old one
-                    'link' => $request->link,
                 ]);
                 return redirect()->back()->with('success','Data Updated Successfully');
             } catch (\Exception $e) {

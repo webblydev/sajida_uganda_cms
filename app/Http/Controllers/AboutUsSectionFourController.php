@@ -38,6 +38,7 @@ class AboutUsSectionFourController extends Controller
      */
     public function create()
     {
+         $aboutUsSectionFour=AboutUsSectionFour::latest()->first();
         $aboutUsSectionFour=AboutUsSectionFour::latest()->first();
         return view('about-us.section-5.createOredit', compact('aboutUsSectionFour'));
     }
@@ -52,9 +53,11 @@ class AboutUsSectionFourController extends Controller
     {
         $this->validate($request, [
             'title'=> 'required',
-            'link'=> 'required',
-            'description'=> 'required',
             'image' => 'required',
+            'content_one_title' => 'required',
+            'content_one_description' => 'required',
+            'content_two_title' => 'required',
+            'content_two_description' => 'required',
         ]);
 
         try {
@@ -65,9 +68,11 @@ class AboutUsSectionFourController extends Controller
 
             AboutUsSectionFour::create([
                 'title' => $request->title,
-                'link' => $request->link,
-                'description' => $request->description,
-                'image' => $image
+                'content_one_title' => $request->content_one_title,
+                'content_one_description' => $request->content_one_description,
+                'content_two_title' => $request->content_two_title,
+                'content_two_description' => $request->content_two_description,
+                'image' => $image ?? null
             ]);
             return redirect()->back()->with('success','Data Added Successfully');
         } catch (\Exception $e) {
@@ -109,8 +114,10 @@ class AboutUsSectionFourController extends Controller
     {
         $this->validate($request, [
             'title'=> 'required',
-            'link'=> 'required',
-            'description'=> 'required',
+            'content_one_title' => 'required',
+            'content_one_description' => 'required',
+            'content_two_title' => 'required',
+            'content_two_description' => 'required',
         ]);
 
         try {
@@ -133,8 +140,10 @@ class AboutUsSectionFourController extends Controller
 
             $aboutUsSectionFour->update([
                 'title' => $request->title,
-                'link' => $request->link,
-                'description' => $request->description,
+                'content_one_title' => $request->content_one_title,
+                'content_one_description' => $request->content_one_description,
+                'content_two_title' => $request->content_two_title,
+                'content_two_description' => $request->content_two_description,
                 'image' => $image ?? $oldImageFileName,
             ]);
             return redirect()->back()->with('success','Data Updated Successfully');

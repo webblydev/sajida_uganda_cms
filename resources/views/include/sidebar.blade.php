@@ -54,42 +54,9 @@
                                 class="menu-item {{ \Request::is('about-us-page') || \Request::is('about-us-page/*') ? 'active' : '' }}">{{ __('About Us') }}</a>
                             <a href="{{ url('news-page') }}"
                                 class="menu-item {{ \Request::is('news-page') || \Request::is('news-page/*') ? 'active' : '' }}">{{ __('News') }}</a>
-                            {{-- <a href="{{ url('middle-banner-content') }}"
-                                class="menu-item {{ \Request::is('middle-banner-content') || \Request::is('middle-banner-content/*') ? 'active' : '' }}">{{ __('News') }}</a> --}}
-                            {{-- <a href="{{ url('bottom-banner') }}"
-                                class="menu-item {{ \Request::is('bottom-banner') || \Request::is('bottom-banner/*') ? 'active' : '' }}">{{ __('Carrer') }}</a> --}}
-                        @endcan
-                    </div>
-                </div>
+                                {{-- contact page --}}
 
-                {{-- <div
-                    class="nav-item {{ \Request::is('top-banner') || \Request::is('top-banner/*') || \Request::is('top-slider') || \Request::is('top-slider/*') || \Request::is('middle-banner') || \Request::is('middle-banner/*') || \Request::is('middle-banner-content') || \Request::is('middle-banner-content/*') || \Request::is('bottom-banner') || \Request::is('bottom-banner/*') ? 'active open' : '' }} has-sub">
-                    <a href="#"><i class="fa fa-image"></i><span>{{ __('Banners / Sliders') }}</span></a>
-                    <div class="submenu-content">
-                        <!-- only those have manage_user permission will get access -->
-                        @canany(['access_to_users'])
-                            <a href="{{ url('top-banner') }}"
-                                class="menu-item {{ \Request::is('top-banner') || \Request::is('top-banner/*') ? 'active' : '' }}">{{ __('Top Banner') }}</a>
-                            <a href="{{ url('top-slider') }}"
-                                class="menu-item {{ \Request::is('top-slider') || \Request::is('top-slider/*') ? 'active' : '' }}">{{ __('Top Slider') }}</a>
-                            <a href="{{ url('middle-banner') }}"
-                                class="menu-item {{ \Request::is('middle-banner') || \Request::is('middle-banner/*') ? 'active' : '' }}">{{ __('Middle Banner') }}</a>
-                            <a href="{{ url('middle-banner-content') }}"
-                                class="menu-item {{ \Request::is('middle-banner-content') || \Request::is('middle-banner-content/*') ? 'active' : '' }}">{{ __('Middle Banner Content') }}</a>
-                            <a href="{{ url('bottom-banner') }}"
-                                class="menu-item {{ \Request::is('bottom-banner') || \Request::is('bottom-banner/*') ? 'active' : '' }}">{{ __('Bottom Banner') }}</a>
-                        @endcan
-                    </div>
-                </div> --}}
-                <div
-                    class="nav-item {{ \Request::is('home-page/approach') || \Request::is('home-page/approach/*') || \Request::is('home-page/approach-item') || \Request::is('home-page/approach-item/*') ? 'active open' : '' }} has-sub">
-                    <a href="#"><i class="fa fa-tasks"></i><span>{{ __('Approch') }}</span></a>
-                    <div class="submenu-content">
-                        @canany(['access_to_users'])
-                            <a href="{{ url('home-page/approach') }}"
-                                class="menu-item {{ \Request::is('home-page/approach') || \Request::is('home-page/approach/*') ? 'active' : '' }}">{{ __('Approch List') }}</a>
-                            <a href="{{ url('home-page/approach-item') }}"
-                                class="menu-item {{ \Request::is('home-page/approach-item') || \Request::is('home-page/approach-item/*') ? 'active' : '' }}">{{ __('Approach Articles') }}</a>
+
                         @endcan
                     </div>
                 </div>
@@ -149,6 +116,18 @@
                                 class="menu-item {{ \Request::is('donation-banner') || \Request::is('donation-banner/*') ? 'active' : '' }}">{{ __('Donation Page Banner') }}</a>
                             <a href="{{ url('donation-info') }}"
                                 class="menu-item {{ \Request::is('donation-info') || \Request::is('donation-info/*') ? 'active' : '' }}">{{ __('Donation List') }}</a>
+                        @endcan
+                    </div>
+                </div>
+                <div
+                    class="nav-item {{ \Request::is('contact-us-banner/*') || \Request::is('contact-us-banner') || \Request::is('contact-leads') || \Request::is('contact-leads/*') ? 'active open' : '' }} has-sub">
+                    <a href="#"><i class="fas fa-envelope"></i><span>{{ __(' Contact Us') }}</span></a>
+                    <div class="submenu-content">
+                        @canany(['access_to_users'])
+                            <a href="{{ url('contact-us-banner/create') }}"
+                                class="menu-item {{ \Request::is('contact-us-banner') || \Request::is('contact-us-banner/*') ? 'active' : '' }}">{{ __('Contact Us') }}</a>
+                            <a href="{{ url('contact-leads') }}"
+                                class="menu-item {{ \Request::is('contact-leads') || \Request::is('contact-leads/*') ? 'active' : '' }}">{{ __('Contact Leads') }}</a>
                         @endcan
                     </div>
                 </div>
