@@ -171,6 +171,26 @@ Route::group(['middleware' => 'auth'], function(){
 		Route::get('news-page-show-hide/{id}/status','Admin\HomeController@newsPageshowHide')->name('news-page-show-hide.status');
 	});
 
+	// Health Program Page Routes
+	Route::group(['prefix' => 'health-program-page', 'as' => 'health-program-page.','middleware' => 'auth'], function(){
+		Route::get('/', 'Admin\HomeController@healthProgram');
+		route::resource('health-program-banner','HealthProgramBannerController');
+		// Health Program Section Two Routes
+		Route::resource('health-program-section-two', 'HealthProgramSectionTwoController');
+		// Health Program Section Three Routes
+		Route::resource('health-program-section-three', 'HealthProgramSectionThreeController');
+		// Health Program Section Four Routes
+		Route::resource('health-program-section-four', 'HealthProgramSectionFourController');
+		
+		// Additional health program routes
+		Route::post('health-program/{id}/status','HealthProgramController@updateStatus')->name('health-program.status');
+		Route::get('health-program-by-category/{categoryId}','HealthProgramController@getHealthProgramsByCategory')->name('health-program.by-category');
+		Route::get('featured-health-programs','HealthProgramController@getFeaturedHealthPrograms')->name('health-program.featured');
+		Route::get('search-health-programs','HealthProgramController@searchHealthPrograms')->name('health-program.search');
+
+		Route::get('health-program-show-hide/{id}/status','Admin\HomeController@healthProgramShowHide')->name('health-program-show-hide.status');
+	});
+
 	// Contact Us Banner Routes
 	Route::resource('contact-us-banner','ContactUsBannerController');
 
@@ -194,8 +214,7 @@ Route::group(['middleware' => 'auth'], function(){
 		// Donation Section Two Routes
 	Route::resource('donation-section-two', 'DonationSectionTwoController');
 	Route::get('donation-info','DonationController@index')->name('donation-info');
-
-
+	
 	route::resource('middle-banner','MiddleBannerController');
 	route::resource('middle-banner-content','MiddleBannerContentController');
 	// route::resource('bottom-banner','BottomBannerController');

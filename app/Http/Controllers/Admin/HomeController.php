@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\HomePageManager;
 use App\Models\AboutPageManager;
 use App\Models\NewsPageManager;
+use App\Models\HealthProgramPageManager;
 
 class HomeController extends Controller
 {
@@ -21,6 +22,10 @@ class HomeController extends Controller
     public function news(){
         $newsPageManager=NewsPageManager::latest()->first(); 
         return view('pages.news.index',compact('newsPageManager'));
+    }
+    public function healthProgram(){
+        $healthProgramPageManager=HealthProgramPageManager::latest()->first(); 
+        return view('pages.health-program.index',compact('healthProgramPageManager'));
     }
 
     public function showHide(Request $request, $id)
@@ -126,6 +131,37 @@ class HomeController extends Controller
             $newsPageManager->update();
 
             if ($newsPageManager) {
+                return response()->json([
+                    'success' => true,
+                    'message' => 'Status updated successfully',
+                ]);
+            } else {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Something Went wrong',
+                ]);
+            }
+        }
+    }
+    public function healthProgramShowHide(Request $request, $id)
+    {
+        if ($request->ajax()) {
+
+            $healthProgramPageManager=HealthProgramPageManager::latest()->first(); 
+
+            if ($id==2) {
+                $healthProgramPageManager->section_2 = $healthProgramPageManager->section_2  == 1 ? 0 : 1;
+            }
+            if ($id==3) {
+                $healthProgramPageManager->section_3 = $healthProgramPageManager->section_3  == 1 ? 0 : 1;
+            } 
+            if ($id==4) {
+                $healthProgramPageManager->section_4 = $healthProgramPageManager->section_4  == 1 ? 0 : 1;
+            }
+
+            $healthProgramPageManager->update();
+
+            if ($healthProgramPageManager) {
                 return response()->json([
                     'success' => true,
                     'message' => 'Status updated successfully',

@@ -31,7 +31,7 @@ class AboutUsController extends Controller
         })->orderBy('order_no','ASC')->get();
         
         $managementTeamMembers = Member::with('designation', 'category')->whereHas('category', function($query) {
-            $query->where('title', 'Management Team');
+            $query->where('title', 'Management');
         })->orderBy('order_no','ASC')->get();
 
         $aboutUsSectionFour=AboutUsSectionFour::latest()->first();

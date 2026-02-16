@@ -24,6 +24,9 @@ class AddColumnsToTheApproachesTable extends Migration
         Schema::table('top_sliders', function (Blueprint $table) {
             $table->text('title')->nullable()->after('id');
         });
+        Schema::table('top_banners', function (Blueprint $table) {
+            $table->text('description')->nullable()->after('id');
+        });
     }
 
     /**

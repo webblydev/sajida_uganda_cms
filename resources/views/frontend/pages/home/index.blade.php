@@ -221,8 +221,7 @@
         </div>
     </section>
 
-    {{-- Donation Section Two: Be The Light In Someone's Darkest Hour --}}
-    @if(isset($donationSectionTwo))
+    {{-- @if(isset($donationSectionTwo))
     <section class="wrapper-7">
         <div class="content-container">
             <div class="content">
@@ -235,6 +234,6 @@
         <div class="image"@if($donationSectionTwo->image) style="background-image: url('{{ asset('images/' . $donationSectionTwo->image) }}');" @endif>
         </div>
     </section>
-    @endif
+    @endif --}}
 
 @endsection

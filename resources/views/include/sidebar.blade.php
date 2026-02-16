@@ -43,7 +43,7 @@
                 </div>
 
                 <div
-                    class="nav-item {{ (\Request::is('home-page') || \Request::is('home-page/*') || \Request::is('about-us-page') || \Request::is('about-us-page/*') || \Request::is('news-page') || \Request::is('news-page/*')) && !(\Request::is('home-page/approach-item') || \Request::is('home-page/approach-item/*') || \Request::is('home-page/members') || \Request::is('home-page/members/*')) ? 'active open' : '' }} has-sub">
+                    class="nav-item {{ (\Request::is('home-page') || \Request::is('home-page/*') || \Request::is('about-us-page') || \Request::is('about-us-page/*') || \Request::is('news-page') || \Request::is('news-page/*') || \Request::is('health-program-page') || \Request::is('health-program-page/*')) && !(\Request::is('home-page/members') || \Request::is('home-page/members/*')) ? 'active open' : '' }} has-sub">
                     <a href="#"><i class="fa fa-image"></i><span>{{ __('Pages') }}</span></a>
                     <div class="submenu-content">
                         <!-- only those have manage_user permission will get access -->
@@ -54,7 +54,9 @@
                                 class="menu-item {{ \Request::is('about-us-page') || \Request::is('about-us-page/*') ? 'active' : '' }}">{{ __('About Us') }}</a>
                             <a href="{{ url('news-page') }}"
                                 class="menu-item {{ \Request::is('news-page') || \Request::is('news-page/*') ? 'active' : '' }}">{{ __('News') }}</a>
-                                {{-- contact page --}}
+                                {{-- health program page --}}
+                            <a href="{{ url('health-program-page') }}"
+                                class="menu-item {{ \Request::is('health-program-page') || \Request::is('health-program-page/*') ? 'active' : '' }}">{{ __('Health Program') }}</a>
 
 
                         @endcan

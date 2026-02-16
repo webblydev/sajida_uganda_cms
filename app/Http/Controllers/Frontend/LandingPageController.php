@@ -13,6 +13,11 @@ use App\Models\MiddleBannerItem;
 use App\Models\MiddleBanner;
 use App\Models\DonationSection;
 use App\Models\DonationSectionTwo;
+use App\Models\HealthProgramBanner;
+use App\Models\HealthProgramPageManager;
+use App\Models\HealthProgramSectionTwo;
+use App\Models\HealthProgramSectionThree;
+use App\Models\HealthProgramSectionFour;
 
 class LandingPageController extends Controller
 {
@@ -26,8 +31,8 @@ class LandingPageController extends Controller
     {
         $topBanner = TopBanner::latest()->first();
         $topSlider = TopSlider::latest()->first();
-        $healthNews = Approach::where('status',1)->where('type', 'Health')->latest()->get();
-        $financialNews = Approach::where('status',1)->where('type', 'Financial')->latest()->get();
+        $healthNews = Approach::where('type', 'Health')->latest()->get();
+        $financialNews = Approach::where('type', 'Financial')->latest()->get();
         $oneFeatureNewsItems = News::where('type', 0)->where('news_category_id', 1)->with('category')->latest()->get();
         $twoFeatureNewsItems = News::where('type', 0)->where('news_category_id', 2)->with('category')->latest()->get();
         $featureNewsItems = News::where('type', 0)->with('category')->latest()->get();
@@ -49,7 +54,18 @@ class LandingPageController extends Controller
     //healthPage
     public function healthPage()
     {
-        return view('frontend.pages.home.health-index');
+        $healthProgramPageManager = HealthProgramPageManager::latest()->first();
+        $healthBanner = HealthProgramBanner::latest()->first();
+        $healthSectionTwo = HealthProgramSectionTwo::latest()->first();
+        $healthSectionThree = HealthProgramSectionThree::latest()->first();
+        $healthSliders = HealthProgramSectionFour::orderBy('order_no', 'ASC')->get();
+        return view('frontend.pages.home.health-index', compact(
+            'healthProgramPageManager',
+            'healthBanner',
+            'healthSectionTwo',
+            'healthSectionThree',
+            'healthSliders'
+        ));
     }
 
 }
