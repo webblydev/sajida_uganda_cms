@@ -61,7 +61,7 @@
                                 <img src="{{ asset('images/' . $directorTeamMember->member_image) }}" alt="">
                             </div>
                             <div class="content">
-                                <h4>{{ $directorTeamMember->name }}<span>{{ $directorTeamMember->designation->title ?? '' }}</span></h4>
+                                <h4>{{ $directorTeamMember->member_name }}<span>{{ $directorTeamMember->designation->title ?? '' }}</span></h4>
                             </div>
                         </div>
                     @endforeach
@@ -115,7 +115,7 @@
                                     </div>
                                     <div class="popup-content">
 
-                                        <h4>{{ $modalDirectorTeamMember->name }}<span>{{ $modalDirectorTeamMember->designation->title ?? '' }}</span></h4>
+                                        <h4>{{ $modalDirectorTeamMember->member_name }}<span>{{ $modalDirectorTeamMember->designation->title ?? '' }}</span></h4>
                                         <p>{{ $modalDirectorTeamMember->bio }}</p>
                                     </div>
                                 </div>
